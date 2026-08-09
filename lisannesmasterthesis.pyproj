@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C7CBB8D8-5B49-4C56-9C28-1A2A90A3F9AD}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>src\training\standardized_test_eval.py</StartupFile>
+    <SearchPath>src;src\training;src\viewpoint_training;src\viewpoint_training\single_view_sweep;src\viewpoint_training\pair_view_sweep;src\viewpoint_analysis;src\multiview_analysis;src\real_world_transfer</SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>lisannesmasterthesis</Name>
+    <RootNamespace>lisannesmasterthesis</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="src\**\*.py" />
+    <Compile Include="data_collection\scripts\**\*.py" />
+    <Content Include="README.md" />
+    <Content Include="PROJECT_MAPPING.md" />
+    <Content Include="THESIS_CONTENT_MAPPING.md" />
+    <Content Include=".gitignore" />
+    <Content Include="requirements.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets')" />
+</Project>

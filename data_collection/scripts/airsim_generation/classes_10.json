@@ -1,0 +1,12 @@
+{
+  "SM_tent": 0,
+  "SM_tank": 1,
+  "SM_tower": 2,
+  "SM_container": 3,
+  "SM_whitevan": 4,
+  "SM_suv": 5,
+  "SM_male": 6,
+  "SM_rock": 7,
+  "SM_barrel": 8,
+  "SM_tree": 9
+}

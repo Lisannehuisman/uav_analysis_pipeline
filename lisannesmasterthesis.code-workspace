@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": ".venv/Scripts/python.exe",
+    "python.analysis.extraPaths": [
+      "src",
+      "src/training",
+      "src/viewpoint_training",
+      "src/viewpoint_training/single_view_sweep",
+      "src/viewpoint_training/pair_view_sweep",
+      "src/viewpoint_analysis",
+      "src/multiview_analysis",
+      "src/real_world_transfer"
+    ]
+  }
+}

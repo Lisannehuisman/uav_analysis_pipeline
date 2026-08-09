@@ -1,0 +1,14 @@
+dataset,class_name,images,instances,precision,recall,map50,map50_95
+VisDrone,all,277,9525,0.0479,0.0114,0.0111,0.0039
+AU-AIR,all,32823,127265,0.0281,0.0136,0.0038,0.0011
+Same-taxonomy,all,54,235,0.434,0.0555,0.0502,0.0269
+Same-taxonomy,tent,9,33,0.0,0.0,0.0103,0.0027
+Same-taxonomy,tank,4,6,1.0,0.0,0.0054,0.00486
+Same-taxonomy,tower,4,4,1.0,0.0,0.0,0.0
+Same-taxonomy,container,4,19,0.137,0.158,0.0395,0.0158
+Same-taxonomy,whitevan,7,8,0.0,0.0,0.00181,0.000362
+Same-taxonomy,suv,13,28,0.247,0.0357,0.0785,0.0276
+Same-taxonomy,male,8,42,0.557,0.0714,0.119,0.0174
+Same-taxonomy,rock,4,8,0.248,0.25,0.218,0.186
+Same-taxonomy,barrel,5,55,1.0,0.0,0.0,0.0
+Same-taxonomy,tree,4,32,0.152,0.398,0.0299,0.0141
