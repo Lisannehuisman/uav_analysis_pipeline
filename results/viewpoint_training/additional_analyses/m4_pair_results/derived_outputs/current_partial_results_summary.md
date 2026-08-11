@@ -1,7 +1,7 @@
-# Current Partial M4 Pair-Sweep Summary
+﻿# Current Partial M4 Pair-Sweep Summary
 
 - Generated at: 2026-04-07T10:03:38
-- Source snapshot: `C:\Users\lisan\OneDrive\Documents\New project\m4_pair_partial_analysis\data\current_snapshot`
+- Source snapshot: `results/viewpoint_training/additional_analyses/m4_pair_results/snapshot`
 
 ## Sweep Status
 
@@ -53,3 +53,4 @@
 - Most common radius labels in those top pairs: [('radmid', 33), ('radfar', 10), ('radnear', 7)]
 - Most frequently recurring viewpoints in those top pairs: [('elmid-radmid-az225', 10), ('elmid-radmid-az045', 5), ('ellow-radmid-az180', 5), ('ellow-radnear-az000', 4), ('ellow-radmid-az090', 3), ('ellow-radfar-az045', 3), ('elmid-radmid-az270', 3), ('ellow-radfar-az090', 2), ('elmid-radmid-az090', 2), ('elmid-radmid-az180', 2)]
 - These patterns are still provisional because the full 2556-pair sweep is not finished yet.
+

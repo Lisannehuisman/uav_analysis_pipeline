@@ -1,6 +1,6 @@
-# Real Box Method Illustration
+﻿# Real Box Method Illustration
 
-![Real-data method illustration](C:/Users/lisan/OneDrive/Documents/New project/geometry_aware_fusion_analysis/outputs/real_box_method_illustration.png)
+![Real-data method illustration](real_box_method_illustration.png)
 
 ## What This Figure Is Showing
 

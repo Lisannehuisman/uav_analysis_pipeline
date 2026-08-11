@@ -1,4 +1,4 @@
-# Exact Added-Drone Gain Analysis
+﻿# Exact Added-Drone Gain Analysis
 
 This analysis keeps the same coalition value as the fusion-based ring Shapley analysis:
 
@@ -40,7 +40,7 @@ This is the strongest ring by full 8-drone coalition value: `0.9434`.
 | 7 | 0.8840 | 0.9171 | 0.0708 | 0.0394 | az045 az090 az135 az180 az225 az270 az315 |
 | 8 | 0.9434 | 0.9434 | 0.0595 | 0.0264 | az000 az045 az090 az135 az180 az225 az270 az315 |
 
-## How to read this for the thesis question
+## Interpretation
 
 - In `elmid-radnear`, the **2nd drone** adds `0.1679` on average.
 - The **3rd drone** adds `0.1425` on average.

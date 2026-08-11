@@ -1,4 +1,4 @@
-# Synthetic Multi-Perspective Probability Fusion
+﻿# Synthetic Multi-Perspective Probability Fusion
 
 ## What was tested
 
@@ -75,8 +75,10 @@
 - `max_vs_noisy_or_vs_product.png`
 - `geometry_group_comparison.png`
 
-## Thesis-ready interpretation
+## Interpretation
 
 This experiment tests multi-perspective probability fusion only in the synthetic setting, where repeated observations of the same object are available under known viewpoint geometry. Product-based fusion is interpreted as an agreement model, while max and noisy-OR fusion are interpreted as rescue models. If max or noisy-OR outperform product fusion, this suggests that multi-view benefit in object detection arises mainly from increasing the probability that at least one viewpoint observes the target clearly, rather than from multiplying mutually reinforcing probabilities across all views.
 
-Generated in `C:\Users\lisan\OneDrive\Documents\New project\probability_fusion\outputs\full72_probability_fusion_complete_sampled500`.
+Outputs for this experiment are stored in this directory.
+
+

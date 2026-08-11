@@ -1,4 +1,4 @@
-# Angle-Agnostic Image-Count Shapley Proxy
+﻿# Angle-Agnostic Image-Count Shapley Proxy
 
 This report answers the supervisor's count-first question:
 
@@ -6,7 +6,7 @@ This report answers the supervisor's count-first question:
 
 ## Where these results come from
 
-- Source file: `C:\Users\lisan\OneDrive\Documents\New project\m4_two_drone_operational_analysis\outputs\scene_view_records.csv`.
+- Source file: `results/multiview_analysis/two_drone_operational/scene_view_records.csv`.
 - Each row in that source file is one scene-view observation identified by `scene_key` and `viewpoint`.
 - The source rows already contain target-centric detector outputs such as `target_match_confidence_iou50`, `target_match_iou_at_confidence_iou50`, and `target_strict_quality_iou50`.
 - In other words, this report is not computed from raw images directly. It is computed from the cached per-view target metrics that were generated earlier in the pipeline.
@@ -100,3 +100,4 @@ This report answers the supervisor's count-first question:
 - `rock`: 2nd-image strict-quality gain `0.0169`, fusion gain `0.0415`.
 - `tree`: 2nd-image strict-quality gain `0.0143`, fusion gain `0.0423`.
 - `container`: 2nd-image strict-quality gain `0.0130`, fusion gain `0.0411`.
+

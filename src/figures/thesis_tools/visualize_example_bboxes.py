@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import argparse
 import csv
@@ -21,7 +21,7 @@ VALID_METRICS = {"precision", "recall", "f1", "ap50", "ap50_95"}
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Create thesis-ready example images with ground-truth and optional predicted bounding boxes."
+        description="Create example images with ground-truth and optional predicted bounding boxes."
     )
     parser.add_argument(
         "--per-image",
@@ -381,3 +381,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

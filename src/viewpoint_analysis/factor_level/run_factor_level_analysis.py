@@ -478,12 +478,11 @@ def build_summary_text(
         "",
 f"Metric analyzed: `{metric}`. This is the cached per-image detection metric used for the viewpoint-dependence analysis.",        f"Total test images analyzed: {total_images}.",
         "",
-        "## Why this factor-level analysis is stronger",
+	"## Analysis support",
         f"- Mean support per azimuth bin: {az_support_mean:.1f} images.",
         f"- Mean support per elevation bin: {el_support_mean:.1f} images.",
         f"- Mean support per radius bin: {rad_support_mean:.1f} images.",
-        "- These support levels are much stronger than exact azimuth+elevation+radius cells, so the conclusions below are more defensible for the thesis.",
-        "",
+	f"- Aggregating over the remaining viewpoint dimensions increases the number of observations per factor level compared with exact 		viewpoint cells.",        "",
         "## Main results",
         f"- Most common best elevation: {best_elevation_counter.most_common(1)[0][0]} ({best_elevation_counter.most_common(1)[0][1]} of {len(summary_rows)} objects).",
         f"- Most common best radius: {best_radius_counter.most_common(1)[0][0]} ({best_radius_counter.most_common(1)[0][1]} of {len(summary_rows)} objects).",
@@ -491,10 +490,9 @@ f"Metric analyzed: `{metric}`. This is the cached per-image detection metric use
         f"- Strongest factor most often: {', '.join(f'{factor} ({count})' for factor, count in strongest_counter.most_common())}.",
         f"- Objects with the clearest factor-level viewpoint dependence: {top_effect_summary}.",
         "",
-        "## Thesis-ready interpretation",
-        "- It is more reliable to state which elevation, radius, or azimuth band tends to work best than to claim a single exact viewpoint cell.",
-        "- Elevation and radius can now be discussed with substantially more statistical support because each factor pools over the other two dimensions.",
-        "- These outputs are intended to replace the sparse exact-combination claims in the thesis discussion.",
+	"- Factor-level trends are more robust than conclusions based on individual azimuth-elevation-radius cells.",
+	"- Elevation and radius estimates pool observations across the other two dimensions, increasing the number of observations per 	group.",
+	"- The factor-level summaries complement the exact-cell analysis by emphasizing broader viewpoint trends.",
     ]
     output_path.write_text("\n".join(lines), encoding="utf-8")
 

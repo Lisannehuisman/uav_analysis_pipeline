@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import argparse
 import csv
@@ -55,7 +55,7 @@ class ViewpointStats:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Run thesis-ready viewpoint dependence analysis from cached per-image metrics."
+        description="Run viewpoint-dependence analysis from cached per-image metrics."
     )
     parser.add_argument(
         "--per-image",
@@ -882,7 +882,7 @@ def build_summary_text(
         f"- Most viewpoint-sensitive objects by mean local drop: {sensitive_summary}.",
         "- Robustness was estimated from the fitted regression surface using azimuth perturbations (+/-5 and +/-10 degrees) and small elevation/radius perturbations in normalized band units.",
         "",
-        "## 6. Thesis-ready conclusions",
+        "## 6. Summary conclusions",
         f"- Optimal viewpoints are object-specific, but the best solutions are concentrated in the {best_elev_counter.most_common(1)[0][0]} elevation band and the {best_radius_counter.most_common(1)[0][0]} radius band.",
         "- Objects do share patterns: the clustering and heatmaps show repeated families of preferred viewing geometry rather than completely unique optima.",
         f"- {strongest_counter.most_common(1)[0][0].capitalize()} appears most influential most often, although several classes also show clear interaction effects.",
@@ -925,3 +925,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+

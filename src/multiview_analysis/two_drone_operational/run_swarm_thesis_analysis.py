@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import argparse
 import math
@@ -62,7 +62,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--min-pair-support", type=int, default=8, help="Minimum sample count for headline pair rankings.")
     parser.add_argument("--min-triple-support", type=int, default=6, help="Minimum sample count for headline triple rankings.")
     parser.add_argument("--min-rescue-support", type=int, default=10, help="Minimum failure-support count for rescue summaries.")
-    parser.add_argument("--output-dir", default=str(DEFAULT_OUTPUT_DIR), help="Output directory for the thesis-style swarm analysis.")
+    parser.add_argument("--output-dir", default=str(DEFAULT_OUTPUT_DIR), help="Output directory for the swarm analysis.")
     return parser.parse_args()
 
 
@@ -1033,3 +1033,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

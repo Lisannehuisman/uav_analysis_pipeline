@@ -1,4 +1,4 @@
-# Thesis viewpoint analysis summary for S0_M4
+﻿# Thesis viewpoint analysis summary for S0_M4
 
 Metric analyzed: `ap50_95`. The cached per-image file does not include a raw IoU column, so `ap50_95` is used as the available localization-quality proxy throughout this analysis.
 
@@ -25,7 +25,7 @@ Metric analyzed: `ap50_95`. The cached per-image file does not include a raw IoU
 - Most viewpoint-sensitive objects by mean local drop: tree (0.054), barrel (0.019), rock (0.015).
 - Robustness was estimated from the fitted regression surface using azimuth perturbations (+/-5 and +/-10 degrees) and small elevation/radius perturbations in normalized band units.
 
-## 6. Thesis-ready conclusions
+## 6. Summary conclusions
 - Optimal viewpoints are object-specific, but the best solutions are concentrated in the mid elevation band and the near radius band.
 - Objects do share patterns: the clustering and heatmaps show repeated families of preferred viewing geometry rather than completely unique optima.
 - Elevation appears most influential most often, although several classes also show clear interaction effects.

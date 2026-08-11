@@ -1,4 +1,4 @@
-path: C:/Users/lisan/OneDrive/Documents/New project/real_imagery/review_sets/new_dataset
+﻿path: .
 train: images
 val: images
 test: images
@@ -13,3 +13,4 @@ names:
   7: rock
   8: barrel
   9: tree
+

@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import argparse
 import hashlib
@@ -1446,7 +1446,7 @@ def build_run_summary_markdown(
     if calibrator.method != "none":
         lines.append("- `reliability_plot.png`")
     lines.append("")
-    lines.append("## Thesis-ready interpretation")
+    lines.append("## Interpretation")
     lines.append("")
     lines.append(
         "This experiment tests multi-perspective probability fusion only in the synthetic setting, where repeated observations of the same object are available under known viewpoint geometry. Product-based fusion is interpreted as an agreement model, while max and noisy-OR fusion are interpreted as rescue models. If max or noisy-OR outperform product fusion, this suggests that multi-view benefit in object detection arises mainly from increasing the probability that at least one viewpoint observes the target clearly, rather than from multiplying mutually reinforcing probabilities across all views."
@@ -1662,3 +1662,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

@@ -1,8 +1,8 @@
-# Controlled 8-Azimuth Ring Shapley Analysis
+﻿# Controlled 8-Azimuth Ring Shapley Analysis
 
 ## Setup
 
-- Input scene records: `C:\Users\lisan\OneDrive\Documents\New project\m4_two_drone_operational_analysis\outputs\scene_view_records.csv`
+- Input scene records: `results/multiview_analysis/two_drone_operational/scene_view_records.csv`
 - Players are the 8 azimuth viewpoints within each fixed M4 ring (`elevation x radius`).
 - Coalition value uses `Noisy-OR + best IoU` exactly, not the older independent `max` utility.
 - Singleton coalition value means `v({u})`: the exact one-view coalition value of one azimuth inside one fixed ring.
@@ -170,3 +170,4 @@
 | 6 | `000` | 0.096668 | 0.172021 | 29 | 29 |
 | 7 | `135` | 0.096462 | 0.153069 | 25 | 25 |
 | 8 | `225` | 0.096195 | 0.162109 | 27 | 27 |
+

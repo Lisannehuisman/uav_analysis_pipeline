@@ -1,8 +1,8 @@
-# Exact Viewpoint-Subset Shapley Analysis
+﻿# Exact Viewpoint-Subset Shapley Analysis
 
 ## Setup
 
-- Input scene records: `C:\Users\lisan\OneDrive\Documents\New project\m4_two_drone_operational_analysis\outputs\scene_view_records.csv`
+- Input scene records: `results/multiview_analysis/two_drone_operational/scene_view_records.csv`
 - Subset name: `perimeter_unique_az_clean_reverse_cycle`
 - Selection mode: `manual`
 - Selection rule: manual viewpoint subset

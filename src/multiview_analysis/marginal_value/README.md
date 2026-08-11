@@ -1,4 +1,4 @@
-# M4 Marginal Viewpoint Value Analysis
+﻿# M4 Marginal Viewpoint Value Analysis
 
 This folder applies your newer thesis framing directly to the outputs that already exist in this project.
 
@@ -12,7 +12,7 @@ It becomes:
 
 ## What This Folder Adds
 
-This folder turns the existing fixed-detector M4 swarm outputs into three thesis-ready layers:
+This folder organizes the existing fixed-detector M4 swarm outputs into three analysis layers:
 
 - `single-view landscape`
 - `multi-view gain`
@@ -236,3 +236,4 @@ For class-specific interpretation, use:
 ## Intended Thesis Claim
 
 `the best swarm size is the smallest number of viewpoints that captures most of the available multi-view gain, and the best viewpoints are the ones with the largest marginal contribution rather than merely the strongest standalone score.`
+

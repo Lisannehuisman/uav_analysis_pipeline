@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import csv
 import math
@@ -527,7 +527,7 @@ def write_summary(single_rows, pair_rows, enriched_pairs, viewpoint_rows, contro
         [
             "### Practical recommendation",
             "",
-            "- For the thesis headline, compare `best single` against its matched M4 control and `best pair` against its matched M4 control.",
+            "- For the main comparison, compare `best single` against its matched M4 control and `best pair` against its matched M4 control.",
             "- For the sweep-level story, keep the existing pair-vs-single plots, but frame them explicitly as `restricted-view vs restricted-view` comparisons rather than fully fair count-controlled comparisons.",
             "",
         ]
@@ -627,3 +627,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

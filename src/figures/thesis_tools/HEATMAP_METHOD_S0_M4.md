@@ -1,4 +1,4 @@
-# How The Current `S0_M4` Heatmaps Are Calculated
+﻿# How The Current `S0_M4` Heatmaps Are Calculated
 
 The current heatmaps are produced by:
 
@@ -94,4 +94,5 @@ This is also why the separate factor-level analysis in:
 
 - `factor_level_viewpoint_analysis/results_s0_m4`
 
-is stronger for the thesis main text, because it pools over the other dimensions and gives much larger support per result.
+provides stronger support for the main analysis because it pools over the other dimensions and increases the number of observations per result.
+

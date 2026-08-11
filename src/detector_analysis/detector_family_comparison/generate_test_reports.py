@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import argparse
 from pathlib import Path
@@ -18,7 +18,7 @@ from plot_regime_metric_bars import load_summary_rows, plot_regime_metric_bars
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Generate thesis-ready summary figures and tables from a standardized evaluation run.",
+        description="Generate summary figures and tables from a standardized evaluation run.",
     )
     parser.add_argument("--split", choices=["val", "test"], default="test", help="Shared split to visualize.")
     parser.add_argument(
@@ -97,3 +97,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

@@ -1,6 +1,6 @@
-# Method Combination Schematic
+﻿# Method Combination Schematic
 
-![Method schematic](C:/Users/lisan/OneDrive/Documents/New project/geometry_aware_fusion_analysis/outputs/method_combination_schematic.png)
+![Method schematic](method_combination_schematic.png)
 
 ## Plain-Language Summary
 
@@ -53,3 +53,5 @@ That means you should present it as a near-tie with slightly better local behavi
 - If `mean_lift_vs_best_constituent` is clearly positive, the method gets real cross-view corroboration value.
 - If `rescue_rate_given_primary_miss` is high, the second drone is especially useful when the first drone fails.
 - If `win_rate` is high but `mean_score_gap` is near zero, the comparison is practically a tie.
+
+

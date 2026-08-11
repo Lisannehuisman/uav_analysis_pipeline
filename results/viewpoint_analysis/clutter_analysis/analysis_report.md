@@ -1,4 +1,4 @@
-# Clutter Grouping Analysis
+﻿# Clutter Grouping Analysis
 
 ## Purpose
 
@@ -6,8 +6,8 @@ This analysis tests whether clutter groupings, operationalized as non-target obj
 
 ## Inputs
 
-- Geometry table: `C:\Users\lisan\OneDrive\Documents\New project\geometry_ground_truth_analysis\outputs\view_geometry_table.csv`
-- Scene detection table: `C:\Users\lisan\OneDrive\Documents\New project\m4_two_drone_operational_analysis\outputs\scene_view_records.csv`
+- Geometry table: `results/geometry_analysis/ground_truth/view_geometry_table.csv`
+- Scene detection table: `results/multiview_analysis/two_drone_operational/scene_view_records.csv`
 
 ## Operationalization
 
@@ -66,3 +66,4 @@ This analysis tests whether clutter groupings, operationalized as non-target obj
 - `Target AP50-95`: `Q1 low clutter` vs `Q4 high clutter`, Holm-adjusted p `<0.0001`, mean delta `0.0889`, Cliff's delta `0.507`.
 - `Target AP50-95`: `Q2 mid-low clutter` vs `Q4 high clutter`, Holm-adjusted p `0.0033`, mean delta `0.0637`, Cliff's delta `0.390`.
 - `Target AP50-95`: `Q1 low clutter` vs `Q3 mid-high clutter`, Holm-adjusted p `0.0301`, mean delta `0.0525`, Cliff's delta `0.308`.
+

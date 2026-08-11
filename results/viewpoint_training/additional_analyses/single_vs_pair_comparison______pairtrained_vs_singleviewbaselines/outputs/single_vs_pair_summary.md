@@ -1,4 +1,4 @@
-# Single vs Pair Training Comparison
+﻿# Single vs Pair Training Comparison
 
 ## Coverage
 
@@ -39,7 +39,7 @@
 
 ### Practical recommendation
 
-- For the thesis headline, compare `best single` against its matched M4 control and `best pair` against its matched M4 control.
+- For the main comparison, compare `best single` against its matched M4 control and `best pair` against its matched M4 control.
 - For the sweep-level story, keep the existing pair-vs-single plots, but frame them explicitly as `restricted-view vs restricted-view` comparisons rather than fully fair count-controlled comparisons.
 
 - `p0069`: `ellow-radnear-az000` + `elhigh-radfar-az225` -> `+0.1561` over the better constituent single
@@ -65,3 +65,4 @@
 - `ellow-radfar-az135`: single `mAP50-95 = 0.2821`, mean pair lift `+0.1338`
 - `ellow-radnear-az135`: single `mAP50-95 = 0.2840`, mean pair lift `+0.1297`
 - `ellow-radnear-az045`: single `mAP50-95 = 0.2851`, mean pair lift `+0.1288`
+

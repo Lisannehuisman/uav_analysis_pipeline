@@ -1,4 +1,4 @@
-# Two drones vs one viewpoint: full analysis with literature, code, plots, and results
+﻿# Two drones vs one viewpoint: full analysis with literature, code, plots, and results
 
 ## Scope
 
@@ -111,7 +111,7 @@ Implication for our project:
 
 Implication for our project:
 
-- we should separate:
+- The analysis distinguishes:
   - training-time viewpoint diversity;
   - inference-time use of multiple active viewpoints.
 
@@ -489,3 +489,4 @@ The current project evidence supports the following thesis-level statement:
 And the strongest practical conclusion is:
 
 `If a second drone is available, it should be used to add a complementary viewpoint, not to replicate the first viewpoint.`
+

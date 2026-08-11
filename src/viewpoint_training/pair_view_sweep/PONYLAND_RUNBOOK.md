@@ -1,4 +1,4 @@
-# M4 Pair-Subset Ponyland Runbook
+﻿# M4 Pair-Subset Ponyland Runbook
 
 This runbook is for the controlled M4 viewpoint-pair training experiment:
 
@@ -182,7 +182,7 @@ For the full sweep:
 - serialized budget: about `850` to `1490` GPU-hours
 - at `16` concurrent array tasks: about `53` to `93` wall-clock hours, plus queue delays
 
-Treat this as a planning estimate, not a guarantee. The pilot should be used to replace these rough numbers with measured Ponyland timings.
+Treat this as a planning estimate, not a guarantee. The pilot should be used to refine these estimates using measured Ponyland timings.
 
 ## 11. Main Risks
 
@@ -190,3 +190,4 @@ Treat this as a planning estimate, not a guarantee. The pilot should be used to 
 - if Slurm resource requests do not match Ponyland policy, adjust the generated launcher arguments and regenerate
 - if the cluster Python path differs from `python`, pass the correct executable with `--python-executable`
 - do not trust the full sweep until the pilot confirms dataset construction, training behavior, and evaluation outputs end to end
+

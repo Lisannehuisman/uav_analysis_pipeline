@@ -1,8 +1,8 @@
-# Exact Viewpoint-Subset Shapley Analysis
+﻿# Exact Viewpoint-Subset Shapley Analysis
 
 ## Setup
 
-- Input scene records: `C:\Users\lisan\OneDrive\Documents\New project\m4_two_drone_operational_analysis\outputs\scene_view_records.csv`
+- Input scene records: `results/multiview_analysis/two_drone_operational/scene_view_records.csv`
 - Subset name: `full_grid_perimeter_8`
 - Selection mode: `full_grid_perimeter`
 - Selection rule: 8 viewpoints on the perimeter of the 3x3 elevation/radius grid, one distinct azimuth each

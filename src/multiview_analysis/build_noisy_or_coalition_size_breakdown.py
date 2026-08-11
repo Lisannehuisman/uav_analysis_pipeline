@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import argparse
 import math
@@ -360,7 +360,7 @@ def build_report(rows: list[dict[str, object]], aggregate_rows: list[dict[str, o
     lines.extend(
         [
             "",
-            "## How to read this for the thesis question",
+            "## Interpretation",
             "",
             f"- In `{top_ring}`, the **2nd drone** adds `{format_float(float(second['mean_marginal_gain_from_prev_size']), 4)}` on average.",
             f"- The **3rd drone** adds `{format_float(float(third['mean_marginal_gain_from_prev_size']), 4)}` on average.",
@@ -406,3 +406,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

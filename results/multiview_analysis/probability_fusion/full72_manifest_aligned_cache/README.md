@@ -26,10 +26,7 @@
 
 ## Current score sources
 
-- Train predictions expected at: `C:\Users\lisan\OneDrive\Documents\New project\outputs\detector_family_comparison\standardized_train_eval\predictions\YOLOv8l_M4_train_predictions.json`.
-- Val predictions reused from: `C:\Users\lisan\OneDrive\Documents\New project\outputs\detector_family_comparison\standardized_val_eval\predictions\YOLOv8l_M4_val_predictions.json`.
-- Test predictions reused from: `C:\Users\lisan\OneDrive\Documents\New project\outputs\detector_family_comparison\standardized_test_eval\predictions\YOLOv8l_M4_test_predictions.json`.
-- Imported M4 model weights stored at: `C:\Users\lisan\OneDrive\Documents\New project\outputs\imported_runs\yolov8l_m4\M4_clean_yolov8l_run1\weights\best.pt`.
+The train, validation and test prediction caches and the YOLOv8l-M4 checkpoint are not included in this repository because of their size. They can be regenerated using the detector-evaluation code under `src/detector_analysis/detector_family_comparison/`.
 
 ## Files
 
@@ -38,4 +35,4 @@
 - `instance_coverage_summary.csv`
 - `viewpoint_split_check.csv`
 
-Generated in `C:\Users\lisan\OneDrive\Documents\New project\probability_fusion\outputs\full72_manifest_aligned_cache`.
+The generated outputs for this experiment are stored in this directory.

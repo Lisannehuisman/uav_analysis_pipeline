@@ -1,7 +1,7 @@
-# Viewpoint Subset Matrix Report
+﻿# Viewpoint Subset Matrix Report
 
 ## Inputs
-- Scene/view records: `C:\Users\lisan\OneDrive\Documents\New project\m4_two_drone_operational_analysis\outputs\scene_view_records.csv`
+- Scene/view records: `results/multiview_analysis/two_drone_operational/scene_view_records.csv`
 - Records: `2214`
 - Scene keys: `205`
 - Absolute viewpoints: `72`
@@ -61,3 +61,4 @@ Minimum support for the headline list: `3` scenes.
 - `plots/subset_size_gain_curve.png`
 - `plots/top_subsets_by_k.png`
 - `plots/factor_pattern_summary.png`
+
