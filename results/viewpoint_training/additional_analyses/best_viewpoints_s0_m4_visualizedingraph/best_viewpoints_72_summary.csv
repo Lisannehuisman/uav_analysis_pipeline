@@ -1,0 +1,11 @@
+object_class,best_mean_azimuth,best_mean_elevation,best_mean_radius,best_mean_value,best_mean_std,best_mean_n_images,best_single_azimuth,best_single_elevation,best_single_radius,best_single_value,best_single_n_images,selection_rule
+barrel,090,mid,near,0.9241666672130425,0.042674274685685375,4,270,low,far,1.0,5,"Best mean among cells with n>=3, fallback to any observed cell"
+container,315,mid,mid,0.975,0.035355339059327355,3,315,high,mid,1.0,7,"Best mean among cells with n>=3, fallback to any observed cell"
+male,315,high,mid,0.8960937499999999,0.036146358665730995,3,315,low,far,1.0,5,"Best mean among cells with n>=3, fallback to any observed cell"
+rock,180,mid,near,0.9765138893789715,0.009933828435641707,3,090,low,near,1.0,7,"Best mean among cells with n>=3, fallback to any observed cell"
+suv,135,mid,mid,0.9675347236295542,0.034976066617443735,4,135,mid,near,1.0,9,"Best mean among cells with n>=3, fallback to any observed cell"
+tank,315,mid,near,0.9770833333333333,0.016404183070857933,3,135,mid,far,1.0,7,"Best mean among cells with n>=3, fallback to any observed cell"
+tent,225,low,near,0.9865740742672373,0.02093596082350888,6,225,low,near,1.0,6,"Best mean among cells with n>=3, fallback to any observed cell"
+tower,000,high,far,0.929553954995256,0.03681819385300055,3,270,mid,near,1.0,6,"Best mean among cells with n>=3, fallback to any observed cell"
+tree,045,high,near,0.9005485315079866,0.05138112403016616,4,270,mid,near,1.0,10,"Best mean among cells with n>=3, fallback to any observed cell"
+whitevan,270,high,mid,0.984375,0.02209708691207961,3,000,high,far,1.0,5,"Best mean among cells with n>=3, fallback to any observed cell"

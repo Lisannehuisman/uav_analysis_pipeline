@@ -1,0 +1,5 @@
+Most viewpoint-sensitive object: whitevan (gap=0.841)
+Least viewpoint-sensitive object: tree (gap=0.543)
+Strongest azimuth effect: tank (gap=0.268)
+Strongest elevation effect: whitevan (gap=0.433)
+Strongest radius effect: tower (gap=0.090)

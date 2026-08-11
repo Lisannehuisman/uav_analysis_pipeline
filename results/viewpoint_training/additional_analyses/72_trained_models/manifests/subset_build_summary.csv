@@ -1,0 +1,6 @@
+single_id,viewpoint,train_images,val_images,test_view_images,test_full_images,data_yaml,pilot_rank
+sv0011,ellow-radmid-az090,147,26,32,2214,/vol/tensusers6/lisannehuisman/experiments/m4_single_viewpoint_training/singles/sv0011__ellow_radmid_az090/data_single.yaml,2
+sv0017,ellow-radfar-az000,136,30,39,2214,/vol/tensusers6/lisannehuisman/experiments/m4_single_viewpoint_training/singles/sv0017__ellow_radfar_az000/data_single.yaml,1
+sv0037,elmid-radmid-az180,149,25,31,2214,/vol/tensusers6/lisannehuisman/experiments/m4_single_viewpoint_training/singles/sv0037__elmid_radmid_az180/data_single.yaml,3
+sv0055,elhigh-radnear-az270,143,32,30,2214,/vol/tensusers6/lisannehuisman/experiments/m4_single_viewpoint_training/singles/sv0055__elhigh_radnear_az270/data_single.yaml,5
+sv0059,elhigh-radmid-az090,141,30,34,2214,/vol/tensusers6/lisannehuisman/experiments/m4_single_viewpoint_training/singles/sv0059__elhigh_radmid_az090/data_single.yaml,4

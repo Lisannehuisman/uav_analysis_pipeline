@@ -1,0 +1,9 @@
+subset_name,selection_mode,selection_label,player_index,viewpoint,ring_id,elevation,radius,azimuth
+perimeter_unique_az_best_overlap,manual,manual viewpoint subset,1,ellow-radnear-az225,ellow-radnear,low,near,225
+perimeter_unique_az_best_overlap,manual,manual viewpoint subset,2,ellow-radmid-az045,ellow-radmid,low,mid,45
+perimeter_unique_az_best_overlap,manual,manual viewpoint subset,3,ellow-radfar-az315,ellow-radfar,low,far,315
+perimeter_unique_az_best_overlap,manual,manual viewpoint subset,4,elmid-radnear-az090,elmid-radnear,mid,near,90
+perimeter_unique_az_best_overlap,manual,manual viewpoint subset,5,elmid-radfar-az180,elmid-radfar,mid,far,180
+perimeter_unique_az_best_overlap,manual,manual viewpoint subset,6,elhigh-radnear-az270,elhigh-radnear,high,near,270
+perimeter_unique_az_best_overlap,manual,manual viewpoint subset,7,elhigh-radmid-az135,elhigh-radmid,high,mid,135
+perimeter_unique_az_best_overlap,manual,manual viewpoint subset,8,elhigh-radfar-az000,elhigh-radfar,high,far,0

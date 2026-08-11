@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+
+# Machine-specific paths
+configs/paths.local.yaml
+
+# Full datasets - stored outside Git
+data_collection/raw_data/
+
+# Large models
+*.pt
+*.pth
+
+# Temporary files
+tmp_*
+*.tmp
+analysis_project_tree.txt
+path_dependencies.txt
+__pycache__/
+*.pyc
+
+# Large generated/intermediate analysis artifacts
+results/**/predictions/
+results/**/ground_truth/
+results/**/per_coalition_scores.csv
+results/**/ordered_pair_method_rows.csv
+results/**/harmonized_combo_metric_rows.csv
+results/**/triple_combo_rows.csv
+results/**/pair_triple_performance.csv
+results/**/subset_scores.csv
+
+# Dataset-scale annotation files kept outside the repository
+src/real_world_transfer/real_imagery_analysis/testset_realimages/annotations.json

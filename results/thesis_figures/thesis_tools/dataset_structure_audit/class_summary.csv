@@ -1,0 +1,11 @@
+class_name,total_images,train_images,val_images,test_images,unique_instances,mean_views_per_instance,min_views_per_instance,max_views_per_instance
+tent,1296,910,181,205,18,72.00,72,72
+tank,1440,1023,217,200,20,72.00,72,72
+tower,936,610,161,165,13,72.00,72,72
+container,1584,1117,230,237,22,72.00,72,72
+whitevan,1368,963,224,181,19,72.00,72,72
+suv,1584,1098,245,241,22,72.00,72,72
+male,1440,1028,200,212,20,72.00,72,72
+rock,1512,1047,230,235,21,72.00,72,72
+barrel,1440,1021,207,212,20,72.00,72,72
+tree,2160,1515,319,326,30,72.00,72,72

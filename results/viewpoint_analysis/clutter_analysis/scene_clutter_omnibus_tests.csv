@@ -1,0 +1,5 @@
+metric_key,metric_label,group_count,test_name,statistic,p_value,significant_0_05
+scene_mean_target_ap50_95,Target AP50-95,4,Kruskal-Wallis,22.7915004509494,4.463237121448366e-05,1
+scene_mean_target_strict_quality_iou50,Target Strict Quality,4,Kruskal-Wallis,7.889211178969845,0.048357736226515034,1
+scene_mean_target_match_confidence_iou50,Target Match Confidence,4,Kruskal-Wallis,5.921755504793509,0.11547966790908899,0
+scene_mean_target_detected_rate,Target Detected Rate,4,Kruskal-Wallis,4.170348255077004,0.2436474047788636,0

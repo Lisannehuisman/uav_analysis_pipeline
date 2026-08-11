@@ -1,0 +1,16 @@
+detector,regime,duration_seconds,duration_minutes,duration_hours,epochs_or_iters,method,run_dir
+YOLOv8n,M1,2105.16,35.086,0.5847666666666667,120,Exact cumulative training time from YOLO results.csv,C:\DATA\airsim\thesis\results\yolov8n\S0_M1_yolov8n
+YOLOv8n,M2a,2071.96,34.532666666666664,0.5755444444444444,120,Exact cumulative training time from YOLO results.csv,C:\DATA\airsim\thesis\results\yolov8n\S0_M2a_yolov8n
+YOLOv8n,M2b,4531.42,75.52366666666667,1.258727777777778,120,Exact cumulative training time from YOLO results.csv,C:\DATA\airsim\thesis\results\yolov8n\S0_M2b_yolov8n
+YOLOv8n,M3,3389.52,56.492,0.9415333333333333,120,Exact cumulative training time from YOLO results.csv,C:\DATA\airsim\thesis\results\yolov8n\S0_M3_yolov8n
+YOLOv8n,M4,23363.2,389.38666666666666,6.489777777777778,120,Exact cumulative training time from YOLO results.csv,C:\DATA\airsim\thesis\results\yolov8n\S0_M4_yolov8n
+YOLOv8l,M1,3230.69,53.844833333333334,0.897413888888889,100,Exact cumulative training time from YOLO results.csv,C:\DATA\airsim\thesis\results\yolov8l\yolov8l_results\S0_M1_yolov8l
+YOLOv8l,M2a,3644.64,60.744,1.0124,100,Exact cumulative training time from YOLO results.csv,C:\DATA\airsim\thesis\results\yolov8l\yolov8l_results\S0_M2a_yolov8l
+YOLOv8l,M2b,6398.91,106.6485,1.777475,100,Exact cumulative training time from YOLO results.csv,C:\DATA\airsim\thesis\results\yolov8l\yolov8l_results\S0_M2b_yolov8l
+YOLOv8l,M3,3996.27,66.6045,1.110075,100,Exact cumulative training time from YOLO results.csv,C:\DATA\airsim\thesis\results\yolov8l\yolov8l_results\S0_M3_yolov8l
+YOLOv8l,M4,25158.6,419.31,6.988499999999999,100,Exact cumulative training time from YOLO results.csv,C:\DATA\airsim\thesis\results\yolov8l\yolov8l_results\S0_M4_yolov8l
+Faster R-CNN,M1,296.0006834473461,4.933344724122435,0.08222241206870724,1500,Estimated as median logged iteration time x final iteration from Faster R-CNN metrics.json,C:\DATA\airsim\thesis\results\frcnn\S0_M1_run1
+Faster R-CNN,M2a,296.93576018325984,4.948929336387664,0.08248215560646106,1500,Estimated as median logged iteration time x final iteration from Faster R-CNN metrics.json,C:\DATA\airsim\thesis\results\frcnn\S0_M2a_run1
+Faster R-CNN,M2b,289.3979628570378,4.82329938095063,0.08038832301584382,1500,Estimated as median logged iteration time x final iteration from Faster R-CNN metrics.json,C:\DATA\airsim\thesis\results\frcnn\S0_M2b_run1
+Faster R-CNN,M3,282.2742472635582,4.70457078772597,0.07840951312876616,1500,Estimated as median logged iteration time x final iteration from Faster R-CNN metrics.json,C:\DATA\airsim\thesis\results\frcnn\S0_M3_run1
+Faster R-CNN,M4,290.26219120714813,4.837703186785802,0.08062838644643004,1500,Estimated as median logged iteration time x final iteration from Faster R-CNN metrics.json,C:\DATA\airsim\thesis\results\frcnn\S0_M4_run1

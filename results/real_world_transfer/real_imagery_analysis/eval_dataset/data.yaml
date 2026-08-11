@@ -1,0 +1,18 @@
+train: train/images
+val: valid/images
+test: test/images
+
+names: 
+  0: Tent
+  1: barrel
+  2: car
+  3: container
+  4: male
+  5: rock
+  6: suv
+  7: tank
+  8: tent
+  9: tower
+  10: tree
+  11: van
+  12: whitevan

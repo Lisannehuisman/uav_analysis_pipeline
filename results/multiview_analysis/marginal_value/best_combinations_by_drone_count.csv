@@ -1,0 +1,4 @@
+drone_count,combination_label,scene_count,expected_target_ap50_95,expected_target_strict_quality_iou50,complementarity_or_gain_target_strict_quality_iou50
+1,ellow-radnear-az225,36,0.8585031392068458,0.9422698168641391,0.0
+2,elmid-radnear-az135 + elmid-radnear-az315,8,1.0,0.9658959261726539,0.001414935072425294
+3,elhigh-radfar-az270 + ellow-radnear-az225 + elmid-radnear-az315,3,1.0,0.9759036128966135,0.0

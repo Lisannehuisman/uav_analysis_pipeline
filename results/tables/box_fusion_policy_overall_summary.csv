@@ -1,0 +1,7 @@
+drone_count,policy_id,policy_label,sample_count,mean_quality,median_quality
+2,best_box,Best matched box,11846,0.9099524059346402,0.9488859321986425
+2,noisy_or_max_iou,Noisy-OR confidence + best IoU,11846,0.9518103382518549,0.9784680764342499
+2,support_weighted_or,Support-weighted noisy-OR fusion,11846,0.92278560378906,0.9698183818526305
+3,best_box,Best matched box,41646,0.9195738233087419,0.9530940552772726
+3,noisy_or_max_iou,Noisy-OR confidence + best IoU,41646,0.9661390712146762,0.983579677565132
+3,support_weighted_or,Support-weighted noisy-OR fusion,41646,0.9292724963784532,0.9712081310140013

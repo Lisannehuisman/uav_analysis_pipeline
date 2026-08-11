@@ -1,0 +1,721 @@
+method_id,method_label,method_family,secondary_viewpoint,scene_count,primary_viewpoint_count,mean_lift_vs_primary,mean_lift_vs_best_constituent,primary_miss_count,rescue_count,rescue_rate_given_primary_miss
+best_box,Best box (max),Best-view rescue,elhigh-radfar-az000,338,71,0.025151737552190603,0.0,5,5,1.0
+best_box,Best box (max),Best-view rescue,elhigh-radfar-az045,417,71,0.02141798154166042,0.0,3,3,1.0
+best_box,Best box (max),Best-view rescue,elhigh-radfar-az090,337,71,0.02972327804652172,0.0,4,4,1.0
+best_box,Best box (max),Best-view rescue,elhigh-radfar-az135,244,70,0.028094229982871276,0.0,6,6,1.0
+best_box,Best box (max),Best-view rescue,elhigh-radfar-az180,272,71,0.036023061761720154,0.0,6,6,1.0
+best_box,Best box (max),Best-view rescue,elhigh-radfar-az225,305,70,0.02574431023620423,0.0,5,5,1.0
+best_box,Best box (max),Best-view rescue,elhigh-radfar-az270,301,70,0.014167341395451302,0.0,2,2,1.0
+best_box,Best box (max),Best-view rescue,elhigh-radfar-az315,312,70,0.02679723434314826,0.0,2,2,1.0
+best_box,Best box (max),Best-view rescue,elhigh-radmid-az000,453,71,0.03077937456991526,0.0,7,7,1.0
+best_box,Best box (max),Best-view rescue,elhigh-radmid-az045,335,71,0.02959236979789979,0.0,6,6,1.0
+best_box,Best box (max),Best-view rescue,elhigh-radmid-az090,338,69,0.033490551231531156,0.0,9,9,1.0
+best_box,Best box (max),Best-view rescue,elhigh-radmid-az135,330,71,0.04204701832106225,0.0,9,9,1.0
+best_box,Best box (max),Best-view rescue,elhigh-radmid-az180,308,71,0.03876868988781274,0.0,10,10,1.0
+best_box,Best box (max),Best-view rescue,elhigh-radmid-az225,379,71,0.03707986211528887,0.0,7,7,1.0
+best_box,Best box (max),Best-view rescue,elhigh-radmid-az270,290,69,0.030645948021565804,0.0,7,7,1.0
+best_box,Best box (max),Best-view rescue,elhigh-radmid-az315,270,69,0.01796762439100748,0.0,1,1,1.0
+best_box,Best box (max),Best-view rescue,elhigh-radnear-az000,362,71,0.018615787518025995,0.0,3,3,1.0
+best_box,Best box (max),Best-view rescue,elhigh-radnear-az045,234,70,0.05330386532998527,0.0,9,9,1.0
+best_box,Best box (max),Best-view rescue,elhigh-radnear-az090,292,70,0.03390781510447109,0.0,6,6,1.0
+best_box,Best box (max),Best-view rescue,elhigh-radnear-az135,357,70,0.03130293192250391,0.0,5,5,1.0
+best_box,Best box (max),Best-view rescue,elhigh-radnear-az180,320,71,0.037271370466066205,0.0,6,6,1.0
+best_box,Best box (max),Best-view rescue,elhigh-radnear-az225,373,71,0.03017488694188726,0.0,6,6,1.0
+best_box,Best box (max),Best-view rescue,elhigh-radnear-az270,322,70,0.018540259247813332,0.0,3,3,1.0
+best_box,Best box (max),Best-view rescue,elhigh-radnear-az315,313,70,0.038634973698254235,0.0,7,7,1.0
+best_box,Best box (max),Best-view rescue,ellow-radfar-az000,424,71,0.028297079969447074,0.0,7,6,0.8571428571428571
+best_box,Best box (max),Best-view rescue,ellow-radfar-az045,235,71,0.03677795752499015,0.0,7,5,0.7142857142857143
+best_box,Best box (max),Best-view rescue,ellow-radfar-az090,286,69,0.01673408176918453,0.0,5,3,0.6
+best_box,Best box (max),Best-view rescue,ellow-radfar-az135,387,71,0.029814898887043844,0.0,11,8,0.7272727272727273
+best_box,Best box (max),Best-view rescue,ellow-radfar-az180,266,67,0.02221835177895216,0.0,5,5,1.0
+best_box,Best box (max),Best-view rescue,ellow-radfar-az225,315,70,0.028211781688139648,0.0,6,6,1.0
+best_box,Best box (max),Best-view rescue,ellow-radfar-az270,325,71,0.011428165312276316,0.0,6,2,0.3333333333333333
+best_box,Best box (max),Best-view rescue,ellow-radfar-az315,298,71,0.02364456051862191,0.0,4,2,0.5
+best_box,Best box (max),Best-view rescue,ellow-radmid-az000,345,70,0.04287331251271536,0.0,10,8,0.8
+best_box,Best box (max),Best-view rescue,ellow-radmid-az045,418,71,0.045949927438336195,0.0,9,5,0.5555555555555556
+best_box,Best box (max),Best-view rescue,ellow-radmid-az090,332,70,0.034377950610456606,0.0,4,4,1.0
+best_box,Best box (max),Best-view rescue,ellow-radmid-az135,317,71,0.03582673947858356,0.0,7,6,0.8571428571428571
+best_box,Best box (max),Best-view rescue,ellow-radmid-az180,238,68,0.021362344208638372,0.0,3,1,0.3333333333333333
+best_box,Best box (max),Best-view rescue,ellow-radmid-az225,292,70,0.02455209283491223,0.0,3,3,1.0
+best_box,Best box (max),Best-view rescue,ellow-radmid-az270,310,71,0.039346505313089586,0.0,8,7,0.875
+best_box,Best box (max),Best-view rescue,ellow-radmid-az315,327,71,0.02480548455815224,0.0,3,3,1.0
+best_box,Best box (max),Best-view rescue,ellow-radnear-az000,395,71,0.046430540017271094,0.0,8,6,0.75
+best_box,Best box (max),Best-view rescue,ellow-radnear-az045,352,70,0.04539560315755661,0.0,6,4,0.6666666666666666
+best_box,Best box (max),Best-view rescue,ellow-radnear-az090,362,71,0.057948170121607294,0.0,6,6,1.0
+best_box,Best box (max),Best-view rescue,ellow-radnear-az135,347,70,0.04976366877715045,0.0,6,6,1.0
+best_box,Best box (max),Best-view rescue,ellow-radnear-az180,388,71,0.03337515454831523,0.0,4,4,1.0
+best_box,Best box (max),Best-view rescue,ellow-radnear-az225,394,69,0.04825199916211327,0.0,3,3,1.0
+best_box,Best box (max),Best-view rescue,ellow-radnear-az270,314,70,0.042343981686269315,0.0,1,1,1.0
+best_box,Best box (max),Best-view rescue,ellow-radnear-az315,306,71,0.03795765007966056,0.0,3,3,1.0
+best_box,Best box (max),Best-view rescue,elmid-radfar-az000,288,71,0.026920254182448398,0.0,5,5,1.0
+best_box,Best box (max),Best-view rescue,elmid-radfar-az045,312,71,0.03140784439239592,0.0,4,4,1.0
+best_box,Best box (max),Best-view rescue,elmid-radfar-az090,288,67,0.04670256333609854,0.0,11,11,1.0
+best_box,Best box (max),Best-view rescue,elmid-radfar-az135,348,71,0.023917487910903125,0.0,4,4,1.0
+best_box,Best box (max),Best-view rescue,elmid-radfar-az180,265,69,0.026559537555364384,0.0,5,5,1.0
+best_box,Best box (max),Best-view rescue,elmid-radfar-az225,418,71,0.0366980000334652,0.0,8,8,1.0
+best_box,Best box (max),Best-view rescue,elmid-radfar-az270,286,70,0.038153995617427425,0.0,4,4,1.0
+best_box,Best box (max),Best-view rescue,elmid-radfar-az315,263,71,0.028347043274681495,0.0,5,5,1.0
+best_box,Best box (max),Best-view rescue,elmid-radmid-az000,427,71,0.05743995105969463,0.0,14,14,1.0
+best_box,Best box (max),Best-view rescue,elmid-radmid-az045,374,71,0.05106289311731142,0.0,10,10,1.0
+best_box,Best box (max),Best-view rescue,elmid-radmid-az090,301,70,0.025917557819619776,0.0,3,3,1.0
+best_box,Best box (max),Best-view rescue,elmid-radmid-az135,232,69,0.03850169399090478,0.0,3,3,1.0
+best_box,Best box (max),Best-view rescue,elmid-radmid-az180,324,71,0.04351489373588299,0.0,8,8,1.0
+best_box,Best box (max),Best-view rescue,elmid-radmid-az225,243,70,0.03835167838619504,0.0,6,5,0.8333333333333334
+best_box,Best box (max),Best-view rescue,elmid-radmid-az270,443,71,0.027395944336178132,0.0,6,6,1.0
+best_box,Best box (max),Best-view rescue,elmid-radmid-az315,318,70,0.02754405155292184,0.0,1,1,1.0
+best_box,Best box (max),Best-view rescue,elmid-radnear-az000,238,69,0.02727648992146034,0.0,1,1,1.0
+best_box,Best box (max),Best-view rescue,elmid-radnear-az045,338,71,0.06302373696941393,0.0,11,11,1.0
+best_box,Best box (max),Best-view rescue,elmid-radnear-az090,346,71,0.073983093555661,0.0,9,9,1.0
+best_box,Best box (max),Best-view rescue,elmid-radnear-az135,445,71,0.041597919256133785,0.0,5,5,1.0
+best_box,Best box (max),Best-view rescue,elmid-radnear-az180,352,71,0.05205286646817224,0.0,7,7,1.0
+best_box,Best box (max),Best-view rescue,elmid-radnear-az225,272,70,0.04872152273326041,0.0,10,9,0.9
+best_box,Best box (max),Best-view rescue,elmid-radnear-az270,430,71,0.03284950717134707,0.0,4,4,1.0
+best_box,Best box (max),Best-view rescue,elmid-radnear-az315,366,71,0.04462209101025312,0.0,6,6,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elhigh-radfar-az000,338,71,0.016261113079711658,-0.008890624472478946,5,5,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elhigh-radfar-az045,417,71,0.012153554700475236,-0.009264426841185185,3,3,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elhigh-radfar-az090,337,71,0.018901157158370763,-0.010822120888150955,4,4,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elhigh-radfar-az135,244,70,0.022340542125733397,-0.005753687857137877,6,6,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elhigh-radfar-az180,272,71,0.026980747715419282,-0.009042314046300863,6,6,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elhigh-radfar-az225,305,70,0.016492109627055634,-0.009252200609148595,5,5,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elhigh-radfar-az270,301,70,0.0028338021301454585,-0.011333539265305845,2,2,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elhigh-radfar-az315,312,70,0.017959731538565567,-0.008837502804582687,2,2,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elhigh-radmid-az000,453,71,0.021205722657631855,-0.009573651912283408,7,7,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elhigh-radmid-az045,335,71,0.017314201821052172,-0.012278167976847625,6,6,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elhigh-radmid-az090,338,69,0.020860197818200112,-0.012630353413331038,9,9,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elhigh-radmid-az135,330,71,0.02921338041392096,-0.012833637907141286,9,9,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elhigh-radmid-az180,308,71,0.03090378101537879,-0.007864908872433947,10,10,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elhigh-radmid-az225,379,71,0.03159884298656043,-0.005481019128728434,7,7,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elhigh-radmid-az270,290,69,0.023067877283899026,-0.007578070737666776,7,7,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elhigh-radmid-az315,270,69,0.010565060410537072,-0.007402563980470408,1,1,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elhigh-radnear-az000,362,71,0.013762346401308067,-0.004853441116717931,3,3,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elhigh-radnear-az045,234,70,0.047063208210954915,-0.006240657119030353,9,9,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elhigh-radnear-az090,292,70,0.02035148865707638,-0.013556326447394716,6,6,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elhigh-radnear-az135,357,70,0.021861835692696563,-0.009441096229807351,5,5,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elhigh-radnear-az180,320,71,0.027978993844051798,-0.009292376622014412,6,6,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elhigh-radnear-az225,373,71,0.018721966628691803,-0.011452920313195458,6,6,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elhigh-radnear-az270,322,70,0.004607625682673792,-0.013932633565139543,3,3,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elhigh-radnear-az315,313,70,0.032121837539647397,-0.00651313615860684,7,7,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,ellow-radfar-az000,424,71,0.015026472393124726,-0.013270607576322346,7,6,0.8571428571428571
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,ellow-radfar-az045,235,71,0.024944084958785962,-0.01183387256620419,7,5,0.7142857142857143
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,ellow-radfar-az090,286,69,0.011501467924384891,-0.005232613844799638,5,3,0.6
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,ellow-radfar-az135,387,71,0.021269894709990824,-0.008545004177053022,11,8,0.7272727272727273
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,ellow-radfar-az180,266,67,0.01731731703585088,-0.0049010347431012805,5,5,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,ellow-radfar-az225,315,70,0.018388467741302143,-0.009823313946837503,6,6,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,ellow-radfar-az270,325,71,0.004859443521321256,-0.006568721790955061,6,2,0.3333333333333333
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,ellow-radfar-az315,298,71,0.010873916893253618,-0.012770643625368292,4,2,0.5
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,ellow-radmid-az000,345,70,0.03751349489441579,-0.005359817618299567,10,8,0.8
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,ellow-radmid-az045,418,71,0.03248158082764494,-0.013468346610691257,9,5,0.5555555555555556
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,ellow-radmid-az090,332,70,0.024221760785082622,-0.010156189825373986,4,4,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,ellow-radmid-az135,317,71,0.02614385359592748,-0.009682885882656082,7,6,0.8571428571428571
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,ellow-radmid-az180,238,68,0.014875963624001957,-0.006486380584636417,3,1,0.3333333333333333
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,ellow-radmid-az225,292,70,0.013827223235930773,-0.010724869598981458,3,3,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,ellow-radmid-az270,310,71,0.027195744366022647,-0.012150760947066934,8,7,0.875
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,ellow-radmid-az315,327,71,0.017061271594501656,-0.007744212963650585,3,3,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,ellow-radnear-az000,395,71,0.035990704922855325,-0.010439835094415768,8,6,0.75
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,ellow-radnear-az045,352,70,0.04016821532114178,-0.005227387836414833,6,4,0.6666666666666666
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,ellow-radnear-az090,362,71,0.04963420319000666,-0.008313966931600632,6,6,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,ellow-radnear-az135,347,70,0.04218567858006893,-0.007577990197081526,6,6,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,ellow-radnear-az180,388,71,0.0245217534609134,-0.00885340108740183,4,4,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,ellow-radnear-az225,394,69,0.040808216317811216,-0.00744378284430206,3,3,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,ellow-radnear-az270,314,70,0.03410482916475511,-0.008239152521514205,1,1,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,ellow-radnear-az315,306,71,0.026412217285259835,-0.011545432794400724,3,3,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elmid-radfar-az000,288,71,0.020693732880835095,-0.006226521301613303,5,5,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elmid-radfar-az045,312,71,0.02087510945735414,-0.01053273493504178,4,4,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elmid-radfar-az090,288,67,0.03567520140388488,-0.011027361932213665,11,11,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elmid-radfar-az135,348,71,0.004625497466521115,-0.01929199044438201,4,4,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elmid-radfar-az180,265,69,0.019026973286064834,-0.007532564269299551,5,5,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elmid-radfar-az225,418,71,0.02605371033824023,-0.010644289695224966,8,8,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elmid-radfar-az270,286,70,0.028308222501946857,-0.009845773115480568,4,4,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elmid-radfar-az315,263,71,0.01844939277949257,-0.00989765049518892,5,5,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elmid-radmid-az000,427,71,0.052082401829373244,-0.005357549230321388,14,14,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elmid-radmid-az045,374,71,0.04550737926973324,-0.00555551384757818,10,10,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elmid-radmid-az090,301,70,0.017150371849368098,-0.008767185970251676,3,3,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elmid-radmid-az135,232,69,0.031003798037968162,-0.0074978959529366125,3,3,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elmid-radmid-az180,324,71,0.03431253058443324,-0.009202363151449754,8,8,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elmid-radmid-az225,243,70,0.029775008326167834,-0.008576670060027207,6,5,0.8333333333333334
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elmid-radmid-az270,443,71,0.0206055431399106,-0.006790401196267529,6,6,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elmid-radmid-az315,318,70,0.014174782149825175,-0.013369269403096662,1,1,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elmid-radnear-az000,238,69,0.020594483616489637,-0.006682006304970701,1,1,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elmid-radnear-az045,338,71,0.056945426709438154,-0.006078310259975772,11,11,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elmid-radnear-az090,346,71,0.06403621624392589,-0.009946877311735127,9,9,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elmid-radnear-az135,445,71,0.0357988037964013,-0.0057991154597324835,5,5,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elmid-radnear-az180,352,71,0.047201786648109874,-0.004851079820062362,7,7,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elmid-radnear-az225,272,70,0.03884520099920629,-0.009876321734054113,10,9,0.9
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elmid-radnear-az270,430,71,0.02663252307473702,-0.006216984096610045,4,4,1.0
+geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,elmid-radnear-az315,366,71,0.04072658852788541,-0.0038955024823677134,6,6,1.0
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elhigh-radfar-az000,338,71,-0.0025403677918327127,-0.027692105344023315,5,5,1.0
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elhigh-radfar-az045,417,71,0.002347014353757777,-0.019070967187902643,3,1,0.3333333333333333
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elhigh-radfar-az090,337,71,0.0055485932210265565,-0.02417468482549516,4,3,0.75
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elhigh-radfar-az135,244,70,0.018084691801752435,-0.010009538181118842,6,6,1.0
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elhigh-radfar-az180,272,71,0.01239453729646449,-0.02362852446525566,6,5,0.8333333333333334
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elhigh-radfar-az225,305,70,0.006193433883798997,-0.019550876352405235,5,3,0.6
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elhigh-radfar-az270,301,70,-0.0003783184786704717,-0.014545659874121777,2,2,1.0
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elhigh-radfar-az315,312,70,0.016516018430140774,-0.010281215913007485,2,2,1.0
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elhigh-radmid-az000,453,71,0.015818886256594902,-0.014960488313320357,7,5,0.7142857142857143
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elhigh-radmid-az045,335,71,0.012704041985714397,-0.016888327812185397,6,6,1.0
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elhigh-radmid-az090,338,69,0.010883001276912458,-0.022607549954618694,9,7,0.7777777777777778
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elhigh-radmid-az135,330,71,0.019383759185729533,-0.022663259135332715,9,7,0.7777777777777778
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elhigh-radmid-az180,308,71,0.016894945705254988,-0.02187374418255775,10,6,0.6
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elhigh-radmid-az225,379,71,0.019568462564920553,-0.017511399550368317,7,5,0.7142857142857143
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elhigh-radmid-az270,290,69,0.0003681852339195586,-0.030277762787646243,7,3,0.42857142857142855
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elhigh-radmid-az315,270,69,0.006178264599183613,-0.011789359791823868,1,1,1.0
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elhigh-radnear-az000,362,71,0.012624858285887353,-0.005990929232138644,3,3,1.0
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elhigh-radnear-az045,234,70,0.04110277841981026,-0.012201086910175003,9,8,0.8888888888888888
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elhigh-radnear-az090,292,70,0.010161572535923343,-0.02374624256854775,6,4,0.6666666666666666
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elhigh-radnear-az135,357,70,0.012206210718777937,-0.019096721203725974,5,4,0.8
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elhigh-radnear-az180,320,71,0.020837422637979133,-0.016433947828087072,6,5,0.8333333333333334
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elhigh-radnear-az225,373,71,0.01253781431883008,-0.01763707262305718,6,4,0.6666666666666666
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elhigh-radnear-az270,322,70,-0.020846627303621256,-0.03938688655143459,3,1,0.3333333333333333
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elhigh-radnear-az315,313,70,0.024999088308348037,-0.013635885389906201,7,6,0.8571428571428571
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,ellow-radfar-az000,424,71,-0.003691187674195775,-0.03198826764364285,7,3,0.42857142857142855
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,ellow-radfar-az045,235,71,0.0013478625744078436,-0.0354300949505823,7,1,0.14285714285714285
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,ellow-radfar-az090,286,69,-0.004333040159873713,-0.021067121929058245,5,1,0.2
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,ellow-radfar-az135,387,71,0.0011482953589149062,-0.028666603528128935,11,2,0.18181818181818182
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,ellow-radfar-az180,266,67,0.008537728375292895,-0.013680623403659265,5,3,0.6
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,ellow-radfar-az225,315,70,-0.00028169447944127865,-0.028493476167580925,6,0,0.0
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,ellow-radfar-az270,325,71,-0.0047639882072041066,-0.01619215351948042,6,0,0.0
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,ellow-radfar-az315,298,71,-0.035461990574882245,-0.05910655109350415,4,1,0.25
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,ellow-radmid-az000,345,70,0.015949471185244358,-0.026923841327471006,10,4,0.4
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,ellow-radmid-az045,418,71,0.01682407882183935,-0.02912584861649685,9,3,0.3333333333333333
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,ellow-radmid-az090,332,70,-0.007989639878190236,-0.04236759048864684,4,3,0.75
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,ellow-radmid-az135,317,71,0.005574212678752577,-0.030252526799830984,7,5,0.7142857142857143
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,ellow-radmid-az180,238,68,-0.0030421523022539664,-0.02440449651089234,3,0,0.0
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,ellow-radmid-az225,292,70,-0.023776969235163144,-0.04832906207007537,3,1,0.3333333333333333
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,ellow-radmid-az270,310,71,0.015715433010599276,-0.02363107230249031,8,5,0.625
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,ellow-radmid-az315,327,71,0.008795302342073366,-0.016010182216078875,3,1,0.3333333333333333
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,ellow-radnear-az000,395,71,0.004451235119525039,-0.04197930489774605,8,6,0.75
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,ellow-radnear-az045,352,70,0.016878827217484457,-0.02851677594007216,6,3,0.5
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,ellow-radnear-az090,362,71,0.03286884685845536,-0.02507932326315193,6,6,1.0
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,ellow-radnear-az135,347,70,0.033843335297922134,-0.015920333479228322,6,6,1.0
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,ellow-radnear-az180,388,71,-0.020624840683593385,-0.05399999523190862,4,3,0.75
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,ellow-radnear-az225,394,69,0.03241476214362051,-0.01583723701849276,3,2,0.6666666666666666
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,ellow-radnear-az270,314,70,0.02465725476249886,-0.017686726923770456,1,1,1.0
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,ellow-radnear-az315,306,71,0.021162114393440033,-0.01679553568622052,3,3,1.0
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elmid-radfar-az000,288,71,0.017034428241527115,-0.009885825940921284,5,5,1.0
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elmid-radfar-az045,312,71,0.013433692472893086,-0.017974151919502832,4,4,1.0
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elmid-radfar-az090,288,67,0.023929814804273794,-0.022772748531824746,11,9,0.8181818181818182
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elmid-radfar-az135,348,71,-0.002044594528715854,-0.025962082439618974,4,3,0.75
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elmid-radfar-az180,265,69,0.009412024312263118,-0.017147513243101268,5,3,0.6
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elmid-radfar-az225,418,71,0.0183467278814944,-0.018351272151970802,8,7,0.875
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elmid-radfar-az270,286,70,0.005064886886646371,-0.033089108730781046,4,1,0.25
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elmid-radfar-az315,263,71,0.0029276224087766236,-0.02541942086590487,5,3,0.6
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elmid-radmid-az000,427,71,0.046219647086845374,-0.01122030397284926,14,12,0.8571428571428571
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elmid-radmid-az045,374,71,0.04154443992121325,-0.009518453196098176,10,10,1.0
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elmid-radmid-az090,301,70,0.01059877400490381,-0.015318783814715967,3,2,0.6666666666666666
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elmid-radmid-az135,232,69,0.028841124747021073,-0.009660569243883702,3,3,1.0
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elmid-radmid-az180,324,71,0.02620109063800523,-0.017313803097877764,8,7,0.875
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elmid-radmid-az225,243,70,0.008706794152625378,-0.029644884233569667,6,5,0.8333333333333334
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elmid-radmid-az270,443,71,0.014882183254000871,-0.01251376108217726,6,5,0.8333333333333334
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elmid-radmid-az315,318,70,0.005455485496437085,-0.022088566056484755,1,0,0.0
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elmid-radnear-az000,238,69,0.017938352621070183,-0.009338137300390159,1,1,1.0
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elmid-radnear-az045,338,71,0.05393443145629139,-0.009089305513122545,11,11,1.0
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elmid-radnear-az090,346,71,0.057242607053210645,-0.016740486502450365,9,9,1.0
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elmid-radnear-az135,445,71,0.025604585000376656,-0.01599333425575713,5,4,0.8
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elmid-radnear-az180,352,71,0.024443484838810526,-0.027609381629361707,7,6,0.8571428571428571
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elmid-radnear-az225,272,70,0.011516424305508597,-0.03720509842775181,10,8,0.8
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elmid-radnear-az270,430,71,0.022683089406600538,-0.010166417764746527,4,4,1.0
+geometry_prior_selector,Geometry prior selector,Geometry-aware selection,elmid-radnear-az315,366,71,0.033337709010015225,-0.011284382000237896,6,4,0.6666666666666666
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elhigh-radfar-az000,338,71,0.06283589570099822,0.03768415814880762,5,5,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elhigh-radfar-az045,417,71,0.06606484739369174,0.04464686585203132,3,3,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elhigh-radfar-az090,337,71,0.07126577831640943,0.04154250026988771,4,4,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elhigh-radfar-az135,244,70,0.06581686697804065,0.03772263699516937,6,6,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elhigh-radfar-az180,272,71,0.07858888074635008,0.04256581898462994,6,6,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elhigh-radfar-az225,305,70,0.0703030857465957,0.044558775510391474,5,5,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elhigh-radfar-az270,301,70,0.052964199140412345,0.03879685774496104,2,2,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elhigh-radfar-az315,312,70,0.06818645260008882,0.041389218256940564,2,2,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elhigh-radmid-az000,453,71,0.0776280889349512,0.04684871436503593,7,7,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elhigh-radmid-az045,335,71,0.07623266202889893,0.046640292230999136,6,6,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elhigh-radmid-az090,338,69,0.08311818342532026,0.049627632193789115,9,9,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elhigh-radmid-az135,330,71,0.09600518742669106,0.05395816910562882,9,9,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elhigh-radmid-az180,308,71,0.08528885003566566,0.046520160147852936,10,10,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elhigh-radmid-az225,379,71,0.07939353500336052,0.042313672888071654,7,7,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elhigh-radmid-az270,290,69,0.0831124331506545,0.052466485129088705,7,7,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elhigh-radmid-az315,270,69,0.06100163380802601,0.04303400941701852,1,1,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elhigh-radnear-az000,362,71,0.05072146855822965,0.03210568104020365,3,3,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elhigh-radnear-az045,234,70,0.09990999548355238,0.04660613015356713,9,9,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elhigh-radnear-az090,292,70,0.08045523327063074,0.04654741816615965,6,6,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elhigh-radnear-az135,357,70,0.08117140963839364,0.04986847771588973,5,5,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elhigh-radnear-az180,320,71,0.07685665897199007,0.039585288505923855,6,6,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elhigh-radnear-az225,373,71,0.07181103696395105,0.0416361500220638,6,6,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elhigh-radnear-az270,322,70,0.05310860524305244,0.0345683459952391,3,3,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elhigh-radnear-az315,313,70,0.08132329298824001,0.04268831928998577,7,7,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,ellow-radfar-az000,424,71,0.06570235996204847,0.03740527999260139,7,6,0.8571428571428571
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,ellow-radfar-az045,235,71,0.07469486020262228,0.037916902677632126,7,5,0.7142857142857143
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,ellow-radfar-az090,286,69,0.05268598312673613,0.0359519013575516,5,3,0.6
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,ellow-radfar-az135,387,71,0.07393283507257972,0.044117936185535875,11,8,0.7272727272727273
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,ellow-radfar-az180,266,67,0.04632574690011302,0.02410739512116086,5,5,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,ellow-radfar-az225,315,70,0.06687022318363466,0.038658441495495015,6,6,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,ellow-radfar-az270,325,71,0.04037335003113492,0.028945184718858614,6,2,0.3333333333333333
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,ellow-radfar-az315,298,71,0.06297305987142332,0.0393284993528014,4,2,0.5
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,ellow-radmid-az000,345,70,0.07912742034793807,0.03625410783522271,10,8,0.8
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,ellow-radmid-az045,418,71,0.08745359991315498,0.04150367247481878,9,5,0.5555555555555556
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,ellow-radmid-az090,332,70,0.07208564490660538,0.03770769429614877,4,4,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,ellow-radmid-az135,317,71,0.0756746857919836,0.03984794631340003,7,6,0.8571428571428571
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,ellow-radmid-az180,238,68,0.05498587259504694,0.033623528386408565,3,1,0.3333333333333333
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,ellow-radmid-az225,292,70,0.05286775064937232,0.02831565781446009,3,3,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,ellow-radmid-az270,310,71,0.07266670861050832,0.03332020329741873,8,7,0.875
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,ellow-radmid-az315,327,71,0.05782232155520388,0.033016836997051636,3,3,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,ellow-radnear-az000,395,71,0.08363277533944732,0.03720223532217623,8,6,0.75
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,ellow-radnear-az045,352,70,0.08314965902301268,0.037754055865456056,6,4,0.6666666666666666
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,ellow-radnear-az090,362,71,0.09437036106358873,0.03642219094198143,6,6,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,ellow-radnear-az135,347,70,0.08208665407379837,0.03232298529664791,6,6,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,ellow-radnear-az180,388,71,0.06787148680029073,0.03449633225197551,4,4,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,ellow-radnear-az225,394,69,0.0795607807011911,0.031308781539077825,3,3,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,ellow-radnear-az270,314,70,0.08073427888305017,0.03839029719678086,1,1,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,ellow-radnear-az315,306,71,0.07647137972096389,0.03851372964130334,3,3,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elmid-radfar-az000,288,71,0.0630870510975926,0.03616679691514421,5,5,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elmid-radfar-az045,312,71,0.08688362606433486,0.055475781671938944,4,4,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elmid-radfar-az090,288,67,0.09717287397844761,0.05047031064234907,11,11,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elmid-radfar-az135,348,71,0.0731982555624331,0.04928076765152998,4,4,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elmid-radfar-az180,265,69,0.06867463790261213,0.042115100347247754,5,5,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elmid-radfar-az225,418,71,0.08070502866424553,0.04400702863078033,8,8,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elmid-radfar-az270,286,70,0.08163921752515894,0.043485221907731526,4,4,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elmid-radfar-az315,263,71,0.07552194081732064,0.047174897542639135,5,5,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elmid-radmid-az000,427,71,0.10733369557292738,0.04989374451323275,14,14,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elmid-radmid-az045,374,71,0.1017829762819037,0.050720083164592276,10,10,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elmid-radmid-az090,301,70,0.06992789161711586,0.044010333797496096,3,3,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elmid-radmid-az135,232,69,0.08643972746533499,0.047938033474430215,3,3,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elmid-radmid-az180,324,71,0.09557226150241387,0.05205736776653088,8,8,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elmid-radmid-az225,243,70,0.08690301713471935,0.04855133874852431,6,5,0.8333333333333334
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elmid-radmid-az270,443,71,0.06462284210417776,0.03722689776799964,6,6,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elmid-radmid-az315,318,70,0.06533101274535431,0.037786961192432474,1,1,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elmid-radnear-az000,238,69,0.06145877973332297,0.03418228981186263,1,1,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elmid-radnear-az045,338,71,0.09963369946347443,0.0366099624940605,11,11,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elmid-radnear-az090,346,71,0.13419245929935988,0.06020936574369887,9,9,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elmid-radnear-az135,445,71,0.0811999639523178,0.03960204469618402,5,5,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elmid-radnear-az180,352,71,0.0924033236922794,0.040350457224107156,7,7,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elmid-radnear-az225,272,70,0.08843544669021053,0.039713923956950115,10,9,0.9
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elmid-radnear-az270,430,71,0.07119848180554796,0.038348974634200894,4,4,1.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,elmid-radnear-az315,366,71,0.08019723293229035,0.03557514192203723,6,6,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elhigh-radfar-az000,338,71,0.046369568001847355,0.021217830449656753,5,5,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elhigh-radfar-az045,417,71,0.050115513155204565,0.02869753161354414,3,3,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elhigh-radfar-az090,337,71,0.0529085371415466,0.023185259095024877,4,4,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elhigh-radfar-az135,244,70,0.054474506467665565,0.026380276484794293,6,6,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elhigh-radfar-az180,272,71,0.06562297234722421,0.029599910585504062,6,6,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elhigh-radfar-az225,305,70,0.05744374056955083,0.0316994303333466,5,5,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elhigh-radfar-az270,301,70,0.03870231215722269,0.02453497076177139,2,2,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elhigh-radfar-az315,312,70,0.05305948361998141,0.026262249276833155,2,2,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elhigh-radmid-az000,453,71,0.0630849731502893,0.03230559858037403,7,7,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elhigh-radmid-az045,335,71,0.059668944307032235,0.030076574509132443,6,6,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elhigh-radmid-az090,338,69,0.062260761607535776,0.02877021037600462,9,9,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elhigh-radmid-az135,330,71,0.07923628537238715,0.0371892670513249,9,9,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elhigh-radmid-az180,308,71,0.07259211537841893,0.033823425490606206,10,10,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elhigh-radmid-az225,379,71,0.06455195268938468,0.02747209057409581,7,7,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elhigh-radmid-az270,290,69,0.06662947763513964,0.035983529613573845,7,7,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elhigh-radmid-az315,270,69,0.049282501651231596,0.03131487726022412,1,1,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elhigh-radnear-az000,362,71,0.04251340970867009,0.023897622190644095,3,3,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elhigh-radnear-az045,234,70,0.08734628236273298,0.03404241703274773,9,9,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elhigh-radnear-az090,292,70,0.06466164704543982,0.030753831940968725,6,6,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elhigh-radnear-az135,357,70,0.06442905165587923,0.03312611973337532,5,5,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elhigh-radnear-az180,320,71,0.06511834049329909,0.027846970027232874,6,6,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elhigh-radnear-az225,373,71,0.05886409335524296,0.028689206413355702,6,6,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elhigh-radnear-az270,322,70,0.036700019041670036,0.0181597597938567,3,3,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elhigh-radnear-az315,313,70,0.06493505337722615,0.026300079678971907,7,7,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,ellow-radfar-az000,424,71,0.05101807446331738,0.02272099449387031,7,6,0.8571428571428571
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,ellow-radfar-az045,235,71,0.05511810516872983,0.018340147643739677,7,5,0.7142857142857143
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,ellow-radfar-az090,286,69,0.04091815649138523,0.0241840747222007,5,3,0.6
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,ellow-radfar-az135,387,71,0.04971750610422276,0.01990260721717891,11,8,0.7272727272727273
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,ellow-radfar-az180,266,67,0.03520375973618757,0.012985407957235415,5,5,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,ellow-radfar-az225,315,70,0.046763198903781146,0.018551417215641505,6,6,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,ellow-radfar-az270,325,71,0.024935383322270754,0.013507218009994432,6,2,0.3333333333333333
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,ellow-radfar-az315,298,71,0.04149338457392748,0.01784882405530558,4,2,0.5
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,ellow-radmid-az000,345,70,0.06654366378597468,0.023670351273259314,10,8,0.8
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,ellow-radmid-az045,418,71,0.06603080184236243,0.02008087440402623,9,5,0.5555555555555556
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,ellow-radmid-az090,332,70,0.05864254843799098,0.024264597827534373,4,4,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,ellow-radmid-az135,317,71,0.05895382575179375,0.023127086273210185,7,6,0.8571428571428571
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,ellow-radmid-az180,238,68,0.04117530465054959,0.019812960441911213,3,1,0.3333333333333333
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,ellow-radmid-az225,292,70,0.03451971934305808,0.009967626508145845,3,3,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,ellow-radmid-az270,310,71,0.06028798897507873,0.020941483661989144,8,7,0.875
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,ellow-radmid-az315,327,71,0.04742932524507339,0.022623840686921148,3,3,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,ellow-radnear-az000,395,71,0.06273975808922883,0.016309218071957732,8,6,0.75
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,ellow-radnear-az045,352,70,0.0710411755039496,0.02564557234639298,6,4,0.6666666666666666
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,ellow-radnear-az090,362,71,0.0729735145910596,0.015025344469452301,6,6,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,ellow-radnear-az135,347,70,0.067532709292868,0.017769040515717538,6,6,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,ellow-radnear-az180,388,71,0.0550877970651007,0.02171264251678547,4,4,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,ellow-radnear-az225,394,69,0.06621193210880556,0.017959932946692295,3,3,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,ellow-radnear-az270,314,70,0.06292661647169179,0.020582634785422473,1,1,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,ellow-radnear-az315,306,71,0.05233061704095613,0.014372966961295584,3,3,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elmid-radfar-az000,288,71,0.05324443618576133,0.026324182003312928,5,5,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elmid-radfar-az045,312,71,0.06861104864948893,0.037203204257093,4,4,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elmid-radfar-az090,288,67,0.07619269420270144,0.02949013086660291,11,11,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elmid-radfar-az135,348,71,0.04792244663814307,0.02400495872723994,4,4,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elmid-radfar-az180,265,69,0.05677123643815794,0.030211698882793563,5,5,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elmid-radfar-az225,418,71,0.06660890541871556,0.02991090538525035,8,8,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elmid-radfar-az270,286,70,0.06438782715945898,0.026233831542031558,4,4,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elmid-radfar-az315,263,71,0.058813489164314364,0.03046644588963287,5,5,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elmid-radmid-az000,427,71,0.09257498586865248,0.035135034808957855,14,14,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elmid-radmid-az045,374,71,0.0880921209545755,0.03702922783726406,10,10,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elmid-radmid-az090,301,70,0.055777078811071086,0.029859520991451314,3,3,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elmid-radmid-az135,232,69,0.07092517324028753,0.03242347924938276,3,3,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elmid-radmid-az180,324,71,0.08196026325658255,0.03844536952069955,8,8,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elmid-radmid-az225,243,70,0.07160623425822958,0.03325455587203455,6,5,0.8333333333333334
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elmid-radmid-az270,443,71,0.05319766588023689,0.02580172154405875,6,6,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elmid-radmid-az315,318,70,0.046257069981751435,0.018713018428829598,1,1,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elmid-radnear-az000,238,69,0.049457011080863096,0.022180521159402753,1,1,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elmid-radnear-az045,338,71,0.08384401019660075,0.020820273227186815,11,11,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elmid-radnear-az090,346,71,0.11010741319134806,0.03612431963568706,9,9,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elmid-radnear-az135,445,71,0.06704669057448269,0.0254487713183489,5,5,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elmid-radnear-az180,352,71,0.0758892484708642,0.023836382002691957,7,7,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elmid-radnear-az225,272,70,0.07492738613916358,0.02620586340590318,10,9,0.9
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elmid-radnear-az270,430,71,0.05910692760504797,0.0262574204337009,4,4,1.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,elmid-radnear-az315,366,71,0.06827984263539276,0.02365775162513963,6,6,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elhigh-radfar-az000,338,71,0.06259266957772738,0.03744093202553677,5,5,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elhigh-radfar-az045,417,71,0.06609091011411669,0.04467292857245627,3,3,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elhigh-radfar-az090,337,71,0.07138661047893154,0.04166333243240982,4,4,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elhigh-radfar-az135,244,70,0.06558843420274868,0.03749420421987741,6,6,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elhigh-radfar-az180,272,71,0.07891573747629382,0.04289267571457368,6,6,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elhigh-radfar-az225,305,70,0.07109208370160454,0.04534777346540031,5,5,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elhigh-radfar-az270,301,70,0.05311332551625078,0.03894598412079947,2,2,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elhigh-radfar-az315,312,70,0.06851047749634744,0.041713243153199187,2,2,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elhigh-radmid-az000,453,71,0.0779148552838558,0.04713548071394054,7,7,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elhigh-radmid-az045,335,71,0.07586354816617867,0.04627117836827888,6,6,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elhigh-radmid-az090,338,69,0.08198431266329875,0.0484937614317676,9,9,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elhigh-radmid-az135,330,71,0.09587177501993471,0.053824756698872475,9,9,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elhigh-radmid-az180,308,71,0.08645747473998205,0.04768878485216932,10,10,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elhigh-radmid-az225,379,71,0.08030239688117387,0.043222534765885,7,7,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elhigh-radmid-az270,290,69,0.08392040479454255,0.053274456772976736,7,7,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elhigh-radmid-az315,270,69,0.06204269325585263,0.04407506886484514,1,1,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elhigh-radnear-az000,362,71,0.05104580799561127,0.032430020477585274,3,3,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elhigh-radnear-az045,234,70,0.10058627660032389,0.04728241127033863,9,9,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elhigh-radnear-az090,292,70,0.08100340648636771,0.047095591381896604,6,6,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elhigh-radnear-az135,357,70,0.08124854654094356,0.04994561461843964,5,5,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elhigh-radnear-az180,320,71,0.07912618631591956,0.04185481584985335,6,6,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elhigh-radnear-az225,373,71,0.07192877455340611,0.04175388761151885,6,6,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elhigh-radnear-az270,322,70,0.05653344637153722,0.03799318712372388,3,3,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elhigh-radnear-az315,313,70,0.08266003187544681,0.04402505817719258,7,7,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,ellow-radfar-az000,424,71,0.06941944720259856,0.0411223672331515,7,6,0.8571428571428571
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,ellow-radfar-az045,235,71,0.08016688023944551,0.04338892271445538,7,5,0.7142857142857143
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,ellow-radfar-az090,286,69,0.05401234953500526,0.03727826776582073,5,3,0.6
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,ellow-radfar-az135,387,71,0.07647150842668679,0.04665660953964294,11,8,0.7272727272727273
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,ellow-radfar-az180,266,67,0.051564528083200424,0.029346176304248264,5,5,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,ellow-radfar-az225,315,70,0.0680923130089209,0.03988053132078125,6,6,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,ellow-radfar-az270,325,71,0.04306508575909162,0.0316369204468153,6,2,0.3333333333333333
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,ellow-radfar-az315,298,71,0.06377451835159492,0.040129957832973004,4,2,0.5
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,ellow-radmid-az000,345,70,0.08002956150586532,0.037156248993149954,10,8,0.8
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,ellow-radmid-az045,418,71,0.08827260294809905,0.04232267550976285,9,5,0.5555555555555556
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,ellow-radmid-az090,332,70,0.07263718331221097,0.03825923270175437,4,4,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,ellow-radmid-az135,317,71,0.07646921333468483,0.04064247385610126,7,6,0.8571428571428571
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,ellow-radmid-az180,238,68,0.05478914556823972,0.03342680135960134,3,1,0.3333333333333333
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,ellow-radmid-az225,292,70,0.05613804308725928,0.031585950252347055,3,3,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,ellow-radmid-az270,310,71,0.07327830807904158,0.033931802765952,8,7,0.875
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,ellow-radmid-az315,327,71,0.05923577733570332,0.03443029277755108,3,3,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,ellow-radnear-az000,395,71,0.08190135545348604,0.035470815436214935,8,6,0.75
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,ellow-radnear-az045,352,70,0.08214195768588249,0.036746354528325864,6,4,0.6666666666666666
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,ellow-radnear-az090,362,71,0.09468650352554286,0.03673833340393558,6,6,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,ellow-radnear-az135,347,70,0.08245126056572977,0.032687591788579315,6,6,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,ellow-radnear-az180,388,71,0.06758653080520538,0.03421137625689015,4,4,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,ellow-radnear-az225,394,69,0.07947423989336182,0.03122224073124854,3,3,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,ellow-radnear-az270,314,70,0.08007890772413492,0.03773492603786561,1,1,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,ellow-radnear-az315,306,71,0.07571630964031194,0.03775865956065138,3,3,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elmid-radfar-az000,288,71,0.06387928157923953,0.03695902739679112,5,5,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elmid-radfar-az045,312,71,0.08709925372065841,0.05569140932826249,4,4,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elmid-radfar-az090,288,67,0.0970723221158126,0.05036975877971406,11,11,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elmid-radfar-az135,348,71,0.07305406876757171,0.04913658085666859,4,4,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elmid-radfar-az180,265,69,0.07213524129603316,0.04557570374066877,5,5,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elmid-radfar-az225,418,71,0.081841459444945,0.045143459411479805,8,8,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elmid-radfar-az270,286,70,0.08420824724214694,0.04605425162471952,4,4,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elmid-radfar-az315,263,71,0.076219832085639,0.047872788810957495,5,5,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elmid-radmid-az000,427,71,0.10703239652951055,0.04959244546981593,14,14,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elmid-radmid-az045,374,71,0.1008642398986232,0.049801346781311776,10,10,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elmid-radmid-az090,301,70,0.06869834813914523,0.04278079031952545,3,3,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elmid-radmid-az135,232,69,0.08563424595219286,0.04713255196128809,3,3,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elmid-radmid-az180,324,71,0.09496934054966762,0.05145444681378463,8,8,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elmid-radmid-az225,243,70,0.08590230576246598,0.04755062737627092,6,5,0.8333333333333334
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elmid-radmid-az270,443,71,0.0659344154636412,0.03853847112746308,6,6,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elmid-radmid-az315,318,70,0.06785992809977691,0.04031587654685507,1,1,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elmid-radnear-az000,238,69,0.060940240375203104,0.033663750453742765,1,1,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elmid-radnear-az045,338,71,0.0983622176856956,0.03533848071628168,11,11,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elmid-radnear-az090,346,71,0.13221054155743242,0.05822744800177141,9,9,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elmid-radnear-az135,445,71,0.08080384541131914,0.03920592615518536,5,5,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elmid-radnear-az180,352,71,0.09116488242825899,0.03911201596008676,7,7,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elmid-radnear-az225,272,70,0.08598650232937875,0.037264979596118346,10,9,0.9
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elmid-radnear-az270,430,71,0.07281931995709255,0.03996981278574548,4,4,1.0
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,elmid-radnear-az315,366,71,0.07911472848684395,0.034492637476590836,6,6,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elhigh-radfar-az000,338,71,0.06253433586905342,0.03738259831686281,5,5,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elhigh-radfar-az045,417,71,0.06664372483172393,0.0452257432900635,3,3,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elhigh-radfar-az090,337,71,0.07155834028231396,0.041835062235792246,4,4,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elhigh-radfar-az135,244,70,0.06469980503278605,0.036605575049914775,6,6,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elhigh-radfar-az180,272,71,0.07884533547725234,0.04282227371553219,6,6,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elhigh-radfar-az225,305,70,0.07176504252668796,0.04602073229048372,5,5,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elhigh-radfar-az270,301,70,0.05258927011679555,0.03842192872134425,2,2,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elhigh-radfar-az315,312,70,0.06892953792490394,0.04213230358175568,2,2,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elhigh-radmid-az000,453,71,0.07699956828658132,0.046220193716666066,7,7,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elhigh-radmid-az045,335,71,0.07448372933259484,0.044891359534695044,6,6,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elhigh-radmid-az090,338,69,0.08210515606373706,0.04861460483220591,9,9,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elhigh-radmid-az135,330,71,0.0952213633438678,0.05317434502280556,9,9,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elhigh-radmid-az180,308,71,0.08626922263199785,0.047500532744185114,10,10,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elhigh-radmid-az225,379,71,0.08070457110068852,0.04362470898539965,7,7,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elhigh-radmid-az270,290,69,0.08583679762671804,0.05519084960515224,7,7,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elhigh-radmid-az315,270,69,0.06318424392423687,0.045216619533229384,1,1,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elhigh-radnear-az000,362,71,0.05083881086152614,0.03222302334350014,3,3,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elhigh-radnear-az045,234,70,0.09963638548744197,0.046332520157456696,9,9,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elhigh-radnear-az090,292,70,0.08144790910844815,0.04754009400397705,6,6,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elhigh-radnear-az135,357,70,0.08121404959040912,0.049911117667905215,5,5,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elhigh-radnear-az180,320,71,0.07945420838156386,0.04218283791549766,6,6,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elhigh-radnear-az225,373,71,0.0714853395340419,0.04131045259215464,6,6,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elhigh-radnear-az270,322,70,0.061045650266025084,0.04250539101821175,3,3,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elhigh-radnear-az315,313,70,0.08394279753319386,0.04530782383493963,7,7,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,ellow-radfar-az000,424,71,0.07404947966194204,0.04575239969249498,7,6,0.8571428571428571
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,ellow-radfar-az045,235,71,0.0870893084213445,0.05031135089635436,7,5,0.7142857142857143
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,ellow-radfar-az090,286,69,0.05865009574974352,0.04191601398055898,5,3,0.6
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,ellow-radfar-az135,387,71,0.08157278488104809,0.05175788599400424,11,8,0.7272727272727273
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,ellow-radfar-az180,266,67,0.05627860033277285,0.03406024855382068,5,5,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,ellow-radfar-az225,315,70,0.07632587252819528,0.04811409084005564,6,6,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,ellow-radfar-az270,325,71,0.0499468030004912,0.03851863768821488,6,2,0.3333333333333333
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,ellow-radfar-az315,298,71,0.06697719302227996,0.043332632503658056,4,2,0.5
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,ellow-radmid-az000,345,70,0.08256954985282601,0.03969623734011065,10,8,0.8
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,ellow-radmid-az045,418,71,0.08866369439280371,0.042713766954467505,9,5,0.5555555555555556
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,ellow-radmid-az090,332,70,0.07416818194588123,0.03979023133542462,4,4,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,ellow-radmid-az135,317,71,0.07783169959070085,0.04200496011211729,7,6,0.8571428571428571
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,ellow-radmid-az180,238,68,0.055588914859347346,0.034226570650708964,3,1,0.3333333333333333
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,ellow-radmid-az225,292,70,0.060689328741142856,0.03613723590623062,3,3,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,ellow-radmid-az270,310,71,0.07514094817269602,0.035794442859606444,8,7,0.875
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,ellow-radmid-az315,327,71,0.06014826611118609,0.035342781553033845,3,3,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,ellow-radnear-az000,395,71,0.08196632961305632,0.03553578959578524,8,6,0.75
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,ellow-radnear-az045,352,70,0.08023886350708181,0.034843260349525194,6,4,0.6666666666666666
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,ellow-radnear-az090,362,71,0.09171195078699458,0.03376378066538728,6,6,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,ellow-radnear-az135,347,70,0.08022262725197006,0.030458958474819612,6,6,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,ellow-radnear-az180,388,71,0.06586672814952856,0.03249157360121333,4,4,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,ellow-radnear-az225,394,69,0.07738929925227132,0.02913730009015805,3,3,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,ellow-radnear-az270,314,70,0.07754961962005597,0.03520563793378664,1,1,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,ellow-radnear-az315,306,71,0.07548501423293023,0.03752736415326968,3,3,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elmid-radfar-az000,288,71,0.06432826204587852,0.03740800786343011,5,5,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elmid-radfar-az045,312,71,0.08689164320905898,0.055483798816663064,4,4,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elmid-radfar-az090,288,67,0.09580628351062478,0.049103720174526244,11,11,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elmid-radfar-az135,348,71,0.07460902255283071,0.05069153464192759,4,4,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elmid-radfar-az180,265,69,0.07427884829473443,0.04771931073937004,5,5,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elmid-radfar-az225,418,71,0.08160987260544555,0.04491187257198036,8,8,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elmid-radfar-az270,286,70,0.08930129361031139,0.05114729799288396,4,4,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elmid-radfar-az315,263,71,0.07841128295461121,0.05006423967992971,5,5,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elmid-radmid-az000,427,71,0.10392995546129587,0.04649000440160124,14,14,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elmid-radmid-az045,374,71,0.09759486612449562,0.046531973007184195,10,10,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elmid-radmid-az090,301,70,0.0669938307387043,0.041076272919084514,3,3,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elmid-radmid-az135,232,69,0.0835471701946799,0.04504547620377511,3,3,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elmid-radmid-az180,324,71,0.09132937014147871,0.04781447640559572,8,8,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elmid-radmid-az225,243,70,0.08538711934430158,0.047035440958106536,6,5,0.8333333333333334
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elmid-radmid-az270,443,71,0.06611387469757517,0.03871793036139704,6,6,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elmid-radmid-az315,318,70,0.06808902099202874,0.040544969439106904,1,1,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elmid-radnear-az000,238,69,0.05947856586390572,0.03220207594244538,1,1,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elmid-radnear-az045,338,71,0.09443619519608248,0.031412458226668556,11,11,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elmid-radnear-az090,346,71,0.12481617149267919,0.05083307793701819,9,9,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elmid-radnear-az135,445,71,0.07760638985942649,0.0360084706032927,5,5,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elmid-radnear-az180,352,71,0.08872817361190634,0.036675307143734105,7,7,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elmid-radnear-az225,272,70,0.08297236996945183,0.03425084723619142,10,9,0.9
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elmid-radnear-az270,430,71,0.07115929116447944,0.038309783993132375,4,4,1.0
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,elmid-radnear-az315,366,71,0.07664944144164866,0.03202735043139554,6,6,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elhigh-radfar-az000,338,71,0.039828308334467905,0.014676570782277305,5,5,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elhigh-radfar-az045,417,71,0.048315672617416774,0.02689769107575636,3,3,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elhigh-radfar-az090,337,71,0.04806101380142152,0.018337735754899796,4,4,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elhigh-radfar-az135,244,70,0.04288178564643883,0.014787555663567556,6,6,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elhigh-radfar-az180,272,71,0.05656642886940169,0.020543367107681544,6,6,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elhigh-radfar-az225,305,70,0.052569337604493005,0.026825027368288776,5,5,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elhigh-radfar-az270,301,70,0.03614970747840413,0.021982366082952832,2,2,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elhigh-radfar-az315,312,70,0.051178891198702746,0.02438165685555449,2,2,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elhigh-radmid-az000,453,71,0.05606906832161783,0.025289693751702567,7,7,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elhigh-radmid-az045,335,71,0.05047245920208129,0.020880089404181502,6,6,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elhigh-radmid-az090,338,69,0.05083412535285844,0.017343574121327282,9,9,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elhigh-radmid-az135,330,71,0.06758813146123067,0.025541113140168426,9,9,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elhigh-radmid-az180,308,71,0.06105395661051465,0.02228526672270191,10,10,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elhigh-radmid-az225,379,71,0.058251126298466384,0.021171264183177517,7,7,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elhigh-radmid-az270,290,69,0.06045193554962071,0.0298059875280549,7,7,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elhigh-radmid-az315,270,69,0.05009127333998707,0.03212364894897959,1,1,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elhigh-radnear-az000,362,71,0.039448846765953026,0.020833059247927027,3,3,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elhigh-radnear-az045,234,70,0.07047981954980603,0.017175954219820763,9,9,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elhigh-radnear-az090,292,70,0.05732545014314916,0.02341763503867806,6,6,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elhigh-radnear-az135,357,70,0.0582381662871743,0.026935234364670383,5,5,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elhigh-radnear-az180,320,71,0.059513298622259625,0.022241928156193413,6,6,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elhigh-radnear-az225,373,71,0.052308609919347646,0.02213372297746039,6,6,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elhigh-radnear-az270,322,70,0.04073604689071118,0.02219578764289785,3,3,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elhigh-radnear-az315,313,70,0.05928090760801866,0.020645933909764422,7,7,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,ellow-radfar-az000,424,71,0.017671254884304783,-0.010625825085142291,7,6,0.8571428571428571
+support_weighted_or,Support-weighted OR,Conservative corroboration,ellow-radfar-az045,235,71,0.04378383439101872,0.007005876866028569,7,5,0.7142857142857143
+support_weighted_or,Support-weighted OR,Conservative corroboration,ellow-radfar-az090,286,69,0.018951500743826944,0.0022174189746424137,5,3,0.6
+support_weighted_or,Support-weighted OR,Conservative corroboration,ellow-radfar-az135,387,71,0.030773510033064055,0.0009586111460202126,11,8,0.7272727272727273
+support_weighted_or,Support-weighted OR,Conservative corroboration,ellow-radfar-az180,266,67,0.01424736953943973,-0.00797098223951243,5,5,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,ellow-radfar-az225,315,70,0.030292377001461094,0.0020805953133214467,6,6,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,ellow-radfar-az270,325,71,-0.016053121519773055,-0.02748128683204937,6,2,0.3333333333333333
+support_weighted_or,Support-weighted OR,Conservative corroboration,ellow-radfar-az315,298,71,0.004857921641644893,-0.018786638876977017,4,2,0.5
+support_weighted_or,Support-weighted OR,Conservative corroboration,ellow-radmid-az000,345,70,0.03900626255340764,-0.003867049959307718,10,8,0.8
+support_weighted_or,Support-weighted OR,Conservative corroboration,ellow-radmid-az045,418,71,0.047613581565729916,0.0016636541273937207,9,5,0.5555555555555556
+support_weighted_or,Support-weighted OR,Conservative corroboration,ellow-radmid-az090,332,70,0.03267759881106403,-0.0017003517993925785,4,4,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,ellow-radmid-az135,317,71,0.01974264546923657,-0.016084094009346992,7,6,0.8571428571428571
+support_weighted_or,Support-weighted OR,Conservative corroboration,ellow-radmid-az180,238,68,0.023217301076253694,0.0018549568676153212,3,1,0.3333333333333333
+support_weighted_or,Support-weighted OR,Conservative corroboration,ellow-radmid-az225,292,70,0.003009214284597674,-0.02154287855031456,3,3,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,ellow-radmid-az270,310,71,0.0395614458512726,0.000214940538183017,8,7,0.875
+support_weighted_or,Support-weighted OR,Conservative corroboration,ellow-radmid-az315,327,71,0.045524671503925494,0.020719186945773252,3,3,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,ellow-radnear-az000,395,71,0.02669351671366821,-0.019737023303602882,8,6,0.75
+support_weighted_or,Support-weighted OR,Conservative corroboration,ellow-radnear-az045,352,70,0.055877755421278444,0.01048215226372183,6,4,0.6666666666666666
+support_weighted_or,Support-weighted OR,Conservative corroboration,ellow-radnear-az090,362,71,0.06292083738638178,0.004972667264774491,6,6,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,ellow-radnear-az135,347,70,0.05764497833673055,0.007881309559580095,6,6,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,ellow-radnear-az180,388,71,0.028463230047870307,-0.004911924500444922,4,4,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,ellow-radnear-az225,394,69,0.060611152228436785,0.012359153066323507,3,3,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,ellow-radnear-az270,314,70,0.03691975736762895,-0.005424224318640362,1,1,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,ellow-radnear-az315,306,71,0.04274878715507142,0.004791137075410866,3,3,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elmid-radfar-az000,288,71,0.04679852118479833,0.019878267002349934,5,5,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elmid-radfar-az045,312,71,0.06390299035595538,0.032495145963559464,4,4,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elmid-radfar-az090,288,67,0.06026389956972157,0.013561336233623026,11,11,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elmid-radfar-az135,348,71,0.04482106413111814,0.020903576220215016,4,4,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elmid-radfar-az180,265,69,0.054891297618191705,0.02833176006282732,5,5,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elmid-radfar-az225,418,71,0.05967130762044294,0.022973307586977746,8,8,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elmid-radfar-az270,286,70,0.06642906670371662,0.028275071086289193,4,4,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elmid-radfar-az315,263,71,0.05434409804919846,0.025997054774516963,5,5,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elmid-radmid-az000,427,71,0.07528320374613473,0.0178432526864401,14,14,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elmid-radmid-az045,374,71,0.07247357214448832,0.021410679027176905,10,10,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elmid-radmid-az090,301,70,0.04896675959165252,0.02304920177203274,3,3,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elmid-radmid-az135,232,69,0.062185027874747056,0.023683333883842285,3,3,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elmid-radmid-az180,324,71,0.06762013126692733,0.024105237531044328,8,8,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elmid-radmid-az225,243,70,0.04711015687809775,0.0087584784919027,6,5,0.8333333333333334
+support_weighted_or,Support-weighted OR,Conservative corroboration,elmid-radmid-az270,443,71,0.04961993202912151,0.022223987692943384,6,6,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elmid-radmid-az315,318,70,0.04757622620220147,0.02003217464927963,1,1,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elmid-radnear-az000,238,69,0.04559666203733168,0.01832017211587134,1,1,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elmid-radnear-az045,338,71,0.06498481910259656,0.0019610821331826236,11,11,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elmid-radnear-az090,346,71,0.08973153634586475,0.01574844279020375,9,9,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elmid-radnear-az135,445,71,0.05859712115306076,0.01699920189692697,5,5,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elmid-radnear-az180,352,71,0.06369905605616664,0.011646189587994406,7,7,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elmid-radnear-az225,272,70,0.042382164350581876,-0.00633935838267853,10,9,0.9
+support_weighted_or,Support-weighted OR,Conservative corroboration,elmid-radnear-az270,430,71,0.05541371133789579,0.02256420416654873,4,4,1.0
+support_weighted_or,Support-weighted OR,Conservative corroboration,elmid-radnear-az315,366,71,0.057571027597332076,0.012948936587078958,6,6,1.0
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elhigh-radfar-az000,338,71,-0.010179020315824223,-0.03533075786801483,5,3,0.6
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elhigh-radfar-az045,417,71,0.0045524022508020455,-0.016865579290858374,3,0,0.0
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elhigh-radfar-az090,337,71,-0.0006385614496019718,-0.03036183949612369,4,1,0.25
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elhigh-radfar-az135,244,70,0.010437236917822083,-0.017656993065049194,6,3,0.5
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elhigh-radfar-az180,272,71,0.00930327918985732,-0.02671978257186283,6,3,0.5
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elhigh-radfar-az225,305,70,0.003876850322552939,-0.021867459913651292,5,2,0.4
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elhigh-radfar-az270,301,70,0.002244716582226019,-0.011922624813225285,2,1,0.5
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elhigh-radfar-az315,312,70,0.01438181483415181,-0.012415419508996446,2,2,1.0
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elhigh-radmid-az000,453,71,0.012788735114464003,-0.017990639455451256,7,4,0.5714285714285714
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elhigh-radmid-az045,335,71,0.01451365952339547,-0.015078710274504326,6,5,0.8333333333333334
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elhigh-radmid-az090,338,69,0.00618788643678471,-0.027302664794746447,9,4,0.4444444444444444
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elhigh-radmid-az135,330,71,0.01252440582498588,-0.029522612496076364,9,3,0.3333333333333333
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elhigh-radmid-az180,308,71,0.011711659407613694,-0.027057030480199046,10,4,0.4
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elhigh-radmid-az225,379,71,0.013884990589803,-0.02319487152548587,7,4,0.5714285714285714
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elhigh-radmid-az270,290,69,0.0030963190220326155,-0.02754962899953319,7,3,0.42857142857142855
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elhigh-radmid-az315,270,69,0.0017045234300147212,-0.01626310096099276,1,1,1.0
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elhigh-radnear-az000,362,71,0.008346384376043296,-0.010269403141982703,3,1,0.3333333333333333
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elhigh-radnear-az045,234,70,0.031639219647018456,-0.021664645682966808,9,6,0.6666666666666666
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elhigh-radnear-az090,292,70,0.009760328093193996,-0.024147487011277096,6,1,0.16666666666666666
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elhigh-radnear-az135,357,70,0.014898629216592027,-0.01640430270591189,5,4,0.8
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elhigh-radnear-az180,320,71,0.014639937241382461,-0.022631433224683747,6,3,0.5
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elhigh-radnear-az225,373,71,0.013376155377876989,-0.01679873156401027,6,3,0.5
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elhigh-radnear-az270,322,70,-0.022143249630239007,-0.04068350887805234,3,0,0.0
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elhigh-radnear-az315,313,70,0.013167055247094626,-0.02546791845115961,7,4,0.5714285714285714
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,ellow-radfar-az000,424,71,-0.01467640882949411,-0.04297348879894118,7,1,0.14285714285714285
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,ellow-radfar-az045,235,71,-0.004107066268414783,-0.04088502379340493,7,2,0.2857142857142857
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,ellow-radfar-az090,286,69,-0.019848856849340676,-0.036582938618525206,5,1,0.2
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,ellow-radfar-az135,387,71,-0.004235859075200419,-0.034050757962244264,11,2,0.18181818181818182
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,ellow-radfar-az180,266,67,-0.02424013556113643,-0.04645848734008859,5,1,0.2
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,ellow-radfar-az225,315,70,-0.004454354295232665,-0.03266613598337231,6,1,0.16666666666666666
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,ellow-radfar-az270,325,71,-0.007598724209298911,-0.019026889521575226,6,0,0.0
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,ellow-radfar-az315,298,71,-0.03972466161967709,-0.063369222138299,4,1,0.25
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,ellow-radmid-az000,345,70,-0.010136112101046636,-0.053009424613762,10,2,0.2
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,ellow-radmid-az045,418,71,-0.008040945920401065,-0.05399087335873726,9,2,0.2222222222222222
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,ellow-radmid-az090,332,70,-0.019470638531841212,-0.053848589142297815,4,4,1.0
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,ellow-radmid-az135,317,71,-0.018376877756302763,-0.05420361723488632,7,1,0.14285714285714285
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,ellow-radmid-az180,238,68,-0.005987411215819876,-0.02734975542445825,3,0,0.0
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,ellow-radmid-az225,292,70,-0.05461989385337226,-0.07917198668828448,3,2,0.6666666666666666
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,ellow-radmid-az270,310,71,-0.01671720053500437,-0.05606370584809396,8,2,0.25
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,ellow-radmid-az315,327,71,0.008506794876117309,-0.01629868968203493,3,1,0.3333333333333333
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,ellow-radnear-az000,395,71,-0.026751996891474734,-0.07318253690874582,8,2,0.25
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,ellow-radnear-az045,352,70,0.007428660576923246,-0.03796694258063337,6,1,0.16666666666666666
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,ellow-radnear-az090,362,71,0.039071654402863455,-0.018876515718743835,6,6,1.0
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,ellow-radnear-az135,347,70,0.036985328916363046,-0.01277833986078741,6,5,0.8333333333333334
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,ellow-radnear-az180,388,71,-0.023368339439805826,-0.056743493988121056,4,3,0.75
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,ellow-radnear-az225,394,69,0.03943585573552792,-0.008816143426585352,3,3,1.0
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,ellow-radnear-az270,314,70,0.02219099900047817,-0.020152982685791146,1,1,1.0
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,ellow-radnear-az315,306,71,0.006071871120479986,-0.031885778959180565,3,0,0.0
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elmid-radfar-az000,288,71,0.008856099012649079,-0.01806415516979932,5,3,0.6
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elmid-radfar-az045,312,71,0.007973884225135244,-0.023433960167260674,4,3,0.75
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elmid-radfar-az090,288,67,0.011067132020715933,-0.03563543131538261,11,5,0.45454545454545453
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elmid-radfar-az135,348,71,-0.003401324154238053,-0.027318812065141175,4,2,0.5
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elmid-radfar-az180,265,69,0.008421434504342275,-0.01813810305102211,5,3,0.6
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elmid-radfar-az225,418,71,0.018261907590281026,-0.018436092443184175,8,6,0.75
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elmid-radfar-az270,286,70,0.013459131767411562,-0.02469486385001586,4,3,0.75
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elmid-radfar-az315,263,71,0.0002672085809021884,-0.028079834693779306,5,2,0.4
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elmid-radmid-az000,427,71,0.03826900535411551,-0.01917094570557912,14,9,0.6428571428571429
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elmid-radmid-az045,374,71,0.03783368628322896,-0.013229206834082465,10,8,0.8
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elmid-radmid-az090,301,70,0.011180562636832762,-0.014736995182787012,3,1,0.3333333333333333
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elmid-radmid-az135,232,69,0.019747736623996034,-0.018753957366908738,3,2,0.6666666666666666
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elmid-radmid-az180,324,71,0.026849759828637226,-0.01666513390724577,8,6,0.75
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elmid-radmid-az225,243,70,-0.014666374618370706,-0.053018053004565746,6,3,0.5
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elmid-radmid-az270,443,71,0.010396191490350551,-0.01699975284582758,6,2,0.3333333333333333
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elmid-radmid-az315,318,70,0.007728883799869669,-0.019815167753052167,1,0,0.0
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elmid-radnear-az000,238,69,0.008855510739699706,-0.018420979181760635,1,0,0.0
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elmid-radnear-az045,338,71,0.03799330204078845,-0.025030434928625483,11,5,0.45454545454545453
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elmid-radnear-az090,346,71,0.04987474119226822,-0.024108352363392788,9,7,0.7777777777777778
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elmid-radnear-az135,445,71,0.030034706636539305,-0.01156321261959448,5,4,0.8
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elmid-radnear-az180,352,71,0.024443662553711217,-0.027609203914461023,7,4,0.5714285714285714
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elmid-radnear-az225,272,70,-0.007543281280352545,-0.056264804013612946,10,5,0.5
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elmid-radnear-az270,430,71,0.02287066256427025,-0.009978844607076817,4,3,0.75
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,elmid-radnear-az315,366,71,0.03421478711626101,-0.010407303893992104,6,4,0.6666666666666666
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elhigh-radfar-az000,338,71,0.06223264980683306,0.037080912254642454,5,5,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elhigh-radfar-az045,417,71,0.06593224104476994,0.04451425950310953,3,3,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elhigh-radfar-az090,337,71,0.07138646281603026,0.041663184769508546,4,4,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elhigh-radfar-az135,244,70,0.06522522271475541,0.037130992731884124,6,6,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elhigh-radfar-az180,272,71,0.07908331558062645,0.043060253818906304,6,6,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elhigh-radfar-az225,305,70,0.07157151239692622,0.045827202160721975,5,5,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elhigh-radfar-az270,301,70,0.05313389328146834,0.03896655188601704,2,2,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elhigh-radfar-az315,312,70,0.068829668338915,0.04203243399576675,2,2,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elhigh-radmid-az000,453,71,0.07789952110630198,0.04712014653638673,7,7,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elhigh-radmid-az045,335,71,0.07476079073718805,0.045168420939288266,6,6,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elhigh-radmid-az090,338,69,0.08057519512902912,0.047084643897497974,9,9,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elhigh-radmid-az135,330,71,0.09546045637104315,0.053413438049980916,9,9,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elhigh-radmid-az180,308,71,0.08725796657931352,0.04848927669150078,10,10,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elhigh-radmid-az225,379,71,0.08089646819886019,0.04381660608357132,7,7,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elhigh-radmid-az270,290,69,0.08451197748389924,0.053866029462333445,7,7,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elhigh-radmid-az315,270,69,0.06280440273489943,0.04483677834389195,1,1,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elhigh-radnear-az000,362,71,0.051283224768254095,0.03266743725022809,3,3,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elhigh-radnear-az045,234,70,0.10034039174945632,0.04703652641947106,9,9,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elhigh-radnear-az090,292,70,0.08118984946852231,0.04728203436405123,6,6,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elhigh-radnear-az135,357,70,0.08059473893906821,0.0492918070165643,5,5,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elhigh-radnear-az180,320,71,0.08030692456042601,0.0430355540943598,6,6,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elhigh-radnear-az225,373,71,0.07179449248270015,0.04161960554081289,6,6,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elhigh-radnear-az270,322,70,0.05862379228937545,0.04008353304156211,3,3,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elhigh-radnear-az315,313,70,0.08362942406700728,0.04499445036875305,7,7,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,ellow-radfar-az000,424,71,0.07304131806806825,0.04474423809862118,7,6,0.8571428571428571
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,ellow-radfar-az045,235,71,0.08526189010266888,0.04848393257767873,7,5,0.7142857142857143
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,ellow-radfar-az090,286,69,0.05494835332509134,0.038214271555906815,5,3,0.6
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,ellow-radfar-az135,387,71,0.07847492034962197,0.04866002146257815,11,8,0.7272727272727273
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,ellow-radfar-az180,266,67,0.05558457929499915,0.03336622751604699,5,5,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,ellow-radfar-az225,315,70,0.06859809425486821,0.040386312566728574,6,6,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,ellow-radfar-az270,325,71,0.04604835848014337,0.034620193167867054,6,2,0.3333333333333333
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,ellow-radfar-az315,298,71,0.06407153181616512,0.040426971297543204,4,2,0.5
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,ellow-radmid-az000,345,70,0.08102896015889909,0.03815564764618372,10,8,0.8
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,ellow-radmid-az045,418,71,0.0886945075715991,0.042744580133262884,9,5,0.5555555555555556
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,ellow-radmid-az090,332,70,0.07248040948768981,0.03810245887723321,4,4,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,ellow-radmid-az135,317,71,0.07623201913634726,0.0404052796577637,7,6,0.8571428571428571
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,ellow-radmid-az180,238,68,0.05435012690689401,0.032987782698255634,3,1,0.3333333333333333
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,ellow-radmid-az225,292,70,0.05893326639739612,0.034381173562483894,3,3,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,ellow-radmid-az270,310,71,0.07367203601986409,0.03432553070677451,8,7,0.875
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,ellow-radmid-az315,327,71,0.06050797444180341,0.03570248988365117,3,3,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,ellow-radnear-az000,395,71,0.07958213967767111,0.03315159966040001,8,6,0.75
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,ellow-radnear-az045,352,70,0.07995899494872895,0.03456339179117234,6,4,0.6666666666666666
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,ellow-radnear-az090,362,71,0.09438518337224139,0.036437013250634094,6,6,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,ellow-radnear-az135,347,70,0.08207364802157546,0.03230997924442502,6,6,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,ellow-radnear-az180,388,71,0.0665099051795473,0.03313475063123207,4,4,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,ellow-radnear-az225,394,69,0.07936169010582252,0.031109690943709245,3,3,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,ellow-radnear-az270,314,70,0.07903318150595304,0.03668919981968373,1,1,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,ellow-radnear-az315,306,71,0.07429409354483159,0.03633644346517104,3,3,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elmid-radfar-az000,288,71,0.06457416617857403,0.03765391199612563,5,5,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elmid-radfar-az045,312,71,0.08704928559432136,0.05564144120192544,4,4,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elmid-radfar-az090,288,67,0.09652302149319021,0.04982045815709167,11,11,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elmid-radfar-az135,348,71,0.07267433820741155,0.048756850296508426,4,4,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elmid-radfar-az180,265,69,0.07429892755503102,0.047739389999666634,5,5,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elmid-radfar-az225,418,71,0.08286305631812677,0.046165056284661554,8,8,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elmid-radfar-az270,286,70,0.08984596785044928,0.05169197223302186,4,4,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elmid-radfar-az315,263,71,0.0768058781369476,0.04845883486226611,5,5,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elmid-radmid-az000,427,71,0.10655766388618677,0.049117712826492146,14,14,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elmid-radmid-az045,374,71,0.09979947168933738,0.04873657857202595,10,10,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elmid-radmid-az090,301,70,0.0673694433252827,0.04145188550566292,3,3,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elmid-radmid-az135,232,69,0.08456277913362359,0.04606108514271881,3,3,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elmid-radmid-az180,324,71,0.0939705469652549,0.05045565322937191,8,8,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elmid-radmid-az225,243,70,0.0846841300625179,0.04633245167632287,6,5,0.8333333333333334
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elmid-radmid-az270,443,71,0.06700377398014778,0.039607829643969646,6,6,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elmid-radmid-az315,318,70,0.06880089289953262,0.04125684134661079,1,1,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elmid-radnear-az000,238,69,0.0598309250603008,0.03255443513884046,1,1,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elmid-radnear-az045,338,71,0.09576854853598771,0.03274481156657378,11,11,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elmid-radnear-az090,346,71,0.1288220732170186,0.05483897966135759,9,9,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elmid-radnear-az135,445,71,0.0795232233477972,0.037925304091663406,5,5,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elmid-radnear-az180,352,71,0.08942905785883701,0.037376191390664774,7,7,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elmid-radnear-az225,272,70,0.0827095026309146,0.033987979897654196,10,9,0.9
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elmid-radnear-az270,430,71,0.07310242926081635,0.04025292208946929,4,4,1.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,elmid-radnear-az315,366,71,0.07788579135477053,0.033263700344517415,6,6,1.0

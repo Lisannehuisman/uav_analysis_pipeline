@@ -1,0 +1,8 @@
+ring_id,base_coalition_size,base_coalition_members,base_value,best_addition_azimuth,best_addition_viewpoint,delta_value,expanded_coalition_members,expanded_value
+elmid-radnear,1,az135,0.26294263328350614,270,elmid-radnear-az270,0.21600548696556376,az135 + az270,0.4789481202490699
+elmid-radnear,2,az135 + az270,0.4789481202490699,180,elmid-radnear-az180,0.1376087303836933,az135 + az180 + az270,0.6165568506327632
+elmid-radnear,3,az135 + az180 + az270,0.6165568506327632,90,elmid-radnear-az090,0.11437200031425665,az090 + az135 + az180 + az270,0.7309288509470199
+elmid-radnear,4,az090 + az135 + az180 + az270,0.7309288509470199,315,elmid-radnear-az315,0.09673985280667163,az090 + az135 + az180 + az270 + az315,0.8276687037536915
+elmid-radnear,5,az090 + az135 + az180 + az270 + az315,0.8276687037536915,45,elmid-radnear-az045,0.05004188610172289,az045 + az090 + az135 + az180 + az270 + az315,0.8777105898554144
+elmid-radnear,6,az045 + az090 + az135 + az180 + az270 + az315,0.8777105898554144,225,elmid-radnear-az225,0.03936842860808387,az045 + az090 + az135 + az180 + az225 + az270 + az315,0.9170790184634983
+elmid-radnear,7,az045 + az090 + az135 + az180 + az225 + az270 + az315,0.9170790184634983,0,elmid-radnear-az000,0.026364954542288932,az000 + az045 + az090 + az135 + az180 + az225 + az270 + az315,0.9434439730057872

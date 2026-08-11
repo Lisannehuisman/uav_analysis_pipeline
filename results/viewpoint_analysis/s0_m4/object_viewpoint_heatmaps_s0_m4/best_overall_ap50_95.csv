@@ -1,0 +1,11 @@
+class_name,radius,best_elevation,best_azimuth,best_score
+barrel,near,mid,045,0.971875
+container,near,low,090,1.0
+male,near,mid,000,0.9661904780921482
+rock,far,high,270,0.9888888897167312
+suv,far,mid,315,1.0
+tank,near,low,135,1.0
+tent,near,low,225,0.9865740742672373
+tower,near,mid,045,1.0
+tree,near,high,315,0.9136937587928537
+whitevan,mid,mid,045,1.0

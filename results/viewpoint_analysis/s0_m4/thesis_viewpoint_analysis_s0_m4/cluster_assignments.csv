@@ -1,0 +1,11 @@
+object_class,cluster_id,best_azimuth,best_elevation,best_radius,mean_value,std_value
+barrel,2,045,mid,near,0.971875,0.012500000000000011
+container,2,090,low,near,1.0,0.0
+male,2,000,mid,near,0.9661904780921482,0.0
+rock,1,270,high,far,0.9888888897167312,0.011111110283268832
+suv,1,315,mid,far,1.0,0.0
+tank,1,270,mid,near,1.0,0.0
+tent,1,225,low,near,0.9865740742672373,0.02093596082350888
+tower,2,045,mid,near,1.0,0.0
+tree,3,315,high,near,0.9136937587928537,0.011168503064604152
+whitevan,2,045,mid,mid,1.0,0.0

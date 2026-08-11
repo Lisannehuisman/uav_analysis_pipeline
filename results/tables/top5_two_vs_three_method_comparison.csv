@@ -1,0 +1,6 @@
+method_id,method_label,method_family,rank_2,strict_quality_2,delta_vs_single_2,rank_3,strict_quality_3,delta_vs_single_3
+noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic late fusion,1,0.9515291663221189,0.0783782754997372,1,0.9660583166947069,0.09290742587232514
+roy_odds_best_iou,Odds-product + best IoU,Odds-product fusion,2,0.9487176496829952,0.07556675886061348,2,0.9643286214284256,0.09117773060604384
+noisy_or_mean_iou,Noisy-OR + mean IoU,Probabilistic late fusion,3,0.9356094574318392,0.06245856660945748,3,0.9436079788222177,0.07045708799983597
+roy_odds_mean_iou,Odds-product + mean IoU,Odds-product fusion,4,0.9329708041009804,0.0598199132785987,4,0.9420153467611406,0.0688644559387589
+support_weighted_or,Support-weighted OR,Probabilistic late fusion,5,0.9212350033183658,0.0480841124959841,5,0.9269219798162599,0.05377108899387817

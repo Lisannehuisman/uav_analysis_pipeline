@@ -1,0 +1,4 @@
+scene_key,file_name,image_id,target_class,viewpoint,elevation,radius,azimuth,target_fp,target_match_confidence_iou50
+S0-SM_tank1,S0-SM_tank1-ellow-radnear-az270.png,1146,tank,ellow-radnear-az270,low,near,270,3,0.0
+S0-SM_male2,S0-SM_male2-ellow-radmid-az225.png,564,male,ellow-radmid-az225,low,mid,225,1,0.0
+S0-SM_suv13_13,S0-SM_suv13_13-ellow-radnear-az000.png,945,suv,ellow-radnear-az000,low,near,0,1,0.0

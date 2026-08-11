@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+Pillow
+PyYAML
+scipy
+reportlab
+opencv-python
+ultralytics
+torch
+torchvision
+pycocotools
+airsim

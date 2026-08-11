@@ -1,0 +1,4 @@
+split,image_count
+train,10332
+val,2214
+test,2214

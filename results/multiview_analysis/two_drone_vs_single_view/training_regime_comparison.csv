@@ -1,0 +1,9 @@
+group,kind,mAP50_95,train_images
+Best single,Restricted views,0.4164137270681192,135
+Best single,Matched M4 control,0.4802535379322238,135
+Mean single,Restricted views,0.3383832798544885,144
+Mean single,Matched M4 control,0.4843424443567048,144
+Best pair,Restricted views,0.4957698038530213,298
+Best pair,Matched M4 control,0.5196081532104622,298
+Mean pair,Restricted views,0.4206643113091331,287
+Mean pair,Matched M4 control,0.523438376524429,287

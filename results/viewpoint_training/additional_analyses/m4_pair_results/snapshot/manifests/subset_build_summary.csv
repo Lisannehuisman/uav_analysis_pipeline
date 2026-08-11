@@ -1,0 +1,6 @@
+pair_id,viewpoint_1,viewpoint_2,train_images,val_images,test_pair_images,test_full_images,data_yaml,pilot_rank
+p0713,ellow-radmid-az090,elhigh-radmid-az090,288,56,66,2214,/vol/tensusers6/lisannehuisman/experiments/m4_yolov8l_pair_training/pairs/p0713__ellow_radmid_az090__elhigh_radmid_az090/data_pair.yaml,2
+p1017,ellow-radfar-az000,ellow-radfar-az045,284,65,61,2214,/vol/tensusers6/lisannehuisman/experiments/m4_yolov8l_pair_training/pairs/p1017__ellow_radfar_az000__ellow_radfar_az045/data_pair.yaml,1
+p1052,ellow-radfar-az000,elhigh-radnear-az180,282,58,70,2214,/vol/tensusers6/lisannehuisman/experiments/m4_yolov8l_pair_training/pairs/p1052__ellow_radfar_az000__elhigh_radnear_az180/data_pair.yaml,5
+p1780,elmid-radmid-az000,elmid-radmid-az180,287,50,73,2214,/vol/tensusers6/lisannehuisman/experiments/m4_yolov8l_pair_training/pairs/p1780__elmid_radmid_az000__elmid_radmid_az180/data_pair.yaml,4
+p2419,elhigh-radnear-az270,elhigh-radfar-az270,287,63,60,2214,/vol/tensusers6/lisannehuisman/experiments/m4_yolov8l_pair_training/pairs/p2419__elhigh_radnear_az270__elhigh_radfar_az270/data_pair.yaml,3

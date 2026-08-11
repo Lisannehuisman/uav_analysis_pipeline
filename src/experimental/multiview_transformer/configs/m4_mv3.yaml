@@ -1,0 +1,50 @@
+experiment:
+  name: m4_mv3_resnet18
+  output_dir: outputs/multiview_transformer/m4_mv3_resnet18
+
+data:
+  manifest_path: outputs/multiview_transformer/manifests/m4_scene_manifest.csv
+  train_split: train
+  val_split: val
+  score_column: target_max_area_norm
+  visible_column: target_visible
+  image_size: 224
+  min_views: 1
+  max_views: 3
+  max_train_scenes: 0
+  max_val_scenes: 0
+
+model:
+  backbone_name: resnet18
+  backbone_pretrained: false
+  backbone_checkpoint: ""
+  embed_dim: 256
+  num_heads: 4
+  num_layers: 4
+  mlp_ratio: 2.0
+  dropout: 0.1
+
+train:
+  seed: 0
+  device: auto
+  epochs: 40
+  batch_size: 8
+  num_workers: 4
+  lr: 0.0003
+  weight_decay: 0.0001
+  amp: true
+  freeze_backbone_epochs: 5
+  grad_clip_norm: 1.0
+  patience: 8
+  metric: val_set_mae
+  maximize_metric: false
+
+loss:
+  set_weight: 1.0
+  view_weight: 0.5
+  visible_weight: 0.25
+  class_weight: 0.1
+
+evaluation:
+  val_view_count: 3
+

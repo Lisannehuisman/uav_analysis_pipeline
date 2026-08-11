@@ -1,0 +1,15 @@
+factor,level,image_count
+elevation,high,4920
+elevation,low,4920
+elevation,mid,4920
+radius,far,4920
+radius,mid,4920
+radius,near,4920
+azimuth,000,1845
+azimuth,045,1845
+azimuth,090,1845
+azimuth,135,1845
+azimuth,180,1845
+azimuth,225,1845
+azimuth,270,1845
+azimuth,315,1845

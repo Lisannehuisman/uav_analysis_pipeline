@@ -1,0 +1,9 @@
+subset_name,selection_mode,selection_label,player_index,viewpoint,ring_id,elevation,radius,azimuth
+perimeter_unique_az_clean_reverse_cycle,manual,manual viewpoint subset,1,ellow-radnear-az225,ellow-radnear,low,near,225
+perimeter_unique_az_clean_reverse_cycle,manual,manual viewpoint subset,2,ellow-radmid-az180,ellow-radmid,low,mid,180
+perimeter_unique_az_clean_reverse_cycle,manual,manual viewpoint subset,3,ellow-radfar-az135,ellow-radfar,low,far,135
+perimeter_unique_az_clean_reverse_cycle,manual,manual viewpoint subset,4,elmid-radnear-az270,elmid-radnear,mid,near,270
+perimeter_unique_az_clean_reverse_cycle,manual,manual viewpoint subset,5,elmid-radfar-az090,elmid-radfar,mid,far,90
+perimeter_unique_az_clean_reverse_cycle,manual,manual viewpoint subset,6,elhigh-radnear-az315,elhigh-radnear,high,near,315
+perimeter_unique_az_clean_reverse_cycle,manual,manual viewpoint subset,7,elhigh-radmid-az000,elhigh-radmid,high,mid,0
+perimeter_unique_az_clean_reverse_cycle,manual,manual viewpoint subset,8,elhigh-radfar-az045,elhigh-radfar,high,far,45

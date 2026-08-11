@@ -1,0 +1,9 @@
+input_name,path,exists,size_bytes
+scene_view_records,C:\Users\lisan\OneDrive\Documents\New project\m4_two_drone_operational_analysis\outputs\scene_view_records.csv,1,642941
+viewpoint_manifest,C:\Users\lisan\OneDrive\Documents\New project\viewpoint_data_separated\72_trained_models\manifests\viewpoint_inventory.csv,1,2255
+m4_test_ground_truth,C:\Users\lisan\OneDrive\Documents\New project\outputs\detector_family_comparison\standardized_test_eval\ground_truth\M4_test_gt.json,1,3188636
+m4_test_predictions,C:\Users\lisan\OneDrive\Documents\New project\outputs\detector_family_comparison\standardized_test_eval\predictions\YOLOv8l_M4_test_predictions.json,1,8062516
+dataset_split_summary,C:\Users\lisan\OneDrive\Documents\New project\outputs\thesis_tools\dataset_structure_audit\split_summary.csv,1,53
+dataset_instance_overlap,C:\Users\lisan\OneDrive\Documents\New project\outputs\thesis_tools\dataset_structure_audit\instance_split_overlap.csv,1,5561
+existing_swarm_protocol_summary,C:\Users\lisan\OneDrive\Documents\New project\m4_two_drone_operational_analysis\thesis_swarm_outputs\protocol_overall_summary.csv,1,2879
+existing_box_fusion_pair_rows,C:\Users\lisan\OneDrive\Documents\New project\m4_cross_view_box_fusion_analysis\outputs\pair_combo_rows.csv,1,4118411

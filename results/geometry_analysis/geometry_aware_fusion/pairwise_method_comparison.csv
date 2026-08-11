@@ -1,0 +1,101 @@
+left_method_id,left_method_label,right_method_id,right_method_label,win_rate_left_over_right,tie_rate,mean_score_gap_left_minus_right
+best_box,Best box (max),best_box,Best box (max),0.0,1.0,0.0
+best_box,Best box (max),noisy_or_best_iou,Noisy-OR + best IoU,0.0073442512240418706,0.03410433901738984,-0.04185793231721477
+best_box,Best box (max),support_weighted_or,Support-weighted OR,0.0941245990207665,0.0013506668917778154,-0.01283319785441988
+best_box,Best box (max),geometry_prior_selector,Geometry prior selector,0.40173898362316396,0.5986830997805166,0.02193984617623031
+best_box,Best box (max),geometry_calibrated_selector,Geometry-calibrated selector,0.31799763633293937,0.6824244470707411,0.0089453860659081
+best_box,Best box (max),viewpoint_cell_prior_selector,Viewpoint-cell prior selector,0.3871348978558163,0.6132871855478642,0.028214475618754196
+best_box,Best box (max),geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,0.021779503629917273,0.001266250211041702,-0.04114702201207799
+best_box,Best box (max),geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,0.0815465135910856,0.0014350835725139288,-0.025563234157185196
+best_box,Best box (max),viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,0.012493668748944791,0.00219483369913895,-0.04178008425375003
+best_box,Best box (max),hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,0.02026000337666723,0.001266250211041702,-0.0416769669901003
+noisy_or_best_iou,Noisy-OR + best IoU,best_box,Best box (max),0.972480162080027,0.03410433901738984,0.04185793231721477
+noisy_or_best_iou,Noisy-OR + best IoU,noisy_or_best_iou,Noisy-OR + best IoU,0.0,1.0,0.0
+noisy_or_best_iou,Noisy-OR + best IoU,support_weighted_or,Support-weighted OR,0.9987337497889583,0.0016883336147222692,0.029024734462794893
+noisy_or_best_iou,Noisy-OR + best IoU,geometry_prior_selector,Geometry prior selector,0.9793179132196522,0.02583150430525072,0.06379777849344508
+noisy_or_best_iou,Noisy-OR + best IoU,geometry_calibrated_selector,Geometry-calibrated selector,0.972480162080027,0.03410433901738984,0.050803318383122874
+noisy_or_best_iou,Noisy-OR + best IoU,viewpoint_cell_prior_selector,Viewpoint-cell prior selector,0.9849738308289718,0.01806516967752828,0.07007240793596896
+noisy_or_best_iou,Noisy-OR + best IoU,geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,0.37936856322809387,0.008188418031403005,0.0007109103051367809
+noisy_or_best_iou,Noisy-OR + best IoU,geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,0.924109404018234,0.0030390005065000845,0.01629469816002957
+noisy_or_best_iou,Noisy-OR + best IoU,viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,0.2742697957116326,0.018909336484889416,7.784806346473899e-05
+noisy_or_best_iou,Noisy-OR + best IoU,hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,0.36037481006246835,0.014604085767347627,0.00018096532711446082
+support_weighted_or,Support-weighted OR,best_box,Best box (max),0.9046091507681918,0.0013506668917778154,0.01283319785441988
+support_weighted_or,Support-weighted OR,noisy_or_best_iou,Noisy-OR + best IoU,0.0,0.0016883336147222692,-0.029024734462794893
+support_weighted_or,Support-weighted OR,support_weighted_or,Support-weighted OR,0.0,1.0,0.0
+support_weighted_or,Support-weighted OR,geometry_prior_selector,Geometry prior selector,0.9349147391524565,0.0013506668917778154,0.034773044030650194
+support_weighted_or,Support-weighted OR,geometry_calibrated_selector,Geometry-calibrated selector,0.9157521526253588,0.0013506668917778154,0.021778583920327978
+support_weighted_or,Support-weighted OR,viewpoint_cell_prior_selector,Viewpoint-cell prior selector,0.9406550734425122,0.0013506668917778154,0.041047673473174076
+support_weighted_or,Support-weighted OR,geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,0.055377342562890425,0.0021104170184028364,-0.028313824157658107
+support_weighted_or,Support-weighted OR,geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,0.3633293938882323,0.008357251392875232,-0.012730036302765316
+support_weighted_or,Support-weighted OR,viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,0.03022117170352862,0.0014350835725139288,-0.028946886399330154
+support_weighted_or,Support-weighted OR,hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,0.03857842309640385,0.001857166976194496,-0.02884376913568043
+geometry_prior_selector,Geometry prior selector,best_box,Best box (max),0.0,0.5986830997805166,-0.02193984617623031
+geometry_prior_selector,Geometry prior selector,noisy_or_best_iou,Noisy-OR + best IoU,0.005318250886375148,0.02583150430525072,-0.06379777849344508
+geometry_prior_selector,Geometry prior selector,support_weighted_or,Support-weighted OR,0.06381901063650178,0.0013506668917778154,-0.034773044030650194
+geometry_prior_selector,Geometry prior selector,geometry_prior_selector,Geometry prior selector,0.0,1.0,0.0
+geometry_prior_selector,Geometry prior selector,geometry_calibrated_selector,Geometry-calibrated selector,0.017727502954583824,0.8808036468006079,-0.012994460110322213
+geometry_prior_selector,Geometry prior selector,viewpoint_cell_prior_selector,Viewpoint-cell prior selector,0.17296977882829648,0.6397940232990039,0.006274629442523889
+geometry_prior_selector,Geometry prior selector,geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,0.012662502110417018,0.001266250211041702,-0.0630868681883083
+geometry_prior_selector,Geometry prior selector,geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,0.050650008441668073,0.0014350835725139288,-0.04750308033341551
+geometry_prior_selector,Geometry prior selector,viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,0.0073442512240418706,0.0020260003376667227,-0.06371993042998034
+geometry_prior_selector,Geometry prior selector,hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,0.011311835218639203,0.001266250211041702,-0.06361681316633062
+geometry_calibrated_selector,Geometry-calibrated selector,best_box,Best box (max),0.0,0.6824244470707411,-0.0089453860659081
+geometry_calibrated_selector,Geometry-calibrated selector,noisy_or_best_iou,Noisy-OR + best IoU,0.0073442512240418706,0.03410433901738984,-0.050803318383122874
+geometry_calibrated_selector,Geometry-calibrated selector,support_weighted_or,Support-weighted OR,0.08298159716359953,0.0013506668917778154,-0.021778583920327978
+geometry_calibrated_selector,Geometry-calibrated selector,geometry_prior_selector,Geometry prior selector,0.10146885024480837,0.8808036468006079,0.012994460110322213
+geometry_calibrated_selector,Geometry-calibrated selector,geometry_calibrated_selector,Geometry-calibrated selector,0.0,1.0,0.0
+geometry_calibrated_selector,Geometry-calibrated selector,viewpoint_cell_prior_selector,Viewpoint-cell prior selector,0.20977545162924194,0.6499240249873375,0.0192690895528461
+geometry_calibrated_selector,Geometry-calibrated selector,geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,0.021610670268445046,0.001266250211041702,-0.05009240807798609
+geometry_calibrated_selector,Geometry-calibrated selector,geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,0.06879959479993247,0.0014350835725139288,-0.0345086202230933
+geometry_calibrated_selector,Geometry-calibrated selector,viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,0.012493668748944791,0.00219483369913895,-0.05072547031965813
+geometry_calibrated_selector,Geometry-calibrated selector,hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,0.019922336653722776,0.001266250211041702,-0.05062235305600841
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,best_box,Best box (max),0.0,0.6132871855478642,-0.028214475618754196
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,noisy_or_best_iou,Noisy-OR + best IoU,0.0036299172716528784,0.01806516967752828,-0.07007240793596896
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,support_weighted_or,Support-weighted OR,0.058078676346446055,0.0013506668917778154,-0.041047673473174076
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,geometry_prior_selector,Geometry prior selector,0.1875738645956441,0.6397940232990039,-0.006274629442523889
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,geometry_calibrated_selector,Geometry-calibrated selector,0.14063819010636502,0.6499240249873375,-0.0192690895528461
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,viewpoint_cell_prior_selector,Viewpoint-cell prior selector,0.0,1.0,0.0
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,0.010130001688333615,0.001266250211041702,-0.06936149763083219
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,0.049214924869154145,0.0014350835725139288,-0.0537777097759394
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,0.0031234171872361978,0.0016039169339861557,-0.06999455987250423
+viewpoint_cell_prior_selector,Viewpoint-cell prior selector,hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,0.008441668073611346,0.001266250211041702,-0.0698914426088545
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,best_box,Best box (max),0.976954246159041,0.001266250211041702,0.04114702201207799
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,noisy_or_best_iou,Noisy-OR + best IoU,0.6193651865608645,0.008188418031403005,-0.0007109103051367809
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,support_weighted_or,Support-weighted OR,0.9433564072260678,0.0021104170184028364,0.028313824157658107
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,geometry_prior_selector,Geometry prior selector,0.9860712476785413,0.001266250211041702,0.0630868681883083
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,geometry_calibrated_selector,Geometry-calibrated selector,0.9771230795205132,0.001266250211041702,0.05009240807798609
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,viewpoint_cell_prior_selector,Viewpoint-cell prior selector,0.9886037481006247,0.001266250211041702,0.06936149763083219
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,0.0,1.0,0.0
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,0.9658956609826101,0.0345264224210704,0.015583787854892794
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,0.5612020935336822,0.04448759074793179,-0.0006330622416720417
+geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,0.514097585682931,0.11911193651865609,-0.0005299449780223201
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,best_box,Best box (max),0.9171872361978727,0.0014350835725139288,0.025563234157185196
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,noisy_or_best_iou,Noisy-OR + best IoU,0.0746243457707243,0.0030390005065000845,-0.01629469816002957
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,support_weighted_or,Support-weighted OR,0.635404355900726,0.008357251392875232,0.012730036302765316
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,geometry_prior_selector,Geometry prior selector,0.9480837413472902,0.0014350835725139288,0.04750308033341551
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,geometry_calibrated_selector,Geometry-calibrated selector,0.9299341549890259,0.0014350835725139288,0.0345086202230933
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,viewpoint_cell_prior_selector,Viewpoint-cell prior selector,0.9495188249198041,0.0014350835725139288,0.0537777097759394
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,0.0,0.0345264224210704,-0.015583787854892794
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,0.0,1.0,0.0
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,0.061877426979571166,0.00244808374134729,-0.016216850096564834
+geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,0.034948505824750974,0.004220834036805673,-0.016113732832915114
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,best_box,Best box (max),0.9854803309133885,0.00219483369913895,0.04178008425375003
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,noisy_or_best_iou,Noisy-OR + best IoU,0.7207496201249367,0.018909336484889416,-7.784806346473899e-05
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,support_weighted_or,Support-weighted OR,0.9685125780854297,0.0014350835725139288,0.028946886399330154
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,geometry_prior_selector,Geometry prior selector,0.9907985817997637,0.0020260003376667227,0.06371993042998034
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,geometry_calibrated_selector,Geometry-calibrated selector,0.9854803309133885,0.00219483369913895,0.05072547031965813
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,viewpoint_cell_prior_selector,Viewpoint-cell prior selector,0.9952726658787776,0.0016039169339861557,0.06999455987250423
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,0.40477798412966404,0.04448759074793179,0.0006330622416720417
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,0.9364342394057066,0.00244808374134729,0.016216850096564834
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,0.0,1.0,0.0
+viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,0.4384602397433733,0.050481175080195846,0.00010311726364972183
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,best_box,Best box (max),0.9784737464122911,0.001266250211041702,0.0416769669901003
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,noisy_or_best_iou,Noisy-OR + best IoU,0.6383589397264899,0.014604085767347627,-0.00018096532711446082
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,support_weighted_or,Support-weighted OR,0.9601553266925544,0.001857166976194496,0.02884376913568043
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,geometry_prior_selector,Geometry prior selector,0.9874219145703191,0.001266250211041702,0.06361681316633062
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,geometry_calibrated_selector,Geometry-calibrated selector,0.9788114131352356,0.001266250211041702,0.05062235305600841
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,viewpoint_cell_prior_selector,Viewpoint-cell prior selector,0.990292081715347,0.001266250211041702,0.0698914426088545
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,0.38358939726489955,0.11911193651865609,0.0005299449780223201
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,0.9618436603072767,0.004220834036805673,0.016113732832915114
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,0.5294614215769036,0.050481175080195846,-0.00010311726364972183
+hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,0.0,1.0,0.0

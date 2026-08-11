@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['container', 'male', 'suv', 'tower', 'whitevan']
+
+roboflow:
+  workspace: lisanne-huisman
+  project: own-uav-footage
+  version: dataset
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/lisanne-huisman/own-uav-footage/dataset/dataset

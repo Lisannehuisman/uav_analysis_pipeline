@@ -1,0 +1,12 @@
+drone_count,method_id,method_label,method_family,mean_scene_expected_quality,gain_vs_single_reference
+1,single_view_reference,Single-view reference,Reference,0.8731508908223817,0.0
+2,best_box,Best box (max),Best-view rescue,0.9088125281833843,0.035661637361002585
+2,noisy_or_best_iou,Noisy-OR + best IoU,Probabilistic accumulation,0.9515291663221189,0.0783782754997372
+2,support_weighted_or,Support-weighted OR,Conservative corroboration,0.9212350033183657,0.04808411249598399
+2,geometry_prior_selector,Geometry prior selector,Geometry-aware selection,0.8863686291703607,0.013217738347979013
+2,geometry_calibrated_selector,Geometry-calibrated selector,Geometry-aware selection,0.8997168448782357,0.026565954055853935
+2,viewpoint_cell_prior_selector,Viewpoint-cell prior selector,Geometry-aware selection,0.87983590053453,0.006685009712148249
+2,geometry_weighted_or_best_iou,Geometry-weighted OR + best IoU,Geometry-aware accumulation,0.9510669934249851,0.0779161026026034
+2,geometry_weighted_or_mean_iou,Geometry-weighted OR + mean IoU,Geometry-aware accumulation,0.9351567112677249,0.062005820445343196
+2,viewpoint_cell_weighted_or_best_iou,Viewpoint-cell OR + best IoU,Geometry-aware accumulation,0.9515371066973968,0.07838621587501504
+2,hybrid_geometry_cell_weighted_or_best_iou,Hybrid geometry+cell OR + best IoU,Geometry-aware accumulation,0.9515242021481601,0.0783733113257784

@@ -1,0 +1,11 @@
+class_name,current_instances,target_instances_if_matched_to_max_class,additional_instances_needed,additional_images_needed_if_full_72_view_grid
+tent,18,30,12,864
+tank,20,30,10,720
+tower,13,30,17,1224
+container,22,30,8,576
+whitevan,19,30,11,792
+suv,22,30,8,576
+male,20,30,10,720
+rock,21,30,9,648
+barrel,20,30,10,720
+tree,30,30,0,0

@@ -1,0 +1,7 @@
+rank,object_class,image,ap50_95,n_gt_boxes,gt_classes,prediction_overlay
+1,barrel,C:\DATA\airsim\thesis\captures\S0_20251219_164144\dataset\images\test\S0-SM_barrel_6-elhigh-radnear-az225.png,1.0,2,"barrel,tower",True
+2,container,C:\DATA\airsim\thesis\captures\S0_20251219_164144\dataset\images\test\S0-SM_container_1-ellow-radmid-az315.png,1.0,1,container,True
+3,male,C:\DATA\airsim\thesis\captures\S0_20251219_164144\dataset\images\test\S0-SM_male3-ellow-radfar-az270.png,0.0839918442684419,11,"male,rock,rock,rock,rock,tent,tower,tower,tower,tower,whitevan",True
+4,suv,C:\DATA\airsim\thesis\captures\S0_20251219_164144\dataset\images\test\S0-SM_suv19-ellow-radmid-az315.png,0.10064251461403059,19,"container,container,rock,rock,rock,rock,rock,rock,rock,rock,suv,tent,tower,tower,whitevan,whitevan,whitevan,whitevan,whitevan",True
+5,rock,C:\DATA\airsim\thesis\captures\S0_20251219_164144\dataset\images\test\S0-SM_rock10-elhigh-radfar-az270.png,1.0,9,"container,container,container,container,rock,rock,rock,rock,rock",True
+6,tank,C:\DATA\airsim\thesis\captures\S0_20251219_164144\dataset\images\test\S0-SM_tank10-elmid-radmid-az180.png,1.0,1,tank,True

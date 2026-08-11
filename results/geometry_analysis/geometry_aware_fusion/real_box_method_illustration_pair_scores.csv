@@ -1,0 +1,13 @@
+method_id,score,formula,interpretation,method_label,method_family,rank_desc
+geometry_weighted_or_best_iou,0.980027675628662,[1-(1-p1*w_g1)(1-p2*w_g2)]*max(i) = 1.0000*0.9800,"Accumulate evidence, but first reweight confidence with the smooth geometry prior.",Geometry-weighted OR + best IoU,Geometry-aware accumulation,1
+hybrid_geometry_cell_weighted_or_best_iou,0.980027675628662,[1-(1-p1*w_h1)(1-p2*w_h2)]*max(i) = 1.0000*0.9800,Accumulate evidence with the hybrid of smooth geometry and discrete cell priors.,Hybrid geometry+cell OR,Geometry-aware accumulation,1
+viewpoint_cell_weighted_or_best_iou,0.9798601664663729,[1-(1-p1*w_c1)(1-p2*w_c2)]*max(i) = 0.9998*0.9800,"Accumulate evidence, but use the discrete viewpoint-cell reliability weights before OR fusion.",Viewpoint-cell OR + best IoU,Geometry-aware accumulation,3
+noisy_or_best_iou,0.9779990291172269,[1-(1-p1)(1-p2)]*max(i) = 0.9979*0.9800,"Combine detection evidence from both views, then retain the best localization term.",Noisy-OR + best IoU,Evidence accumulation,4
+support_weighted_or,0.9703571737484455,[1-(1-p1)(1-p2)]*mean(i)*support = 0.9979*0.9724*1.0,"Combine both views, but use mean IoU to be more conservative about localization quality.",Support-weighted OR,Evidence accumulation,5
+viewpoint_cell_prior_selector,0.9280572907466152,"argmax(c1, c2) with c = (0.8870, 0.8860)",Choose the view from the stronger discrete viewpoint cell prior. Winner: View 1.,Viewpoint-cell selector,Geometry-aware selection,6
+best_box,0.9280572907466152,"max(q1, q2) = max(0.9281, 0.9266)",Keep only the better single-view target box. Winner: View 1.,Best box (max),Selection,6
+single_view_1,0.9280572907466152,q1,Use only View 1 and keep its matched target box. Score = 0.9281.,Single View 1,Reference,6
+geometry_prior_selector,0.9280572907466152,"argmax(g1, g2) with g = (0.9150, 0.9031)",Choose the view with the stronger smooth geometry prior. Winner: View 1.,Geometry prior selector,Geometry-aware selection,6
+geometry_calibrated_selector,0.9280572907466152,"argmax(p*w_g) with p*w_g = (1.0245, 0.9939)",Choose one view after geometry-adjusting confidence. Winner: View 1.,Geometry-calibrated selector,Geometry-aware selection,6
+mean_quality,0.9273467842137428,(q1 + q2) / 2 = (0.9281 + 0.9266) / 2,"Average the two view qualities directly. Both views count equally, even if one is weaker.",Mean quality,Naive averaging,11
+single_view_2,0.9266362776808704,q2,Use only View 2 and keep its matched target box. Score = 0.9266.,Single View 2,Reference,12

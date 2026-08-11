@@ -1,0 +1,18 @@
+scope,item,value,interpretation
+cached_m4_test_records,record_count,2214,Cached fixed-detector M4 test image/view rows available.
+cached_m4_test_records,scene_count,205,Scene keys available for scene-split held-out validation.
+cached_m4_test_records,viewpoint_count,72,Absolute viewpoint tokens available in the M4 test cache.
+cached_m4_test_records,target_absent_view_count,40,Views where the filename target has no ground-truth box.
+cached_m4_test_records,target_absent_view_fraction,0.018067,"Sparse absence signal; useful for an audit, not a large negative benchmark."
+dataset_structure_audit,train_image_count,10332,Read from outputs/thesis_tools/dataset_structure_audit/split_summary.csv.
+dataset_structure_audit,val_image_count,2214,Read from outputs/thesis_tools/dataset_structure_audit/split_summary.csv.
+dataset_structure_audit,test_image_count,2214,Read from outputs/thesis_tools/dataset_structure_audit/split_summary.csv.
+dataset_structure_audit,object_instances_in_overlap_table,205,Unique filename-derived object instances in the audit table.
+dataset_structure_audit,object_instances_present_in_train_val_test,205,"If high, the test split should be described as held-out images/views, not true novel-object-instance generalization."
+dataset_structure_audit,fraction_instances_present_in_train_val_test,1.000000,Use this to qualify seen/unseen claims.
+cache_inventory,test_gt_json_exists,1,C:\Users\lisan\OneDrive\Documents\New project\outputs\detector_family_comparison\standardized_test_eval\ground_truth\M4_test_gt.json
+cache_inventory,test_prediction_json_exists,1,C:\Users\lisan\OneDrive\Documents\New project\outputs\detector_family_comparison\standardized_test_eval\predictions\YOLOv8l_M4_test_predictions.json
+cache_inventory,val_gt_json_exists,0,C:\Users\lisan\OneDrive\Documents\New project\outputs\detector_family_comparison\standardized_val_eval\ground_truth\M4_val_gt.json
+cache_inventory,val_prediction_json_exists,1,C:\Users\lisan\OneDrive\Documents\New project\outputs\detector_family_comparison\standardized_val_eval\predictions\YOLOv8l_M4_val_predictions.json
+cache_inventory,train_gt_json_exists,0,C:\Users\lisan\OneDrive\Documents\New project\outputs\detector_family_comparison\standardized_train_eval\ground_truth\M4_train_gt.json
+cache_inventory,train_prediction_json_exists,0,C:\Users\lisan\OneDrive\Documents\New project\outputs\detector_family_comparison\standardized_train_eval\predictions\YOLOv8l_M4_train_predictions.json

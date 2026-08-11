@@ -1,0 +1,4 @@
+panel,variant_id,label,target_found_rate,target_threshold_ap50_95,target_threshold_strict_quality_iou50,best_available_ap50_95,note
+operational_side,1-of-1,1-of-1 (full M4 model),0.9810912935303179,0.8516352910589029,0.8731508908223817,0.7856907895516476,Target-centric multiview protocol with fixed YOLOv8l_M4 predictions; not a retraining experiment.
+operational_side,1-of-2,1-of-2 OR,0.9986406818114136,0.9277315602154893,0.9088125281833844,0.8849506753630901,Target-centric multiview protocol with fixed YOLOv8l_M4 predictions; not a retraining experiment.
+operational_side,1-of-3,1-of-3 OR,0.9999163844285796,0.948707089468619,0.9188632969203384,0.9188592323078719,Target-centric multiview protocol with fixed YOLOv8l_M4 predictions; not a retraining experiment.

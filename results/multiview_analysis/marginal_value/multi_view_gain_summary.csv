@@ -1,0 +1,4 @@
+drone_count,protocol_id,protocol_label,expected_target_threshold_ap50_95,expected_target_threshold_strict_quality_iou50,delta_target_threshold_ap50_95_vs_previous_k,delta_target_threshold_strict_quality_iou50_vs_previous_k,delta_target_threshold_ap50_95_vs_k1,delta_target_threshold_strict_quality_iou50_vs_k1,fraction_of_total_ap50_95_gain_captured,fraction_of_total_strict_quality_gain_captured
+1,n1_any1,"1 drone, 1-of-1 success",0.8516352910589029,0.8731508908223817,0.0,0.0,0.0,0.0,0.0,0.0
+2,n2_any1,"2 drones, 1-of-2 OR",0.9277315602154893,0.9088125281833844,0.0760962691565864,0.035661637361002696,0.0760962691565864,0.035661637361002696,0.7839173725349438,0.78013039358689
+3,n3_any1,"3 drones, 1-of-3 OR",0.948707089468619,0.9188632969203384,0.020975529253129732,0.010050768736953986,0.09707179840971614,0.04571240609795668,1.0,1.0

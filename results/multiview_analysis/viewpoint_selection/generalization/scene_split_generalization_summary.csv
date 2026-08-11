@@ -1,0 +1,4 @@
+drone_count,trial_count,mean_selection_scene_count,mean_heldout_scene_count,mean_selection_strict_quality,mean_heldout_strict_quality,mean_generalization_gap_strict_quality,median_generalization_gap_strict_quality,mean_selection_target_found_or_rate,mean_heldout_target_found_or_rate,mean_heldout_false_alarm_rate_when_any_selected_view_absent
+1,250,25.556,6.392,0.9354782809907941,0.9195601480895084,0.015918132901285683,0.00884662286246407,1.0,0.9965730158730158,0.0
+2,250,3.484,0.896,0.9731182336284773,0.5459609295460507,0.4271573040824266,0.11272866504249213,1.0,0.592,0.0
+3,250,3.004,0.092,0.9752738232562996,0.08591716753843909,0.8893566557178605,0.9753926195006848,1.0,0.092,0.0

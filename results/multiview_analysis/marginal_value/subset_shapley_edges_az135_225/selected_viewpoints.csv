@@ -1,0 +1,9 @@
+subset_name,selection_mode,selection_label,player_index,viewpoint,ring_id,elevation,radius,azimuth
+edges_az135_225,manual,manual viewpoint subset,1,ellow-radmid-az135,ellow-radmid,low,mid,135
+edges_az135_225,manual,manual viewpoint subset,2,ellow-radmid-az225,ellow-radmid,low,mid,225
+edges_az135_225,manual,manual viewpoint subset,3,elmid-radnear-az135,elmid-radnear,mid,near,135
+edges_az135_225,manual,manual viewpoint subset,4,elmid-radnear-az225,elmid-radnear,mid,near,225
+edges_az135_225,manual,manual viewpoint subset,5,elmid-radfar-az135,elmid-radfar,mid,far,135
+edges_az135_225,manual,manual viewpoint subset,6,elmid-radfar-az225,elmid-radfar,mid,far,225
+edges_az135_225,manual,manual viewpoint subset,7,elhigh-radmid-az135,elhigh-radmid,high,mid,135
+edges_az135_225,manual,manual viewpoint subset,8,elhigh-radmid-az225,elhigh-radmid,high,mid,225

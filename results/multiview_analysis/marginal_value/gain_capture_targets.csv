@@ -1,0 +1,5 @@
+gain_fraction_target,metric,minimum_drone_count,protocol_label,achieved_fraction
+0.9,AP50-95,3,"3 drones, 1-of-3 OR",1.0
+0.9,Target Strict Quality,3,"3 drones, 1-of-3 OR",1.0
+0.95,AP50-95,3,"3 drones, 1-of-3 OR",1.0
+0.95,Target Strict Quality,3,"3 drones, 1-of-3 OR",1.0

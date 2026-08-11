@@ -1,0 +1,10 @@
+# Example paths for the analysis pipeline.
+# Copy this file to paths.local.yaml and update the full-data locations.
+
+sample_synthetic: "data/sample/synthetic"
+sample_real_multiview: "data/sample/real_multiview"
+
+synthetic_subset: "/path/to/synthetic_subset"
+real_same_object_multiview: "/path/to/real_same_object_multiview"
+self_collected_uav_validation: "/path/to/self_collected_uav_validation"
+same_taxonomy_54_images: "/path/to/same_taxonomy_54_images"

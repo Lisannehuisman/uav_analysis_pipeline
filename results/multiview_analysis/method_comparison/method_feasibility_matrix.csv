@@ -1,0 +1,9 @@
+method_family,evaluable_now,what_it_does,requirements_missing_if_not_evaluable
+Best-view rescue (max),True,Keeps the strongest single matched target observation.,
+Mean pooling,True,Averages target quality across selected views.,
+Probabilistic score fusion (noisy-OR),True,"Combines view confidences as accumulating evidence, then couples them to localization quality.",
+Conservative corroborative fusion,True,Rewards both evidence strength and multi-view support ratio.,
+Soft-NMS across views,False,Softly suppresses overlapping boxes instead of hard removal.,Needs a valid way to compare or reproject boxes across views into a common frame.
+Weighted Boxes Fusion,False,Confidence-weighted box averaging across aligned detections.,Needs cross-view box correspondence in a shared image/world frame or valid reprojection.
+Geometry-aware fusion,False,Uses calibration and camera geometry to fuse evidence consistently across views.,Needs camera intrinsics/extrinsics and explicit cross-view geometric linkage.
+Learned query/attention multiview fusion,False,Learns cross-view feature interaction directly from multiview training data.,"Needs a trainable multiview model, synchronized multiview supervision, and a new training pipeline."

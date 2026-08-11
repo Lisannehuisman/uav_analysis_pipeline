@@ -1,0 +1,5 @@
+metric_key,metric_label,scene_count,spearman_rho,p_value,significant_0_05
+scene_mean_target_ap50_95,Target AP50-95,205,-0.3254553536494372,1.920710620270763e-06,1
+scene_mean_target_strict_quality_iou50,Target Strict Quality,205,-0.16849566586121015,0.01573385234282947,1
+scene_mean_target_match_confidence_iou50,Target Match Confidence,205,-0.14087401929056512,0.043932532417209756,1
+scene_mean_target_detected_rate,Target Detected Rate,205,-0.07620703312047825,0.27746711202511665,0

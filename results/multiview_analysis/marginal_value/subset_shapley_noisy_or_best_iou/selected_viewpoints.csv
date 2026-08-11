@@ -1,0 +1,9 @@
+subset_name,selection_mode,selection_label,player_index,viewpoint,ring_id,elevation,radius,azimuth
+full_grid_perimeter_8,full_grid_perimeter,"8 viewpoints on the perimeter of the 3x3 elevation/radius grid, one distinct azimuth each",1,ellow-radnear-az000,ellow-radnear,low,near,0
+full_grid_perimeter_8,full_grid_perimeter,"8 viewpoints on the perimeter of the 3x3 elevation/radius grid, one distinct azimuth each",2,ellow-radmid-az045,ellow-radmid,low,mid,45
+full_grid_perimeter_8,full_grid_perimeter,"8 viewpoints on the perimeter of the 3x3 elevation/radius grid, one distinct azimuth each",3,ellow-radfar-az090,ellow-radfar,low,far,90
+full_grid_perimeter_8,full_grid_perimeter,"8 viewpoints on the perimeter of the 3x3 elevation/radius grid, one distinct azimuth each",4,elmid-radfar-az135,elmid-radfar,mid,far,135
+full_grid_perimeter_8,full_grid_perimeter,"8 viewpoints on the perimeter of the 3x3 elevation/radius grid, one distinct azimuth each",5,elhigh-radfar-az180,elhigh-radfar,high,far,180
+full_grid_perimeter_8,full_grid_perimeter,"8 viewpoints on the perimeter of the 3x3 elevation/radius grid, one distinct azimuth each",6,elhigh-radmid-az225,elhigh-radmid,high,mid,225
+full_grid_perimeter_8,full_grid_perimeter,"8 viewpoints on the perimeter of the 3x3 elevation/radius grid, one distinct azimuth each",7,elhigh-radnear-az270,elhigh-radnear,high,near,270
+full_grid_perimeter_8,full_grid_perimeter,"8 viewpoints on the perimeter of the 3x3 elevation/radius grid, one distinct azimuth each",8,elmid-radnear-az315,elmid-radnear,mid,near,315

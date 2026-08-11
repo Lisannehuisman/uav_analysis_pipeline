@@ -1,0 +1,8 @@
+panel,variant_id,label,group,precision,recall,f1,map50,map50_95,support_count,note
+training_side,full_m4,Full M4 baseline,full_m4,0.8367053039106679,0.8549754407442569,0.8457417136706878,0.8367053039106679,0.6396168432752555,1,YOLOv8l trained on full M4 diversity; evaluated on standardized full M4 test split.
+training_side,single_mean,Single-view mean,single,0.5335820463546795,0.6224284647788109,0.5743170970157713,0.5335820463546795,0.3383832798544885,72,Mean across all completed single-view trained models.
+training_side,single_best,Single-view best,single,0.6215519989811171,0.6940126705041647,0.6557867852119496,0.6215519989811171,0.41641372706811924,1,Best single-view model: sv0034 (elmid-radmid-az045).
+training_side,matched_single_best,Equal-budget M4 (best single),matched_m4,0.6964908477463057,0.7512333232844619,0.7228271029240826,0.6964908477463057,0.4802535379322238,1,Mean matched-control performance across 1 full-M4 run(s) with the same train/val image counts as the best single-view model (135 / 35).
+training_side,pair_mean,Pair-view mean,pair,0.6306084246385846,0.6980880044302848,0.6623841964094673,0.6306084246385846,0.4206643113091331,2535,Mean across completed pair-trained models in the current snapshot.
+training_side,pair_best,Pair-view best,pair,0.7252476613685452,0.7718588894572121,0.74782767355684,0.7252476613685452,0.4957698038530213,1,Best completed pair model: p0569 (ellow-radmid-az000 + elmid-radmid-az225).
+training_side,matched_pair_best,Equal-budget M4 (best pair),matched_m4,0.7363140137857267,0.7822669224228288,0.758595190769412,0.7363140137857267,0.5196081532104622,1,Mean matched-control performance across 1 full-M4 run(s) with the same train/val image counts as the best pair-view model (298 / 59).
