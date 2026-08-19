@@ -1,6 +1,5 @@
 # Lisanne's Master's Thesis Project
 
-<<<<<<< HEAD
 This repository contains the code, selected datasets, and result artifacts for my MSc thesis on viewpoint diversity for UAV object detection. I organized it as a standalone Python project so the thesis experiments, figures, tables, and datasets can be inspected without the large exploratory workspace around it.
 
 The thesis PDF used as the reference document is included in `thesis/Msc_thesis_Lisanne_Huisman_firstfulldraft.pdf`.
@@ -78,8 +77,7 @@ supplementary_code/ keeps extra associated scripts from the broader working proj
 
 ## Setup
 
-The project uses Python. I normally work from the repository root:
->>>>>>> update-thesis-repo
+The project uses Python. 
 
 ```powershell
 python -m venv .venv
@@ -87,8 +85,6 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-<<<<<<< HEAD
-The project also includes `lisannesmasterthesis.pyproj` and `lisannesmasterthesis.sln` for Visual Studio, plus `lisannesmasterthesis.code-workspace` for VS Code.
 
 ## Data Included
 
@@ -180,4 +176,3 @@ python src/real_world_transfer/analyze_real_uav_results.py
 
 Most reruns write into `results/recomputed/` by default. Full retraining or exact reproduction of every result needs the omitted full AirSim dataset, restored checkpoints under `models/`, and sometimes large prediction JSONs under `results/intermediate/`.
 
->>>>>>> update-thesis-repo
