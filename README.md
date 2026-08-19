@@ -35,9 +35,12 @@ results/
   recomputed/                         default place for rerun outputs
   intermediate/                       optional restored large prediction files
 thesis/                               thesis PDF
+supplementary_code/                   additional associated code from the original workspace
 ```
 
 `PROJECT_MAPPING.md` gives the compact thesis-to-folder overview. `THESIS_CONTENT_MAPPING.md` gives the more detailed mapping from thesis methods, figures, tables, and results to files in this repository.
+
+supplementary_code/ keeps extra associated scripts from the broader working project. These files are useful as reference material, but the main reproducible thesis workflow is documented through the folders above.
 
 ## Setup
 
@@ -120,3 +123,4 @@ python src/real_world_transfer/analyze_real_uav_results.py
 ```
 
 Most reruns write into `results/recomputed/` by default. Full retraining or exact reproduction of every result needs the omitted full AirSim dataset, restored checkpoints under `models/`, and sometimes large prediction JSONs under `results/intermediate/`.
+

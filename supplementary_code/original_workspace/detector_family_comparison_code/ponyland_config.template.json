@@ -1,0 +1,35 @@
+{
+  "regime_order": ["M1", "M2a", "M2b", "M3", "M4"],
+  "detector_order": ["YOLOv8n", "YOLOv8l", "Faster R-CNN"],
+  "default_output_dir": "/absolute/path/to/output/detector_family_comparison",
+  "regime_data_yamls": {
+    "M1": "/absolute/path/to/dataset/M1.yaml",
+    "M2a": "/absolute/path/to/dataset/M2a.yaml",
+    "M2b": "/absolute/path/to/dataset/M2b.yaml",
+    "M3": "/absolute/path/to/dataset/M3.yaml",
+    "M4": "/absolute/path/to/dataset/M4_fixed.yaml"
+  },
+  "model_runs": {
+    "YOLOv8l": {
+      "M1": "/absolute/path/to/results/yolov8l/S0_M1_yolov8l",
+      "M2a": "/absolute/path/to/results/yolov8l/S0_M2a_yolov8l",
+      "M2b": "/absolute/path/to/results/yolov8l/S0_M2b_yolov8l",
+      "M3": "/absolute/path/to/results/yolov8l/S0_M3_yolov8l",
+      "M4": "/absolute/path/to/results/yolov8l/S0_M4_yolov8l"
+    },
+    "YOLOv8n": {
+      "M1": "/absolute/path/to/results/yolov8n/S0_M1_yolov8n",
+      "M2a": "/absolute/path/to/results/yolov8n/S0_M2a_yolov8n",
+      "M2b": "/absolute/path/to/results/yolov8n/S0_M2b_yolov8n",
+      "M3": "/absolute/path/to/results/yolov8n/S0_M3_yolov8n",
+      "M4": "/absolute/path/to/results/yolov8n/S0_M4_yolov8n"
+    },
+    "Faster R-CNN": {
+      "M1": "/absolute/path/to/results/frcnn/S0_M1_run1",
+      "M2a": "/absolute/path/to/results/frcnn/S0_M2a_run1",
+      "M2b": "/absolute/path/to/results/frcnn/S0_M2b_run1",
+      "M3": "/absolute/path/to/results/frcnn/S0_M3_run1",
+      "M4": "/absolute/path/to/results/frcnn/S0_M4_run1"
+    }
+  }
+}
