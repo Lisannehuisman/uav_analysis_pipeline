@@ -71,7 +71,3 @@ This file maps the thesis PDF to the repository files. The PDF used for this map
 | Zero-shot real-world transfer is weak across VisDrone, AU-AIR, same-taxonomy real images, and self-collected UAV images. | `results/tables/zero_shot_transfer_same_taxonomy_and_public.csv` |
 | Fine-tuning on real UAV images substantially improves the 39-image held-out test subset. | `results/tables/real_uav_finetune_*.csv`, `results/reports/real_uav_finetune_report.md` |
 | Real same-object exact Shapley values show that view contributions vary by physical target. | `results/tables/real_multiview_exact_shapley_all_views.csv`, `results/figures/figure_4_8_real_shapley_by_view.png` |
-
-## Files Excluded From The Final Repository State
-
-The baseline commit preserves the original workspace, but the current repository state keeps only files traceable to the thesis PDF. Removed material includes exploratory folders, duplicate old scripts, generated caches, local virtual environments, MiKTeX build folders, temporary thesis drafts, supervisor-update artifacts, public dataset copies, large prediction caches, model checkpoints, and local tool configuration. Public datasets such as VisDrone and AU-AIR should be downloaded from their official pages when needed.
