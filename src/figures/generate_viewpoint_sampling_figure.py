@@ -1,6 +1,9 @@
 import math
 from pathlib import Path
+<<<<<<< HEAD
 from src.project_paths import data_path
+=======
+>>>>>>> update-thesis-repo
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -11,7 +14,12 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[2]
 OUTPUT = ROOT / "results" / "figures" / "figure_3_2_viewpoint_sampling_recomputed.png"
+<<<<<<< HEAD
 RAW = data_path("synthetic_subset") / "images" / "test"
+=======
+RAW = ROOT / "data_collection" / "raw_data" / "synthetic_subset" / "images" / "test"
+
+>>>>>>> update-thesis-repo
 
 AZIMUTHS = [0, 45, 90, 135, 180, 225, 270, 315]
 RADII = [("near", 1, "10 m"), ("mid", 2, "16 m"), ("far", 3, "22 m")]

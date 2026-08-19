@@ -6,6 +6,12 @@ from pathlib import Path
 
 from single_experiment_lib import ensure_single_experiment_root, load_single_jobs, single_manifest_path
 
+<<<<<<< HEAD
+=======
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+DEFAULT_BASE_DATA_YAML = PROJECT_ROOT / "data_collection" / "raw_data" / "synthetic_subset" / "data.yaml"
+
+>>>>>>> update-thesis-repo
 
 def shell_value_or_quote(value: str) -> str:
     return value if "${" in value else shlex.quote(value)
@@ -15,14 +21,22 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Generate generic bash or Slurm launch scripts for the M4 single-viewpoint sweep.",
     )
+<<<<<<< HEAD
     parser.add_argument("--experiment-root", default="outputs/m4_single_subset_experiment")
+=======
+    parser.add_argument("--experiment-root", default="results/recomputed/viewpoint_training/m4_single_subset_experiment")
+>>>>>>> update-thesis-repo
     parser.add_argument("--singles-csv", default="", help="Optional explicit single-viewpoint manifest path.")
     parser.add_argument("--mode", choices=["pilot", "full"], default="pilot")
     parser.add_argument("--launcher", choices=["bash", "slurm"], default="bash")
     parser.add_argument("--python-executable", default=".venv/bin/python")
     parser.add_argument("--job-name", default="m4-single-sweep")
     parser.add_argument("--workspace-root", default=str(Path.cwd()))
+<<<<<<< HEAD
     parser.add_argument("--base-data-yaml", default="/vol/tensusers6/lisannehuisman/yamls/M4_yolov8l.yaml")
+=======
+    parser.add_argument("--base-data-yaml", default=str(DEFAULT_BASE_DATA_YAML))
+>>>>>>> update-thesis-repo
     parser.add_argument("--device", default="0")
     parser.add_argument("--eval-device", default="")
     parser.add_argument("--model", default="")
@@ -56,7 +70,11 @@ def build_worker_command(args: argparse.Namespace, single_id: str, device_value:
     experiment_root = Path(args.experiment_root).as_posix()
     command = [
         shlex.quote(args.python_executable),
+<<<<<<< HEAD
         "m4_single_subset_experiment/run_single_experiment.py",
+=======
+        "src/viewpoint_training/single_view_sweep/run_single_experiment.py",
+>>>>>>> update-thesis-repo
         "--single-id",
         single_value,
         "--base-data-yaml",
@@ -124,7 +142,11 @@ def write_bash_launcher(args: argparse.Namespace, single_ids: list[str], output_
         [
             "done",
             "",
+<<<<<<< HEAD
             f"{shlex.quote(args.python_executable)} m4_single_subset_experiment/aggregate_single_results.py --experiment-root {shlex.quote(Path(args.experiment_root).as_posix())}",
+=======
+            f"{shlex.quote(args.python_executable)} src/viewpoint_training/single_view_sweep/aggregate_single_results.py --experiment-root {shlex.quote(Path(args.experiment_root).as_posix())}",
+>>>>>>> update-thesis-repo
             "",
         ]
     )
@@ -164,7 +186,11 @@ def write_slurm_launcher(args: argparse.Namespace, single_ids: list[str], output
             build_worker_command(args, '${SINGLE_ID}', device_value='${M4_DEVICE}'),
             "",
             "# Run aggregation once after the array completes:",
+<<<<<<< HEAD
             f"# {shlex.quote(args.python_executable)} m4_single_subset_experiment/aggregate_single_results.py --experiment-root {shlex.quote(Path(args.experiment_root).as_posix())}",
+=======
+            f"# {shlex.quote(args.python_executable)} src/viewpoint_training/single_view_sweep/aggregate_single_results.py --experiment-root {shlex.quote(Path(args.experiment_root).as_posix())}",
+>>>>>>> update-thesis-repo
             "",
         ]
     )

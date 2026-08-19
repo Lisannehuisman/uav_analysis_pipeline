@@ -29,6 +29,12 @@ from single_experiment_lib import (
     evaluate_coco,
 )
 
+<<<<<<< HEAD
+=======
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+DEFAULT_BASE_DATA_YAML = PROJECT_ROOT / "data_collection" / "raw_data" / "synthetic_subset" / "data.yaml"
+
+>>>>>>> update-thesis-repo
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
@@ -37,12 +43,21 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--single-id", required=True, help="Single-viewpoint id from the generated manifest.")
     parser.add_argument(
         "--base-data-yaml",
+<<<<<<< HEAD
         default=r"C:\DATA\airsim\thesis\captures\S0_20251219_164144\dataset\M4_fixed.yaml",
         help="Base M4 dataset YAML used to build subsets and fixed test assets.",
     )
     parser.add_argument(
         "--experiment-root",
         default="outputs/m4_single_subset_experiment",
+=======
+        default=str(DEFAULT_BASE_DATA_YAML),
+        help="Base dataset YAML used to build subsets and fixed test assets.",
+    )
+    parser.add_argument(
+        "--experiment-root",
+        default="results/recomputed/viewpoint_training/m4_single_subset_experiment",
+>>>>>>> update-thesis-repo
         help="Root directory for single-viewpoint outputs.",
     )
     parser.add_argument(
@@ -283,7 +298,11 @@ def main() -> None:
         f"SLURM_STEP_GPUS={os.environ.get('SLURM_STEP_GPUS', 'unset')}",
         f"SLURM_JOB_GPUS={os.environ.get('SLURM_JOB_GPUS', 'unset')}",
     )
+<<<<<<< HEAD
     project_root = Path(__file__).resolve().parents[1]
+=======
+    project_root = PROJECT_ROOT
+>>>>>>> update-thesis-repo
     experiment_root = Path(args.experiment_root).resolve()
     ensure_single_experiment_root(experiment_root)
     singles_csv = Path(args.singles_csv).resolve() if args.singles_csv else single_manifest_path(experiment_root)

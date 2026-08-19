@@ -1,4 +1,5 @@
 # Python
+<<<<<<< HEAD
 __pycache__/
 *.py[cod]
 .pytest_cache/
@@ -43,3 +44,75 @@ results/**/subset_scores.csv
 
 # Dataset-scale annotation files kept outside the repository
 src/real_world_transfer/real_imagery_analysis/testset_realimages/annotations.json
+=======
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and credentials
+.env
+.env.*
+*.pem
+*.key
+*credential*
+*credentials*
+*secret*
+*token*
+
+# IDE and local tooling
+.vscode/
+.idea/
+*.code-workspace~
+.agents/
+Ultralytics/
+UltralyticsConfig/
+
+# Build and document caches
+build/
+dist/
+*.egg-info/
+tmp/
+temp/
+.miktex-*/
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+
+# Training outputs and large intermediates
+runs/
+wandb/
+outputs/
+results/intermediate/*
+!results/intermediate/README.md
+results/recomputed/*
+!results/recomputed/README.md
+
+# Model/checkpoint binaries
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+models/*
+!models/README.md
+
+# External datasets should be downloaded separately
+data/external/
+data_collection/raw_data/external/
+data_collection/raw_data/VisDrone*/
+data_collection/raw_data/AU-AIR*/
+data_collection/raw_data/AU_AIR*/
+>>>>>>> update-thesis-repo

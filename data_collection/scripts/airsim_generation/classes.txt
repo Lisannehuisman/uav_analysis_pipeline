@@ -1,0 +1,10 @@
+tent
+tank
+tower
+container
+whitevan
+suv
+male
+rock
+barrel
+tree
