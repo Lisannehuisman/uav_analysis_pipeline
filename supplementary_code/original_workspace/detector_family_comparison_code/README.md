@@ -60,7 +60,7 @@ This is useful for initial organization, but it is not the final fair comparison
 
 This is the stronger script to support your conclusion.
 
-The configuration in [comparison_config.py](/C:/Users/lisan/OneDrive/Documents/New%20project/detector_family_comparison/comparison_config.py) is already filled with your five regime dataset YAML paths.
+The configuration in [comparison_config.py](original_workspace/detector_family_comparison/comparison_config.py) is already filled with your five regime dataset YAML paths.
 
 For the fair three-family comparison that is ready right now, run the shared `val` evaluation:
 
@@ -92,7 +92,7 @@ python .\detector_family_comparison\standardized_test_eval.py --split test --det
 
 `comparison_config.py` now supports a JSON override via the `DETECTOR_COMPARISON_CONFIG_JSON` environment variable.
 
-Use [ponyland_config.template.json](/C:/Users/lisan/OneDrive/Documents/New%20project/detector_family_comparison/ponyland_config.template.json) as the template for your Linux-side paths, then run:
+Use [ponyland_config.template.json](original_workspace/detector_family_comparison/ponyland_config.template.json) as the template for your Linux-side paths, then run:
 
 ```bash
 bash detector_family_comparison/run_test_pipeline_gpu.sh /absolute/path/to/ponyland_config.json 0 cuda
@@ -113,3 +113,4 @@ Your saved Faster R-CNN `inference/coco_instances_results.json` files align with
 - a fair three-family comparison on `test` needs fresh Faster R-CNN test inference from `model_final.pth`
 
 Until that test inference exists, do not use the saved Faster R-CNN outputs as if they were test-set results.
+

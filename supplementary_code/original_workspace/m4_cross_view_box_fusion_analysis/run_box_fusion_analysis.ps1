@@ -10,7 +10,7 @@ $projectRoot = Split-Path -Parent $scriptDir
 
 $pythonCandidates = @(
     (Join-Path $projectRoot ".venv\Scripts\python.exe"),
-    "C:\Users\lisan\anaconda3\python.exe"
+    "python"
 )
 
 $pythonExe = $pythonCandidates | Where-Object { Test-Path $_ } | Select-Object -First 1
@@ -22,3 +22,4 @@ if (-not $pythonExe) {
 $scriptPath = Join-Path $scriptDir "run_box_fusion_analysis.py"
 Write-Host "Using Python: $pythonExe"
 & $pythonExe $scriptPath @ScriptArgs
+

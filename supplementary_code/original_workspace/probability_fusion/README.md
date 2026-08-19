@@ -5,13 +5,13 @@ This folder contains the synthetic-only `Synthetic Multi-Perspective Probability
 Run it from the workspace root with:
 
 ```powershell
-C:\Users\lisan\anaconda3\python.exe .\probability_fusion\run_probability_fusion_experiment.py
+python .\probability_fusion\run_probability_fusion_experiment.py
 ```
 
 Useful options:
 
 ```powershell
-C:\Users\lisan\anaconda3\python.exe .\probability_fusion\run_probability_fusion_experiment.py `
+python .\probability_fusion\run_probability_fusion_experiment.py `
   --evaluation-split test `
   --calibration none `
   --coalition-sizes 1 2 3 `
@@ -22,7 +22,7 @@ C:\Users\lisan\anaconda3\python.exe .\probability_fusion\run_probability_fusion_
 To use the full 72-view manifest-aligned cache built from `train_M4 + val + test`:
 
 ```powershell
-C:\Users\lisan\anaconda3\python.exe .\probability_fusion\run_probability_fusion_experiment.py `
+python .\probability_fusion\run_probability_fusion_experiment.py `
   --aligned-cache-csv ".\probability_fusion\outputs\full72_manifest_aligned_cache\full72_manifest_aligned_cache.csv" `
   --evaluation-split test `
   --calibration none `
@@ -36,3 +36,4 @@ Notes:
 - If those caches are missing, it tries to rebuild them from the saved M4 GT and prediction JSON files without overwriting older experiment folders.
 - Output is written to a new folder under `probability_fusion/outputs/`.
 - The script reports actual cached view coverage per object instance, so it stays honest when the available cache is denser or sparser than the ideal 72-view grid.
+
