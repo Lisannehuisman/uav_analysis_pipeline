@@ -1,151 +1,190 @@
-# Lisanne's Master's Thesis Project
+# Viewpoint Diversity for UAV Object Detection
 
-This repository contains the code, selected datasets, and result artifacts for my MSc thesis on viewpoint diversity for UAV object detection. I organized it as a standalone Python project so the thesis experiments, figures, tables, and datasets can be inspected without the large exploratory workspace around it.
+Code, datasets, analyses, and result artifacts for my MSc thesis on how camera viewpoint affects UAV object detection, multi-view inference, and synthetic-to-real transfer.
 
-The thesis PDF used as the reference document is included in `thesis/Msc_thesis_Lisanne_Huisman_firstfulldraft.pdf`.
+The research combines a controlled synthetic UAV benchmark generated in Unreal Engine/AirSim with YOLOv8 and Faster R-CNN detectors, viewpoint-specific training experiments, multi-view analysis, and evaluation on real UAV imagery.
 
-## Project Layout
+## Key findings
 
-```text
-lisannesmasterthesis/
-  data_collection/
-    raw_data/
-      synthetic_subset/                 representative AirSim subset
-      same_taxonomy_54_images/          full 54-image real same-taxonomy set
-      self_collected_uav_validation/    full 156-image UAV validation set
-      real_same_object_multiview/       35-image same-object multiview set
-    scripts/                            AirSim and annotation utilities
-  src/
-    training/                           detector-family training/evaluation code
-    viewpoint_training/                 single-view and pair-view sweep code
-    viewpoint_analysis/                 fixed-detector factor and clutter analysis
-    multiview_analysis/                 fusion, swarm, and Shapley analyses
-    real_world_transfer/                real-world transfer/fine-tuning analysis
-    figures/                            figure-generation scripts
-  results/
-    figures/                            thesis figures and appendix figures
-    tables/                             thesis CSV summaries
-    reports/                            markdown analysis reports
-  thesis/                               reference PDF
-```
+The main findings of the thesis are:
 
-## Setup
+- **Viewpoint diversity during training matters.** The fully viewpoint-diverse YOLOv8l-M4 model achieved the strongest synthetic performance with **mAP50:95 = 0.640**, compared with **0.416** for the best single-view training configuration.
+- **More training images alone do not explain the improvement.** Equal-budget subsets sampled from the diverse M4 regime outperformed restricted single-view and pair-view training.
+- **Viewpoint effects depend on geometry and object class.** Elevation showed the most consistent influence on fixed-detector performance, while azimuth effects were more class-specific.
+- **A second UAV viewpoint can provide substantial additional information.** Multi-view gains were largest when moving from one to two views, with diminishing returns as more views were added.
+- **Strong synthetic performance does not automatically transfer to real UAV imagery.** Zero-shot transfer was limited across the evaluated real-world datasets, while fine-tuning on real UAV images substantially improved performance.
+- **There is no universally optimal viewpoint.** Real same-object Shapley analysis showed that the contribution of individual viewpoints varies between physical targets.
 
-Create a Python environment and install the main dependencies:
-=======
-This repository contains the code and data used for my master's thesis on viewpoint diversity for UAV object detection. The thesis studies how camera-object geometry affects detector training, fixed-detector evaluation, multiview inference, and transfer from synthetic to real drone imagery. The main synthetic benchmark was generated in Unreal Engine/AirSim with a controlled 72-view grid around ten object classes, then evaluated with YOLOv8 and Faster R-CNN style detectors.
+## Experimental pipeline
 
-The thesis PDF is included at `thesis/Msc_thesis_Lisanne_Huisman_firstfulldraft.pdf`.
-
-## Thesis
-
-Viewpoint Diversity for UAV Object Detection: From Controlled Synthetic Training to Multiview Diagnostics and Real-World Transfer
-
-## Repository Layout
+The thesis investigates viewpoint effects at several stages of the object-detection pipeline:
 
 ```text
-data_collection/
-  raw_data/
-    synthetic_subset/                 small AirSim subset with YOLO labels
-    same_taxonomy_54_images/          real same-taxonomy transfer set
-    self_collected_uav_validation/    156-image self-collected UAV dataset
-    real_same_object_multiview/       repeated real views of five physical targets
-  scripts/
-    airsim_generation/                AirSim capture, split, and format utilities
-    roboflow_annotation/              CVAT/Roboflow review and conversion utilities
-models/                               placeholder for restored or rerun checkpoints
-src/
-  training/                           detector-family benchmark and evaluation
-  viewpoint_training/                 single-view, pair-view, and equal-budget sweeps
-  viewpoint_analysis/                 fixed-detector factor and clutter analysis
-  multiview_analysis/                 fusion, coalition, and Shapley analyses
-  real_world_transfer/                real-image transfer and fine-tuning analysis
-  figures/                            scripts for thesis figures
-results/
-  figures/                            rendered thesis figures
-  tables/                             CSV summaries behind thesis tables
-  reports/                            short markdown analysis reports
-  recomputed/                         default place for rerun outputs
-  intermediate/                       optional restored large prediction files
-thesis/                               thesis PDF
-supplementary_code/                   additional associated code from the original workspace
+Controlled synthetic UAV dataset
+        │
+        ├── 10 object classes
+        └── 72 viewpoints per object
+            8 azimuths × 3 elevations × 3 radii
+        │
+        ▼
+Viewpoint-diversity training
+        │
+        ├── M1–M4 training regimes
+        ├── Single-view training
+        ├── Pair-view training
+        └── Equal-budget controls
+        │
+        ▼
+Detector evaluation
+        │
+        ├── YOLOv8n
+        ├── YOLOv8l
+        └── Faster R-CNN
+        │
+        ▼
+Fixed-detector viewpoint analysis
+        │
+        ├── Azimuth
+        ├── Elevation
+        ├── Radius
+        └── Scene clutter
+        │
+        ▼
+Multi-view analysis
+        │
+        ├── Two- and three-view combinations
+        ├── Fusion strategies
+        └── Shapley-based viewpoint contribution
+        │
+        ▼
+Synthetic-to-real evaluation
+        │
+        ├── Public UAV datasets
+        ├── Same-taxonomy real imagery
+        └── Self-collected UAV imagery
+        │
+        ▼
+Real-data fine-tuning and
+real same-object multi-view analysis
 ```
 
-`PROJECT_MAPPING.md` gives the compact thesis-to-folder overview. `THESIS_CONTENT_MAPPING.md` gives the more detailed mapping from thesis methods, figures, tables, and results to files in this repository.
+The controlled synthetic benchmark makes it possible to change camera viewpoint while keeping other experimental factors relatively controlled. The subsequent experiments examine whether the resulting viewpoint effects remain consistent across detector architectures, whether multiple viewpoints provide complementary information, and how well conclusions obtained from synthetic imagery transfer to real UAV data.
 
-supplementary_code/ keeps extra associated scripts from the broader working project. These files are useful as reference material, but the main reproducible thesis workflow is documented through the folders above.
+## Repository structure
 
-## Setup
-
-The project uses Python. 
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
+```text
+uav_analysis_pipeline/
+├── data_collection/
+│   ├── raw_data/
+│   │   ├── synthetic_subset/
+│   │   ├── same_taxonomy_54_images/
+│   │   ├── self_collected_uav_validation/
+│   │   └── real_same_object_multiview/
+│   └── scripts/
+│
+├── src/
+│   ├── training/
+│   ├── viewpoint_training/
+│   ├── viewpoint_analysis/
+│   ├── multiview_analysis/
+│   ├── real_world_transfer/
+│   └── figures/
+│
+├── results/
+│   ├── figures/
+│   ├── tables/
+│   ├── reports/
+│   ├── recomputed/
+│   └── intermediate/
+│
+├── models/
+├── thesis/
+├── supplementary_code/
+├── PROJECT_MAPPING.md
+├── THESIS_CONTENT_MAPPING.md
+└── requirements.txt
 ```
 
+The main components are:
 
-## Data Included
+- [`data_collection/`](./data_collection/) — synthetic-data utilities, annotation tools, and the datasets that can be distributed with the repository.
+- [`src/training/`](./src/training/) — detector-family training, standardized evaluation, and M1–M4 regime comparison.
+- [`src/viewpoint_training/`](./src/viewpoint_training/) — single-view, pair-view, and equal-budget viewpoint-training experiments.
+- [`src/viewpoint_analysis/`](./src/viewpoint_analysis/) — fixed-detector analyses of azimuth, elevation, distance, and scene difficulty.
+- [`src/multiview_analysis/`](./src/multiview_analysis/) — multi-view combination, fusion, coalition, and Shapley analyses.
+- [`src/real_world_transfer/`](./src/real_world_transfer/) — synthetic-to-real evaluation and analysis of real-UAV fine-tuning.
+- [`src/figures/`](./src/figures/) — scripts used to generate thesis figures.
+- [`results/`](./results/) — result tables, figures, and analysis reports used throughout the thesis.
+- [`supplementary_code/`](./supplementary_code/) — additional scripts retained from the broader experimental workspace.
 
-The full synthetic AirSim capture used in the thesis is very large, so I included a representative subset with the same 10-class taxonomy and viewpoint naming convention. The full source manifest is retained as `data_collection/raw_data/synthetic_subset/source_manifest_full.csv` so the subset can be traced back to the complete capture.
+For a compact mapping between thesis experiments and repository folders, see [`PROJECT_MAPPING.md`](./PROJECT_MAPPING.md).
 
-The thesis-owned real datasets are included directly:
+For a detailed mapping between thesis sections, figures, tables, results, and their corresponding repository files, see [`THESIS_CONTENT_MAPPING.md`](./THESIS_CONTENT_MAPPING.md).
 
-- `same_taxonomy_54_images`: the full 54-image real same-taxonomy dataset.
-- `self_collected_uav_validation`: the 156-image UAV validation set.
-- `real_same_object_multiview`: 36 same-object UAV source views; one Ooij tower view has no target box and is excluded by the analysis, leaving 35 usable Shapley views.
+## Synthetic dataset
 
-Public external datasets such as VisDrone and AU-AIR are not copied into this archive; only the thesis result summaries that depend on them are kept.
+The controlled synthetic benchmark was generated using Unreal Engine and AirSim.
 
-## Reproduction Notes
+It contains **14,760 images** spanning ten object classes:
 
-Most scripts default to project-relative paths. Full retraining still requires the original model checkpoints or rerunning training into `models/`, which is intentionally left as a placeholder. Large intermediate COCO prediction JSONs and full AirSim captures are also not included when their results are already represented by thesis figures, tables, and reports.
+`tent`, `tank`, `tower`, `container`, `whitevan`, `suv`, `male`, `rock`, `barrel`, and `tree`.
 
-For a detailed thesis-to-project mapping, see `PROJECT_MAPPING.md`.
-=======
-The Visual Studio solution is `lisannesmasterthesis.sln`. The VS Code workspace is `lisannesmasterthesis.code-workspace`.
+The camera-object geometry follows a structured 72-view grid:
 
-Some scripts also need optional tools that are not installed automatically here:
+| Viewpoint factor | Values |
+|---|---:|
+| Azimuth | 8 |
+| Elevation | 3 |
+| Radius | 3 |
+| Total viewpoints | 72 |
 
-- AirSim and an Unreal Engine scene for synthetic data capture.
-- Detectron2 for Faster R-CNN training/evaluation.
-- A GPU for realistic YOLOv8 training or fine-tuning.
+The complete AirSim capture is too large to distribute through GitHub. A representative subset is therefore provided in [`data_collection/raw_data/synthetic_subset/`](./data_collection/raw_data/synthetic_subset/).
 
-## Data
+The full source manifest is retained as:
 
-The full AirSim dataset used in the thesis has 14,760 images. I keep a representative subset in `data_collection/raw_data/synthetic_subset/` so the folder structure, labels, and scripts can be inspected without putting the whole generated dataset in Git. The full manifest is kept as `data_collection/raw_data/synthetic_subset/source_manifest_full.csv`.
+[`source_manifest_full.csv`](./data_collection/raw_data/synthetic_subset/source_manifest_full.csv)
 
-The real datasets that I collected or assembled for the thesis are included:
+## Real UAV data
 
-- `same_taxonomy_54_images`: 54 real images using the synthetic taxonomy.
-- `self_collected_uav_validation`: 156 UAV images used for zero-shot validation and the real fine-tuning split.
-- `real_same_object_multiview`: 36 labelled source views across five physical targets. One Ooij tower view has no target box, so the Shapley analysis uses 35 views.
+The repository also includes the thesis-owned real datasets:
 
-The public external datasets are not stored in this repository:
+- [`same_taxonomy_54_images/`](./data_collection/raw_data/same_taxonomy_54_images/) — 54 real images using the same object taxonomy as the synthetic benchmark.
+- [`self_collected_uav_validation/`](./data_collection/raw_data/self_collected_uav_validation/) — 156 self-collected UAV images used for real-world validation and fine-tuning experiments.
+- [`real_same_object_multiview/`](./data_collection/raw_data/real_same_object_multiview/) — repeated UAV observations of the same physical targets used for real-world multi-view and Shapley analysis.
 
-- VisDrone: https://github.com/VisDrone/VisDrone-Dataset
-- AU-AIR: https://bozcani.github.io/auairdataset
+Public external datasets such as **VisDrone** and **AU-AIR** are not redistributed in this repository. Result summaries derived from these datasets are retained under [`results/`](./results/).
 
-Those datasets are large and have their own distribution pages. The repository keeps the aggregate thesis result tables that depend on them.
+## Main analysis stages
 
-## Running The Main Stages
+### 1. Detector training and comparison
 
-Synthetic data utilities:
+The detector experiments compare YOLOv8n, YOLOv8l, and Faster R-CNN and evaluate the effect of different training-viewpoint distributions.
 
-```powershell
-python data_collection/scripts/airsim_generation/make_data_yaml.py --help
-python data_collection/scripts/airsim_generation/yolo_to_coco.py --help
-```
+Relevant code:
 
-Detector benchmark and evaluation:
+[`src/training/`](./src/training/)
+
+Example evaluation commands:
 
 ```powershell
 python src/training/standardized_test_eval.py --help
 python src/training/create_regime_metric_table.py --help
 ```
 
-Single-view and pair-view training sweeps:
+### 2. Viewpoint-training experiments
+
+These experiments test how restricting the viewpoints available during training affects generalization across the complete viewpoint space.
+
+They include:
+
+- 72 single-viewpoint training conditions;
+- pair-viewpoint experiments;
+- M1–M4 viewpoint-diversity regimes;
+- equal-budget controls separating viewpoint diversity from training-set size.
+
+Relevant code:
+
+[`src/viewpoint_training/`](./src/viewpoint_training/)
 
 ```powershell
 python src/viewpoint_training/single_view_sweep/enumerate_single_viewpoints.py --help
@@ -153,14 +192,42 @@ python src/viewpoint_training/pair_view_sweep/enumerate_viewpoint_pairs.py --hel
 python src/viewpoint_training/compare_restricted_vs_equal_budget.py
 ```
 
-Fixed-detector viewpoint analysis:
+### 3. Fixed-detector viewpoint analysis
+
+A fixed YOLOv8l-M4 detector is used to study how observation geometry affects detection without retraining the detector for each viewpoint.
+
+The analysis considers:
+
+- azimuth;
+- elevation;
+- radius;
+- object class;
+- scene clutter.
+
+Relevant code:
+
+[`src/viewpoint_analysis/`](./src/viewpoint_analysis/)
 
 ```powershell
 python src/viewpoint_analysis/run_factor_level_analysis.py --help
 python src/viewpoint_analysis/run_clutter_grouping_analysis.py --help
 ```
 
-Multiview and Shapley analysis:
+### 4. Multi-view analysis
+
+The multi-view experiments investigate whether observations from multiple UAV viewpoints contain complementary information.
+
+The repository includes analyses of:
+
+- one-view versus multi-view performance;
+- two- and three-view combinations;
+- prediction-combination strategies;
+- coalition-size effects;
+- Shapley-based viewpoint contribution.
+
+Relevant code:
+
+[`src/multiview_analysis/`](./src/multiview_analysis/)
 
 ```powershell
 python src/multiview_analysis/build_harmonized_method_comparison.py --help
@@ -168,11 +235,73 @@ python src/multiview_analysis/build_image_count_shapley_proxy.py --help
 python src/multiview_analysis/run_real_multiview_shapley.py --help
 ```
 
-Real-world transfer:
+### 5. Synthetic-to-real transfer
+
+The final experiments test how well the conclusions obtained from controlled synthetic data transfer to real UAV imagery.
+
+This includes:
+
+- zero-shot evaluation on real imagery;
+- comparison across several real UAV datasets;
+- fine-tuning the synthetic YOLOv8l-M4 detector on self-collected real UAV images;
+- real same-object multi-view evaluation.
+
+Relevant code:
+
+[`src/real_world_transfer/`](./src/real_world_transfer/)
 
 ```powershell
 python src/real_world_transfer/analyze_real_uav_results.py
 ```
 
-Most reruns write into `results/recomputed/` by default. Full retraining or exact reproduction of every result needs the omitted full AirSim dataset, restored checkpoints under `models/`, and sometimes large prediction JSONs under `results/intermediate/`.
+## Setup
 
+Clone the repository and create a Python environment:
+
+```powershell
+git clone https://github.com/Lisannehuisman/uav_analysis_pipeline.git
+cd uav_analysis_pipeline
+
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+
+Some experiments additionally require:
+
+- AirSim and an Unreal Engine environment for synthetic data generation;
+- Detectron2 for Faster R-CNN experiments;
+- a CUDA-capable GPU for practical detector training and fine-tuning.
+
+## Reproducibility
+
+Most analysis scripts use project-relative paths.
+
+The repository contains the compact data, tables, figures, reports, and scripts needed to inspect the thesis experiments. Some large artifacts are intentionally not stored in normal Git, including:
+
+- the complete 14,760-image AirSim dataset;
+- large detector checkpoints;
+- full prediction caches and COCO JSON files;
+- large intermediate experimental outputs.
+
+Full detector retraining therefore requires either restoring the corresponding model checkpoints under `models/` or rerunning the training experiments.
+
+Recomputed outputs are written to [`results/recomputed/`](./results/recomputed/) where supported.
+
+## Thesis
+
+**Viewpoint Diversity for UAV Object Detection: From Controlled Synthetic Training to Multiview Diagnostics and Real-World Transfer**
+
+The thesis PDF is available in the [`thesis/`](./thesis/) directory.
+
+The repository's detailed thesis-to-code mapping is available in:
+
+[`THESIS_CONTENT_MAPPING.md`](./THESIS_CONTENT_MAPPING.md)
+
+## Related repository
+
+The original scripts and configurations preserved from the Radboud University Ponyland GPU cluster are available in the companion repository:
+
+[`uav_pipeline_ponyland`](https://github.com/Lisannehuisman/uav_pipeline_ponyland)
+
+This repository focuses on the organized analysis and reproducibility pipeline, while the companion repository preserves the original cluster-side experimental code and configurations.
