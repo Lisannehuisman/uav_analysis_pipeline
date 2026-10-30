@@ -56,7 +56,7 @@ Each viewpoint gets a marginal score based on how much it helps when added to:
 
 This is intentionally not called `Shapley`, because it only averages observed pair-stage and third-stage marginal gains from the current cache. The only Shapley analysis retained in this project is the exact fusion-aware ring analysis based on `Noisy-OR + best IoU`.
 
-If you need the exact late-fusion teammate story, use:
+The following scripts implement the fusion-aware Shapley analyses:
 
 - `compute_ring_shapley_noisy_or_best_iou.py` for ring-level exact Shapley
 - `compute_subset_shapley_noisy_or_best_iou.py` for exact Shapley on a custom or full-grid-distributed 8-view subset
@@ -67,7 +67,7 @@ If you need the exact late-fusion teammate story, use:
 
 ## Angle-Agnostic Count-First Shapley Proxy
 
-This is the best bridge to raw drone imagery when exact angles are not yet trusted.
+This angle-agnostic analysis is useful when camera-angle estimates are unavailable or unreliable.
 
 It answers:
 
@@ -221,9 +221,9 @@ Previously generated results are available in:
 
 These results can be inspected without rerunning the original analysis.
 
-## How To Use It In The Thesis
+## Relevant Outputs
 
-Use the outputs in this order:
+The main output files are:
 
 1. `multi_view_gain_summary.csv`
 2. `gain_capture_targets.csv`
@@ -232,7 +232,7 @@ Use the outputs in this order:
 5. `triple_third_view_gain_summary.csv`
 6. `viewpoint_marginal_contribution_summary.csv`
 
-For class-specific interpretation, use:
+Class-specific results are available in:
 
 1. `class_multi_view_gain_summary.csv`
 2. `plots/class_gain_comparison.png`
@@ -240,7 +240,7 @@ For class-specific interpretation, use:
 4. `viewpoint_marginal_contribution_by_class.csv`
 5. `plots/per_class/*`
 
-## Intended Thesis Claim
+## Main Interpretation
 
-`the best swarm size is the smallest number of viewpoints that captures most of the available multi-view gain, and the best viewpoints are the ones with the largest marginal contribution rather than merely the strongest standalone score.`
+`A practical viewpoint budget can be chosen by considering the smallest number of observations that captures most of the measured multiview gain. Useful additional views need not be those with the strongest standalone scores.`
 
