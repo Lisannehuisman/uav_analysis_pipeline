@@ -1,57 +1,50 @@
-﻿# Method Combination Schematic
+﻿# Comparing Multiview Fusion Methods
 
-![Method schematic](method_combination_schematic.png)
+![Overview of the evaluated methods](method_combination_schematic.png)
 
-## Plain-Language Summary
+## Overview
 
-Every method starts with two views. The real difference is whether the method:
+When two UAVs observe the same object, there are several ways to use their predictions. The simplest approach is to select the better observation, but it is also possible to combine information from both views.
 
-- keeps only one view,
-- averages views naively, or
-- accumulates evidence from both views.
+Here, I compared several methods to see whether combining observations improves detection quality, and whether information about the camera-object geometry adds anything beyond standard confidence fusion.
 
-That is the central interpretation key for your results.
+## Methods
 
-## What Each Family Really Does
+The methods differ mainly in how they use the two observations.
 
-- `Single-view reference`: uses one view only. No multiview benefit is possible.
-- `Best box (max)`: keeps the better of the two single-view target qualities. This is mostly a rescue rule. Current score: `0.9088`.
-- `Mean quality`: averages the two view qualities. This is too pessimistic when one view is weak.
-- `Noisy-OR + best IoU`: accumulates evidence from both views, then keeps the best localization term. This is the main strong non-geometry baseline.
-- `Support-weighted OR`: similar to noisy-OR, but more conservative because it rewards agreement/support.
-- `Geometry prior selector`: chooses the view that geometry predicts will be best. It still throws away one view.
-- `Geometry calibrated selector`: chooses the view with the strongest geometry-adjusted confidence. Still a selector.
-- `Viewpoint-cell prior selector`: chooses the view from the best exact lattice cell for that class. Still a selector.
-- `Geometry-weighted OR`: keeps both views, but geometry reweights their confidence before OR fusion.
-- `Viewpoint-cell OR`: keeps both views and uses class-specific lattice-cell reliability as the reweighting term.
-- `Hybrid geometry+cell OR`: combines the smooth geometry prior and the discrete cell prior before OR fusion.
+**Single-view selection** provides a reference by using only one observation. The best-box method extends this by selecting the observation with the highest target quality. Other selection methods use geometric information or class-specific viewpoint reliability to decide which observation to keep.
 
-## How To Interpret The Current Results
+**Mean quality** takes the average quality of both observations. Although simple, this can be less useful when one viewpoint provides a good observation and the other does not.
 
-- `Noisy-OR + best IoU` = `0.9515`
-- `Viewpoint-cell OR + best IoU` = `0.9515`
-- Best overall method right now = `Viewpoint-cell OR + best IoU` at `0.9515`
+**Noisy-OR + best IoU** combines the confidence scores from both observations while retaining the best localization quality. This allows information from both views to contribute to the final score.
 
-So the main performance jump comes from moving away from selection/averaging and toward evidence accumulation.
+I also evaluated several variations of this approach. Support-weighted OR uses a more conservative combination, while geometry-weighted OR and viewpoint-cell OR adjust the confidence scores using geometric information or previously estimated viewpoint reliability. The hybrid method combines both types of weighting.
 
-## The Important Nuance
+## Results
 
-`Viewpoint-cell OR + best IoU` wins against plain `Noisy-OR + best IoU` on `0.7207` of pair rows, but its mean pair-score gap is only `-0.0001`.
+The clearest improvement came from combining observations rather than selecting only one.
 
-That means you should present it as a near-tie with slightly better local behavior, not as a dramatic breakthrough.
+The best-box method achieved a mean expected quality of **0.9088**, compared with **0.9515** for Noisy-OR + best IoU.
 
-## Best Way To Show This In Results
+Adding viewpoint-dependent weights made surprisingly little difference. Viewpoint-cell OR + best IoU obtained the highest mean score, but its advantage over standard Noisy-OR was less than 0.00001.
 
-- Use `overall_method_summary.csv` for the end-to-end ranking.
-- Use `method_value_summary.csv` to separate rescue from true corroboration.
-- Use `pairwise_method_comparison.csv` to show direct method-versus-method comparisons.
-- Use `added_viewpoint_headlines.csv` to show which specific second viewpoints help most.
+The pairwise results show a slightly different pattern. Viewpoint-cell OR performed better than Noisy-OR in approximately 72% of the evaluated pairs, but its average pairwise score difference was slightly negative (-0.000078). In other words, it improved many individual comparisons by a small amount, while some larger decreases offset those gains.
 
-## Practical Reading Rule
+## Interpretation
 
-- If `mean_lift_vs_best_constituent` is near `0`, the method mainly acts like a smart selector/rescue rule.
-- If `mean_lift_vs_best_constituent` is clearly positive, the method gets real cross-view corroboration value.
-- If `rescue_rate_given_primary_miss` is high, the second drone is especially useful when the first drone fails.
-- If `win_rate` is high but `mean_score_gap` is near zero, the comparison is practically a tie.
+The results suggest that most of the improvement comes from making use of both observations, rather than from the additional geometric weighting.
 
+This is particularly interesting because the geometry-based methods use information about which viewpoints are expected to perform well. However, knowing which viewpoint is likely to be better does not necessarily mean that selecting or weighting it will outperform simply combining the available predictions.
 
+The difference between Noisy-OR and viewpoint-cell OR is also a useful reminder that a method can win more individual comparisons without improving the average result by much.
+
+Overall, the standard Noisy-OR approach performed well without requiring additional viewpoint-specific information. Geometry-aware weighting changed the results, but its added value was limited in this evaluation.
+
+## Related Files
+
+The detailed results can be found in:
+
+* `overall_method_summary.csv` — Mean performance across the evaluated methods.
+* `method_value_summary.csv` — Improvement relative to the best individual observation.
+* `pairwise_method_comparison.csv` — Direct comparisons between fusion methods.
+* `added_viewpoint_headlines.csv` — Contributions of additional viewpoints.
