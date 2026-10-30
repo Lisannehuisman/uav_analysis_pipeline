@@ -45,10 +45,10 @@ Two extra metrics that are often useful:
 
 ### 1. Quick comparison from existing result folders
 
-This gives you a fast overview from the files you already have:
+This compares metrics from previously saved detector results:
 
 ```powershell
-python .\detector_family_comparison\compare_saved_results.py
+python .\src\detector_analysis\detector_family_comparison\compare_saved_results.py
 ```
 
 This is useful for initial organization, but it is not the final fair comparison because:
@@ -58,20 +58,20 @@ This is useful for initial organization, but it is not the final fair comparison
 
 ### 2. Standardized comparison on a shared split
 
-This is the stronger script to support your conclusion.
+The standardized evaluation uses the same split and evaluation protocol for all detector families.
 
-The configuration in [comparison_config.py](/C:/Users/lisan/OneDrive/Documents/New%20project/detector_family_comparison/comparison_config.py) is already filled with your five regime dataset YAML paths.
+The configuration in [comparison_config.py](./comparison_config.py) is already filled with the five experimental regime dataset YAML paths.
 
 For the fair three-family comparison that is ready right now, run the shared `val` evaluation:
 
 ```powershell
-python .\detector_family_comparison\standardized_test_eval.py --split val
+python .\src\detector_analysis\detector_family_comparison\standardized_test_eval.py --split val
 ```
 
 If you want to run it in smaller resumable chunks, you can limit regimes explicitly:
 
 ```powershell
-python .\detector_family_comparison\standardized_test_eval.py --split val --regimes M1 M2a
+python .\src\detector_analysis\detector_family_comparison\standardized_test_eval.py --split val --regimes M1 M2a
 ```
 
 That run will:
@@ -85,17 +85,17 @@ That run will:
 For a two-model comparison on the `test` split, you can still run:
 
 ```powershell
-python .\detector_family_comparison\standardized_test_eval.py --split test --detectors YOLOv8n YOLOv8l
+python .\src\detector_analysis\detector_family_comparison\standardized_test_eval.py --split test --detectors YOLOv8n YOLOv8l
 ```
 
 ## Running On Ponyland / Linux
 
 `comparison_config.py` now supports a JSON override via the `DETECTOR_COMPARISON_CONFIG_JSON` environment variable.
 
-Use [ponyland_config.template.json](/C:/Users/lisan/OneDrive/Documents/New%20project/detector_family_comparison/ponyland_config.template.json) as the template for your Linux-side paths, then run:
+Use [ponyland_config.template.json](./ponyland_config.template.json) as the template for your Linux-side paths, then run:
 
 ```bash
-bash detector_family_comparison/run_test_pipeline_gpu.sh /absolute/path/to/ponyland_config.json 0 cuda
+bash src/detector_analysis/detector_family_comparison/run_test_pipeline_gpu.sh /absolute/path/to/ponyland_config.json 0 cuda
 ```
 
 That GPU pipeline will:
@@ -107,7 +107,7 @@ That GPU pipeline will:
 
 ## Important Note About Faster R-CNN
 
-Your saved Faster R-CNN `inference/coco_instances_results.json` files align with the regime `val` COCO annotations, not with the `test` split. That means:
+The saved Faster R-CNN `inference/coco_instances_results.json` files align with the regime `val` COCO annotations, not with the `test` split. That means:
 
 - a fair `YOLOv8n` vs `YOLOv8l` vs `Faster R-CNN` comparison is available now on `val`
 - a fair three-family comparison on `test` needs fresh Faster R-CNN test inference from `model_final.pth`

@@ -1,8 +1,8 @@
-# Revised Real-World Multi-View Shapley Analysis
+# Real-World Multiview Shapley Analysis
 
 ## Scope
 
-- Uses exactly the five same-object real UAV sequences specified by the user.
+- The analysis includes five real UAV sequences, each containing multiple views of the same object.
 - Duplicate filenames inside the supplied object lists are removed before analysis and are not counted as separate players.
 - Coalitions are formed only within the same physical object instance.
 - Target-class mapping: `parkinglot_car` -> `suv`, `ooij_tower` -> `tower`, and truck objects -> `whitevan`.

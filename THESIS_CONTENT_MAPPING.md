@@ -1,6 +1,6 @@
 # Thesis Content Mapping
 
-This file maps the thesis PDF to the repository files. The PDF used for this mapping is `thesis/Msc_thesis_Lisanne_Huisman_firstfulldraft.pdf`.
+This document maps the methods, experiments, and results described in `thesis/MSc_Thesis_Lisanne_Huisman_UAV_object_detection.pdf` to their corresponding files in this repository.
 
 ## Methods And Experiments
 

@@ -1,10 +1,8 @@
 # M4 Viewpoint Selection Analysis
 
-This folder adds the missing thesis-facing selection layer on top of the cached
-fixed-detector M4 analyses.
+These scripts examine viewpoint ranking, subset selection, and viewpoint diversity using cached predictions from the fixed M4 detector.
 
-It does not retrain detectors and it does not invent camera geometry. It reuses
-the evidence that is already present in the repository:
+Several scripts were originally written for a different workspace structure. Their historical input locations include:
 
 - `m4_two_drone_operational_analysis/outputs/scene_view_records.csv`
 - `viewpoint_data_separated/72_trained_models/manifests/viewpoint_inventory.csv`
@@ -12,7 +10,11 @@ the evidence that is already present in the repository:
 - `m4_cross_view_box_fusion_analysis/outputs/triple_combo_rows.csv`
 - `outputs/thesis_tools/dataset_structure_audit/*`
 
-## Recommended One-Command Pipeline
+## Integrated Analysis (original workflow)
+
+The commands below document the original analysis workflow and its outputs. In this reorganized repository, the Python scripts are under `src/multiview_analysis/viewpoint_selection/`. The commands shown below still use the original workspace paths, and some required input files are no longer included. They should not be expected to run unchanged.
+
+The already generated outputs can be found under `results/multiview_analysis/viewpoint_selection/`.
 
 Run the integrated analysis first:
 

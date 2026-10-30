@@ -1,60 +1,25 @@
-# Python
-<<<<<<< HEAD
+# Python cache and tooling
 __pycache__/
 *.py[cod]
-.pytest_cache/
-
-# Python environments
-.venv/
-venv/
-env/
-
-# Visual Studio / VS Code
-.vs/
-.vscode/
-*.user
-
-# Machine-specific paths
-configs/paths.local.yaml
-
-# Full datasets - stored outside Git
-data_collection/raw_data/
-
-# Large models
-*.pt
-*.pth
-
-# Temporary files
-tmp_*
-*.tmp
-analysis_project_tree.txt
-path_dependencies.txt
-__pycache__/
-*.pyc
-
-# Large generated/intermediate analysis artifacts
-results/**/predictions/
-results/**/ground_truth/
-results/**/per_coalition_scores.csv
-results/**/ordered_pair_method_rows.csv
-results/**/harmonized_combo_metric_rows.csv
-results/**/triple_combo_rows.csv
-results/**/pair_triple_performance.csv
-results/**/subset_scores.csv
-
-# Dataset-scale annotation files kept outside the repository
-src/real_world_transfer/real_imagery_analysis/testset_realimages/annotations.json
-=======
-.venv/
-venv/
-__pycache__/
-*.py[cod]
-*.pyo
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 
-# Local environments and credentials
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and local settings
+.vs/
+.vscode/
+.idea/
+*.user
+*.code-workspace~
+.agents/
+configs/paths.local.yaml
+
+# Local credentials and configuration
 .env
 .env.*
 *.pem
@@ -64,20 +29,59 @@ __pycache__/
 *secret*
 *token*
 
-# IDE and local tooling
-.vscode/
-.idea/
-*.code-workspace~
-.agents/
+# Raw datasets and external data
+data_collection/raw_data/
+data/external/
+
+# Model checkpoints and weights
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+models/*
+!models/README.md
+
+# Training and inference outputs
+runs/
+wandb/
+outputs/
 Ultralytics/
 UltralyticsConfig/
 
-# Build and document caches
+# Large intermediate analysis artifacts
+results/**/predictions/
+results/**/ground_truth/
+results/**/per_coalition_scores.csv
+results/**/ordered_pair_method_rows.csv
+results/**/harmonized_combo_metric_rows.csv
+results/**/triple_combo_rows.csv
+results/**/pair_triple_performance.csv
+results/**/subset_scores.csv
+
+# Regenerated analysis outputs
+results/intermediate/*
+!results/intermediate/README.md
+results/recomputed/*
+!results/recomputed/README.md
+
+# Large annotation files
+src/real_world_transfer/real_imagery_analysis/testset_realimages/annotations.json
+
+# Temporary files
+tmp/
+temp/
+tmp_*
+*.tmp
+analysis_project_tree.txt
+path_dependencies.txt
+
+# Build artifacts
 build/
 dist/
 *.egg-info/
-tmp/
-temp/
+
+# LaTeX build files
 .miktex-*/
 *.aux
 *.bbl
@@ -90,29 +94,3 @@ temp/
 *.toc
 *.lof
 *.lot
-
-# Training outputs and large intermediates
-runs/
-wandb/
-outputs/
-results/intermediate/*
-!results/intermediate/README.md
-results/recomputed/*
-!results/recomputed/README.md
-
-# Model/checkpoint binaries
-*.pt
-*.pth
-*.onnx
-*.engine
-*.weights
-models/*
-!models/README.md
-
-# External datasets should be downloaded separately
-data/external/
-data_collection/raw_data/external/
-data_collection/raw_data/VisDrone*/
-data_collection/raw_data/AU-AIR*/
-data_collection/raw_data/AU_AIR*/
->>>>>>> update-thesis-repo

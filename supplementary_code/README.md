@@ -1,9 +1,7 @@
-﻿# Supplementary Associated Code
+﻿# Supplementary code
 
-This folder keeps additional code and configuration files from the broader working project that may be useful for understanding or extending the thesis experiments. The main cleaned thesis workflow still lives in `src/`, `data_collection/`, and `results/`.
+This folder contains scripts and configuration files from the wider research workspace that were not included in the main thesis pipeline.
 
-The files here preserve their original relative paths under `original_workspace/`. They include older or parallel scripts for detector comparisons, viewpoint analysis, multiview fusion, probability fusion, plotting, reporting, and the experimental multiview transformer work.
+The files under `original_workspace/` retain their earlier folder structure. They include exploratory versions of detector comparisons, viewpoint analysis, multiview fusion, plotting, and reporting scripts. The manifest in `associated_code_manifest.csv` records their original locations.
 
-I have not copied the large generated outputs, raw public dataset dumps, model checkpoints, caches, virtual environments, or label-only text dumps into this folder. Some scripts may therefore need paths adjusted or omitted data restored before they can run. The point of this folder is to keep as much associated code as possible without making the GitHub repository enormous or mixing every exploratory script into the main thesis pipeline.
-
-`associated_code_manifest.csv` lists each copied file and where it came from in the original workspace.
+These files are kept as a record of the development process. Some still contain workspace-specific paths or depend on data, prediction caches, or model weights that are not included in the repository. For the main experiments and results, see `src/` and `results/` instead.

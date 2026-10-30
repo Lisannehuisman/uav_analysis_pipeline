@@ -1,37 +1,33 @@
 ﻿# M4 Marginal Viewpoint Value Analysis
 
-This folder applies your newer thesis framing directly to the outputs that already exist in this project.
+This analysis examines the contribution of additional UAV viewpoints to object detection performance using predictions from a fixed detector.
 
-The question is no longer only:
-
-`does one angle work better than another?`
-
-It becomes:
-
-`if multiple UAV views are available, how much genuinely new information does each extra view still add, and when do the returns start to flatten?`
+The main objective is to quantify how detection performance changes as additional views become available, identify diminishing returns, and investigate which viewpoints provide complementary information.
 
 ## What This Folder Adds
 
-This folder organizes the existing fixed-detector M4 swarm outputs into three analysis layers:
-
+The analysis consists of four complementary components:
 - `single-view landscape`
 - `multi-view gain`
 - `complementarity`
 - `swarm-size-conditioned Shapley`
 
-## Why This Fits The Current Project
+## Data Sources and Scope
 
-This analysis reuses the outputs you already generated:
+The analysis uses predictions and evaluation results generated with the fixed YOLOv8l-M4 detector.
 
-- `m4_two_drone_operational_analysis/outputs/scene_view_records.csv`
-- `m4_two_drone_operational_analysis/thesis_swarm_outputs/protocol_overall_summary.csv`
-- `m4_two_drone_operational_analysis/thesis_swarm_outputs/protocol_class_summary.csv`
+The available scene-level observation records are stored in:
 
-That keeps the main story aligned with your stronger thesis route:
+- `results/multiview_analysis/two_drone_operational/scene_view_records.csv`
+- `results/multiview_analysis/two_drone_operational_test/scene_view_records.csv`
 
-- fixed detector
-- inference-time multiview analysis
-- no need to retrain a new detector for every possible viewpoint subset
+These files contain the observations used to examine viewpoint performance and complementarity.
+
+Some scripts also depend on the original protocol-level summary files (`protocol_overall_summary.csv` and `protocol_class_summary.csv`). These intermediate files are not currently included in the repository.
+
+The previously generated analysis results are available in `results/multiview_analysis/marginal_value/`.
+
+The detector remains fixed throughout the multiview evaluation. Differences in performance therefore reflect the available observations and their combination rather than changes in model training.
 
 ## Main Definitions
 
@@ -60,7 +56,7 @@ Each viewpoint gets a marginal score based on how much it helps when added to:
 
 This is intentionally not called `Shapley`, because it only averages observed pair-stage and third-stage marginal gains from the current cache. The only Shapley analysis retained in this project is the exact fusion-aware ring analysis based on `Noisy-OR + best IoU`.
 
-If you need the exact late-fusion teammate story, use:
+The following scripts implement the fusion-aware Shapley analyses:
 
 - `compute_ring_shapley_noisy_or_best_iou.py` for ring-level exact Shapley
 - `compute_subset_shapley_noisy_or_best_iou.py` for exact Shapley on a custom or full-grid-distributed 8-view subset
@@ -71,20 +67,18 @@ If you need the exact late-fusion teammate story, use:
 
 ## Angle-Agnostic Count-First Shapley Proxy
 
-This is the best bridge to raw drone imagery when exact angles are not yet trusted.
+This angle-agnostic analysis is useful when camera-angle estimates are unavailable or unreliable.
 
 It answers:
 
 `what is the marginal contribution of the 2nd, 3rd, 4th, ... image, even if we ignore angle labels?`
+Run from the repository root:
 
-Run:
-
-```powershell
-.\.venv\Scripts\python.exe .\m4_marginal_viewpoint_value_analysis\build_image_count_shapley_proxy.py
+```cmd
+python src\multiview_analysis\marginal_value\build_image_count_shapley_proxy.py --scene-records results\multiview_analysis\two_drone_operational\scene_view_records.csv --output-dir results\recomputed\marginal_value\image_count_shapley_proxy
 ```
 
 This script:
-
 - groups images by target instance / scene;
 - ignores viewpoint labels after grouping;
 - samples random image orderings;
@@ -103,20 +97,20 @@ Interpretation:
 
 ## Exact Shapley Progression By Swarm Size
 
-This is the bridge to your supervisor's new framing.
+This analysis examines how the contribution of individual viewpoints changes with coalition size.
 
 Instead of only asking:
 
 `which angle is best?`
 
-you can now ask:
+the analysis also considers:
 
 `what does the 2nd, 3rd, 4th, ... angle add, and which angle is best at each swarm size?`
 
 Run:
 
-```powershell
-.\.venv\Scripts\python.exe .\m4_marginal_viewpoint_value_analysis\build_shapley_swarm_size_profiles.py
+```cmd
+python src\multiview_analysis\marginal_value\build_shapley_swarm_size_profiles.py --scene-records results\multiview_analysis\two_drone_operational\scene_view_records.csv --output-dir results\recomputed\marginal_value\shapley_swarm_size_profiles
 ```
 
 This writes exact size-conditioned Shapley outputs for the controlled 8-azimuth rings:
@@ -131,38 +125,36 @@ Interpretation:
 - `aggregate_shapley_swarm_size_summary.csv` answers the number-of-angles question;
 - `ring_shapley_swarm_size_summary.csv` answers which azimuth is best when adding the `k`th drone;
 - standard ring Shapley still answers the overall teammate question aggregated across all coalition sizes.
-
 ## Exact Full-Grid Distributed 8-View Shapley
 
-If you want the same exact `Noisy-OR + best IoU` Shapley analysis, but not constrained
-to one ring, run:
+This analysis computes exact Shapley values for a subset of eight viewpoints using Noisy-OR confidence aggregation and the best available IoU as the coalition value.
 
-```powershell
-.\.venv\Scripts\python.exe .\m4_marginal_viewpoint_value_analysis\compute_subset_shapley_noisy_or_best_iou.py
+Unlike the ring-based analysis, the selected viewpoints can differ in elevation, distance, and azimuth.
+
+### Default viewpoint selection
+
+By default, eight viewpoints are selected across the perimeter of the 3 x 3 elevation-radius grid, covering all eight azimuths.
+
+Run from the repository root:
+
+```cmd
+python src\multiview_analysis\marginal_value\compute_subset_shapley_noisy_or_best_iou.py --scene-records results\multiview_analysis\two_drone_operational\scene_view_records.csv --output-dir results\recomputed\marginal_value\subset_shapley
 ```
 
-By default this selects 8 viewpoints spread across the outer perimeter of the
-full `3 x 3 x 8` M4 grid:
+### Manual viewpoint selection
 
-- one viewpoint from each perimeter `(elevation, radius)` cell
-- all 8 azimuths used exactly once
+A specific set of viewpoints can also be provided using `--selection-mode manual`.
 
-You can also pass a manual subset:
+For example:
 
-```powershell
-.\.venv\Scripts\python.exe .\m4_marginal_viewpoint_value_analysis\compute_subset_shapley_noisy_or_best_iou.py `
-  --selection-mode manual `
-  --subset-name my_subset `
-  --viewpoints `
-    ellow-radnear-az000 `
-    ellow-radmid-az045 `
-    ellow-radfar-az090 `
-    elmid-radfar-az135 `
-    elhigh-radfar-az180 `
-    elhigh-radmid-az225 `
-    elhigh-radnear-az270 `
-    elmid-radnear-az315
+```cmd
+python src\multiview_analysis\marginal_value\compute_subset_shapley_noisy_or_best_iou.py --scene-records results\multiview_analysis\two_drone_operational\scene_view_records.csv --output-dir results\recomputed\marginal_value\manual_subset --selection-mode manual --subset-name my_subset --viewpoints ellow-radnear-az000 ellow-radmid-az045 ellow-radfar-az090 elmid-radfar-az135 elhigh-radfar-az180 elhigh-radmid-az225 elhigh-radnear-az270 elmid-radnear-az315
 ```
+
+Both configurations use the same coalition-value definition. The difference is which viewpoints are included in the analysis.
+
+Results are written to the specified output directory.
+
 
 ## Outputs
 
@@ -197,26 +189,41 @@ Plots:
 - `plots/per_class/*`
 
 ## How To Run
+## Running the Marginal-Value Analysis
 
-From the project root:
+The main analysis script is located at:
 
-```powershell
-.\.venv\Scripts\python.exe .\m4_marginal_viewpoint_value_analysis\run_marginal_value_analysis.py
+`src/multiview_analysis/marginal_value/run_marginal_value_analysis.py`
+
+It combines scene-level viewpoint observations with protocol-level summaries to evaluate single-view performance, multiview gains, diminishing returns, and viewpoint complementarity.
+
+Three input files are required:
+
+* `scene_view_records.csv`
+* `protocol_overall_summary.csv`
+* `protocol_class_summary.csv`
+
+The scene-level observations are included in this repository. The original protocol-level summary files are not currently included and must be restored to reproduce the complete analysis.
+
+Once all three input files are available, the analysis can be run from the repository root:
+
+```cmd
+python src\multiview_analysis\marginal_value\run_marginal_value_analysis.py --scene-records results\multiview_analysis\two_drone_operational\scene_view_records.csv --protocol-overall "PATH_TO_PROTOCOL_OVERALL_CSV" --protocol-class "PATH_TO_PROTOCOL_CLASS_CSV" --output-dir results\recomputed\marginal_value\main_analysis
 ```
 
-Optional:
+Replace the two `PATH_TO_...` placeholders with the actual locations of the protocol summary files.
 
-```powershell
-.\.venv\Scripts\python.exe .\m4_marginal_viewpoint_value_analysis\run_marginal_value_analysis.py `
-  --top-n 20 `
-  --min-pair-support 8 `
-  --min-triple-support 3 `
-  --output-dir .\m4_marginal_viewpoint_value_analysis\outputs
-```
+Additional parameters include `--top-n`, `--min-pair-support`, and `--min-triple-support`, which control the reported combinations and minimum observation support.
 
-## How To Use It In The Thesis
+Previously generated results are available in:
 
-Use the outputs in this order:
+`results/multiview_analysis/marginal_value/`
+
+These results can be inspected without rerunning the original analysis.
+
+## Relevant Outputs
+
+The main output files are:
 
 1. `multi_view_gain_summary.csv`
 2. `gain_capture_targets.csv`
@@ -225,7 +232,7 @@ Use the outputs in this order:
 5. `triple_third_view_gain_summary.csv`
 6. `viewpoint_marginal_contribution_summary.csv`
 
-For class-specific interpretation, use:
+Class-specific results are available in:
 
 1. `class_multi_view_gain_summary.csv`
 2. `plots/class_gain_comparison.png`
@@ -233,7 +240,7 @@ For class-specific interpretation, use:
 4. `viewpoint_marginal_contribution_by_class.csv`
 5. `plots/per_class/*`
 
-## Intended Thesis Claim
+## Main Interpretation
 
-`the best swarm size is the smallest number of viewpoints that captures most of the available multi-view gain, and the best viewpoints are the ones with the largest marginal contribution rather than merely the strongest standalone score.`
+`A practical viewpoint budget can be chosen by considering the smallest number of observations that captures most of the measured multiview gain. Useful additional views need not be those with the strongest standalone scores.`
 
