@@ -1,0 +1,15 @@
+path: .
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: tent
+  1: tank
+  2: tower
+  3: container
+  4: whitevan
+  5: suv
+  6: male
+  7: rock
+  8: barrel
+  9: tree

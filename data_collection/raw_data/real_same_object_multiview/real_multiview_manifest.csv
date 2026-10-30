@@ -1,0 +1,37 @@
+object_id,description,target_class,view_index,file_name,image_key,image_path,label_path,image_exists,label_exists,duplicates_removed_from_group
+parkinglot_car,car on parking lot,suv,1,2026-06-28 20.56.45.jpg,2026-06-28-20-56-45,images/parkinglot_car_v01_2026-06-28_20.56.45.jpg,labels/parkinglot_car_v01_2026-06-28_20.56.45.txt,1,1,2
+parkinglot_car,car on parking lot,suv,2,2026-06-28 20.56.46.jpg,2026-06-28-20-56-46,images/parkinglot_car_v02_2026-06-28_20.56.46.jpg,labels/parkinglot_car_v02_2026-06-28_20.56.46.txt,1,1,2
+parkinglot_car,car on parking lot,suv,3,2026-06-28 20.56.47.jpg,2026-06-28-20-56-47,images/parkinglot_car_v03_2026-06-28_20.56.47.jpg,labels/parkinglot_car_v03_2026-06-28_20.56.47.txt,1,1,2
+parkinglot_car,car on parking lot,suv,4,2026-06-28 20.56.54.jpg,2026-06-28-20-56-54,images/parkinglot_car_v04_2026-06-28_20.56.54.jpg,labels/parkinglot_car_v04_2026-06-28_20.56.54.txt,1,1,2
+parkinglot_car,car on parking lot,suv,5,2026-06-28 20.58.04.jpg,2026-06-28-20-58-04,images/parkinglot_car_v05_2026-06-28_20.58.04.jpg,labels/parkinglot_car_v05_2026-06-28_20.58.04.txt,1,1,2
+parkinglot_car,car on parking lot,suv,6,2026-06-28 20.58.01.jpg,2026-06-28-20-58-01,images/parkinglot_car_v06_2026-06-28_20.58.01.jpg,labels/parkinglot_car_v06_2026-06-28_20.58.01.txt,1,1,2
+ooij_tower,tower in the Ooij,tower,1,2026-06-29 17.37.15.jpg,2026-06-29-17-37-15,images/ooij_tower_v01_2026-06-29_17.37.15.jpg,labels/ooij_tower_v01_2026-06-29_17.37.15.txt,1,1,0
+ooij_tower,tower in the Ooij,tower,2,2026-06-29 17.35.32.jpg,2026-06-29-17-35-32,images/ooij_tower_v02_2026-06-29_17.35.32.jpg,labels/ooij_tower_v02_2026-06-29_17.35.32.txt,1,1,0
+ooij_tower,tower in the Ooij,tower,3,2026-06-29 17.36.06.jpg,2026-06-29-17-36-06,images/ooij_tower_v03_2026-06-29_17.36.06.jpg,labels/ooij_tower_v03_2026-06-29_17.36.06.txt,1,1,0
+ooij_tower,tower in the Ooij,tower,4,2026-06-29 17.36.07.jpg,2026-06-29-17-36-07,images/ooij_tower_v04_2026-06-29_17.36.07.jpg,labels/ooij_tower_v04_2026-06-29_17.36.07.txt,1,1,0
+ooij_tower,tower in the Ooij,tower,5,2026-06-29 17.36.40.jpg,2026-06-29-17-36-40,images/ooij_tower_v05_2026-06-29_17.36.40.jpg,labels/ooij_tower_v05_2026-06-29_17.36.40.txt,1,1,0
+ooij_tower,tower in the Ooij,tower,6,2026-06-29 17.36.50.jpg,2026-06-29-17-36-50,images/ooij_tower_v06_2026-06-29_17.36.50.jpg,labels/ooij_tower_v06_2026-06-29_17.36.50.txt,1,1,0
+ooij_tower,tower in the Ooij,tower,7,2026-06-29 17.36.51.jpg,2026-06-29-17-36-51,images/ooij_tower_v07_2026-06-29_17.36.51.jpg,labels/ooij_tower_v07_2026-06-29_17.36.51.txt,1,1,0
+ooij_tower,tower in the Ooij,tower,8,2026-06-29 17.36.53.jpg,2026-06-29-17-36-53,images/ooij_tower_v08_2026-06-29_17.36.53.jpg,labels/ooij_tower_v08_2026-06-29_17.36.53.txt,1,1,0
+la_souris_truck,La Souris truck,whitevan,1,2026-07-12 21.05.57.jpg,2026-07-12-21-05-57,images/la_souris_truck_v01_2026-07-12_21.05.57.jpg,labels/la_souris_truck_v01_2026-07-12_21.05.57.txt,1,1,0
+la_souris_truck,La Souris truck,whitevan,2,2026-07-12 21.06.04.jpg,2026-07-12-21-06-04,images/la_souris_truck_v02_2026-07-12_21.06.04.jpg,labels/la_souris_truck_v02_2026-07-12_21.06.04.txt,1,1,0
+la_souris_truck,La Souris truck,whitevan,3,2026-07-12 21.01.06.jpg,2026-07-12-21-01-06,images/la_souris_truck_v03_2026-07-12_21.01.06.jpg,labels/la_souris_truck_v03_2026-07-12_21.01.06.txt,1,1,0
+la_souris_truck,La Souris truck,whitevan,4,2026-07-12 21.01.23.jpg,2026-07-12-21-01-23,images/la_souris_truck_v04_2026-07-12_21.01.23.jpg,labels/la_souris_truck_v04_2026-07-12_21.01.23.txt,1,1,0
+la_souris_truck,La Souris truck,whitevan,5,2026-07-12 21.01.30.jpg,2026-07-12-21-01-30,images/la_souris_truck_v05_2026-07-12_21.01.30.jpg,labels/la_souris_truck_v05_2026-07-12_21.01.30.txt,1,1,0
+la_souris_truck,La Souris truck,whitevan,6,2026-07-12 21.01.33.jpg,2026-07-12-21-01-33,images/la_souris_truck_v06_2026-07-12_21.01.33.jpg,labels/la_souris_truck_v06_2026-07-12_21.01.33.txt,1,1,0
+la_souris_truck,La Souris truck,whitevan,7,2026-07-12 21.01.49.jpg,2026-07-12-21-01-49,images/la_souris_truck_v07_2026-07-12_21.01.49.jpg,labels/la_souris_truck_v07_2026-07-12_21.01.49.txt,1,1,0
+la_souris_truck,La Souris truck,whitevan,8,2026-07-12 21.01.50.jpg,2026-07-12-21-01-50,images/la_souris_truck_v08_2026-07-12_21.01.50.jpg,labels/la_souris_truck_v08_2026-07-12_21.01.50.txt,1,1,0
+la_souris_truck,La Souris truck,whitevan,9,2026-07-12 21.01.51.jpg,2026-07-12-21-01-51,images/la_souris_truck_v09_2026-07-12_21.01.51.jpg,labels/la_souris_truck_v09_2026-07-12_21.01.51.txt,1,1,0
+la_souris_truck,La Souris truck,whitevan,10,2026-07-12 21.05.27.jpg,2026-07-12-21-05-27,images/la_souris_truck_v10_2026-07-12_21.05.27.jpg,labels/la_souris_truck_v10_2026-07-12_21.05.27.txt,1,1,0
+m_truck,M truck,whitevan,1,2026-07-12 21.22.14.jpg,2026-07-12-21-22-14,images/m_truck_v01_2026-07-12_21.22.14.jpg,labels/m_truck_v01_2026-07-12_21.22.14.txt,1,1,0
+m_truck,M truck,whitevan,2,2026-07-12 21.21.43.jpg,2026-07-12-21-21-43,images/m_truck_v02_2026-07-12_21.21.43.jpg,labels/m_truck_v02_2026-07-12_21.21.43.txt,1,1,0
+m_truck,M truck,whitevan,3,2026-07-12 21.21.46.jpg,2026-07-12-21-21-46,images/m_truck_v03_2026-07-12_21.21.46.jpg,labels/m_truck_v03_2026-07-12_21.21.46.txt,1,1,0
+m_truck,M truck,whitevan,4,2026-07-12 21.21.47.jpg,2026-07-12-21-21-47,images/m_truck_v04_2026-07-12_21.21.47.jpg,labels/m_truck_v04_2026-07-12_21.21.47.txt,1,1,0
+m_truck,M truck,whitevan,5,2026-07-12 21.22.11.jpg,2026-07-12-21-22-11,images/m_truck_v05_2026-07-12_21.22.11.jpg,labels/m_truck_v05_2026-07-12_21.22.11.txt,1,1,0
+white_truck_bottendaal,white truck Bottendaal,whitevan,1,2026-06-30 15.33.46.jpg,2026-06-30-15-33-46,images/white_truck_bottendaal_v01_2026-06-30_15.33.46.jpg,labels/white_truck_bottendaal_v01_2026-06-30_15.33.46.txt,1,1,7
+white_truck_bottendaal,white truck Bottendaal,whitevan,2,2026-06-30 15.33.52.jpg,2026-06-30-15-33-52,images/white_truck_bottendaal_v02_2026-06-30_15.33.52.jpg,labels/white_truck_bottendaal_v02_2026-06-30_15.33.52.txt,1,1,7
+white_truck_bottendaal,white truck Bottendaal,whitevan,3,2026-06-30 15.34.24.jpg,2026-06-30-15-34-24,images/white_truck_bottendaal_v03_2026-06-30_15.34.24.jpg,labels/white_truck_bottendaal_v03_2026-06-30_15.34.24.txt,1,1,7
+white_truck_bottendaal,white truck Bottendaal,whitevan,4,2026-06-30 15.34.33.jpg,2026-06-30-15-34-33,images/white_truck_bottendaal_v04_2026-06-30_15.34.33.jpg,labels/white_truck_bottendaal_v04_2026-06-30_15.34.33.txt,1,1,7
+white_truck_bottendaal,white truck Bottendaal,whitevan,5,2026-06-30 15.35.01.jpg,2026-06-30-15-35-01,images/white_truck_bottendaal_v05_2026-06-30_15.35.01.jpg,labels/white_truck_bottendaal_v05_2026-06-30_15.35.01.txt,1,1,7
+white_truck_bottendaal,white truck Bottendaal,whitevan,6,2026-06-30 15.33.29.jpg,2026-06-30-15-33-29,images/white_truck_bottendaal_v06_2026-06-30_15.33.29.jpg,labels/white_truck_bottendaal_v06_2026-06-30_15.33.29.txt,1,1,7
+white_truck_bottendaal,white truck Bottendaal,whitevan,7,2026-06-30 15.33.34.jpg,2026-06-30-15-33-34,images/white_truck_bottendaal_v07_2026-06-30_15.33.34.jpg,labels/white_truck_bottendaal_v07_2026-06-30_15.33.34.txt,1,1,7

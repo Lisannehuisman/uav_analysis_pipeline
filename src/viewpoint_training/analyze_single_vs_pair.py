@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿from __future__ import annotations
+=======
+from __future__ import annotations
+>>>>>>> update-thesis-repo
 
 import csv
 import math
@@ -517,7 +521,11 @@ def write_summary(single_rows, pair_rows, enriched_pairs, viewpoint_rows, contro
             [
                 "### Current matched-control status",
                 "",
+<<<<<<< HEAD
                 "- No completed matched-control runs were found yet under `outputs/m4_matched_control_experiment/reports/master_results.csv`.",
+=======
+                "- No completed matched-control runs were found yet under `results/recomputed/viewpoint_training/m4_matched_control_experiment/reports/master_results.csv`.",
+>>>>>>> update-thesis-repo
                 "- The repo now includes tooling to generate those controls by budget before rerunning this comparison.",
                 "",
             ]
@@ -527,7 +535,11 @@ def write_summary(single_rows, pair_rows, enriched_pairs, viewpoint_rows, contro
         [
             "### Practical recommendation",
             "",
+<<<<<<< HEAD
             "- For the main comparison, compare `best single` against its matched M4 control and `best pair` against its matched M4 control.",
+=======
+            "- For the thesis headline, compare `best single` against its matched M4 control and `best pair` against its matched M4 control.",
+>>>>>>> update-thesis-repo
             "- For the sweep-level story, keep the existing pair-vs-single plots, but frame them explicitly as `restricted-view vs restricted-view` comparisons rather than fully fair count-controlled comparisons.",
             "",
         ]
@@ -627,4 +639,7 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+<<<<<<< HEAD
 
+=======
+>>>>>>> update-thesis-repo

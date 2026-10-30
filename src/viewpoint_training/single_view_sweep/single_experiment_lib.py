@@ -109,7 +109,11 @@ DEFAULT_TRAINING_ARGS: dict[str, object] = {
     "tracker": "botsort.yaml",
 }
 
+<<<<<<< HEAD
 PAIR_LIB_DIR = Path(__file__).resolve().parents[1] / "m4_pair_subset_experiment"
+=======
+PAIR_LIB_DIR = Path(__file__).resolve().parents[1] / "pair_view_sweep"
+>>>>>>> update-thesis-repo
 
 
 def _pair_lib():

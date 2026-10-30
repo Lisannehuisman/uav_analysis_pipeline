@@ -12,6 +12,12 @@ from pair_experiment_lib import (
     write_csv_rows,
 )
 
+<<<<<<< HEAD
+=======
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+DEFAULT_BASE_DATA_YAML = PROJECT_ROOT / "data_collection" / "raw_data" / "synthetic_subset" / "data.yaml"
+
+>>>>>>> update-thesis-repo
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
@@ -19,12 +25,21 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--base-data-yaml",
+<<<<<<< HEAD
         default=r"C:\DATA\airsim\thesis\captures\S0_20251219_164144\dataset\M4_fixed.yaml",
         help="Base M4 dataset YAML used to resolve train/val/test images.",
     )
     parser.add_argument(
         "--experiment-root",
         default="outputs/m4_pair_subset_experiment",
+=======
+        default=str(DEFAULT_BASE_DATA_YAML),
+        help="Base dataset YAML used to resolve train/val/test images.",
+    )
+    parser.add_argument(
+        "--experiment-root",
+        default="results/recomputed/viewpoint_training/m4_pair_subset_experiment",
+>>>>>>> update-thesis-repo
         help="Root directory for the pair-subset experiment.",
     )
     parser.add_argument(

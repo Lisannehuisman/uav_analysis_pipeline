@@ -1,5 +1,8 @@
 from __future__ import annotations
+<<<<<<< HEAD
 from src.project_paths import data_path
+=======
+>>>>>>> update-thesis-repo
 
 import json
 from collections import defaultdict
@@ -14,7 +17,11 @@ EVAL_DIR = ROOT / "results" / "recomputed" / "detector_family_comparison" / "sta
 GT_JSON = EVAL_DIR / "ground_truth" / "M4_test_gt.json"
 FRCNN_JSON = EVAL_DIR / "predictions" / "Faster_R-CNN_M4_predictions.json"
 YOLO_JSON = EVAL_DIR / "predictions" / "YOLOv8l_M4_test_predictions.json"
+<<<<<<< HEAD
 IMAGE_DIR = data_path("synthetic_subset") / "images" / "test"
+=======
+IMAGE_DIR = ROOT / "data_collection" / "raw_data" / "synthetic_subset" / "images" / "test"
+>>>>>>> update-thesis-repo
 OUT_PATH = ROOT / "results" / "figures" / "figure_3_4_yolo_frcnn_comparison_recomputed.png"
 
 SCORE_THRESHOLD = 0.25

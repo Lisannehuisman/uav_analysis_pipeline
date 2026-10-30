@@ -1,0 +1,5 @@
+path: .
+val: images
+test: images
+nc: 10
+names: ['barrel', 'container', 'male', 'rock', 'suv', 'tank', 'tent', 'tower', 'tree', 'whitevan']

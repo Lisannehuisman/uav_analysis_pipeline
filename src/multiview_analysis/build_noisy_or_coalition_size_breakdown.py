@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿from __future__ import annotations
+=======
+from __future__ import annotations
+>>>>>>> update-thesis-repo
 
 import argparse
 import math
@@ -360,7 +364,11 @@ def build_report(rows: list[dict[str, object]], aggregate_rows: list[dict[str, o
     lines.extend(
         [
             "",
+<<<<<<< HEAD
             "## Interpretation",
+=======
+            "## How to read this for the thesis question",
+>>>>>>> update-thesis-repo
             "",
             f"- In `{top_ring}`, the **2nd drone** adds `{format_float(float(second['mean_marginal_gain_from_prev_size']), 4)}` on average.",
             f"- The **3rd drone** adds `{format_float(float(third['mean_marginal_gain_from_prev_size']), 4)}` on average.",
@@ -406,4 +414,7 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+<<<<<<< HEAD
 
+=======
+>>>>>>> update-thesis-repo

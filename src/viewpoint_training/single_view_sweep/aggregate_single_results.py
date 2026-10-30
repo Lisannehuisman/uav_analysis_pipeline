@@ -28,7 +28,11 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Aggregate M4 single-viewpoint experiment status files into a master table, plots, and report.",
     )
+<<<<<<< HEAD
     parser.add_argument("--experiment-root", default="outputs/m4_single_subset_experiment")
+=======
+    parser.add_argument("--experiment-root", default="results/recomputed/viewpoint_training/m4_single_subset_experiment")
+>>>>>>> update-thesis-repo
     parser.add_argument("--singles-csv", default="", help="Optional explicit single-viewpoint manifest path.")
     parser.add_argument("--baseline-summary-csv", default=str(DEFAULT_FULL_BASELINE_SUMMARY))
     parser.add_argument("--top-k", type=int, default=15)

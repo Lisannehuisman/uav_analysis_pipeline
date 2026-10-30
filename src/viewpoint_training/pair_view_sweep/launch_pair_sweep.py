@@ -6,6 +6,12 @@ from pathlib import Path
 
 from pair_experiment_lib import ensure_experiment_root, load_pair_jobs, pair_manifest_path
 
+<<<<<<< HEAD
+=======
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+DEFAULT_BASE_DATA_YAML = PROJECT_ROOT / "data_collection" / "raw_data" / "synthetic_subset" / "data.yaml"
+
+>>>>>>> update-thesis-repo
 
 def shell_value_or_quote(value: str) -> str:
     return value if "${" in value else shlex.quote(value)
@@ -17,7 +23,11 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--experiment-root",
+<<<<<<< HEAD
         default="outputs/m4_pair_subset_experiment",
+=======
+        default="results/recomputed/viewpoint_training/m4_pair_subset_experiment",
+>>>>>>> update-thesis-repo
         help="Root directory for pair-subset outputs.",
     )
     parser.add_argument(
@@ -54,7 +64,11 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--base-data-yaml",
+<<<<<<< HEAD
         default="/vol/tensusers6/lisannehuisman/yamls/M4_yolov8l.yaml",
+=======
+        default=str(DEFAULT_BASE_DATA_YAML),
+>>>>>>> update-thesis-repo
         help="Dataset YAML to use on the target execution environment.",
     )
     parser.add_argument("--device", default="0", help="Training device for the generated commands.")
@@ -96,7 +110,11 @@ def build_worker_command(args: argparse.Namespace, pair_id: str, device_value: s
     experiment_root = Path(args.experiment_root).as_posix()
     command = [
         shlex.quote(args.python_executable),
+<<<<<<< HEAD
         "m4_pair_subset_experiment/run_pair_experiment.py",
+=======
+        "src/viewpoint_training/pair_view_sweep/run_pair_experiment.py",
+>>>>>>> update-thesis-repo
         "--pair-id",
         pair_value,
         "--base-data-yaml",
@@ -166,7 +184,11 @@ def write_bash_launcher(args: argparse.Namespace, pair_ids: list[str], output_pa
         [
             "done",
             "",
+<<<<<<< HEAD
             f"{shlex.quote(args.python_executable)} m4_pair_subset_experiment/aggregate_pair_results.py --experiment-root {shlex.quote(Path(args.experiment_root).as_posix())}",
+=======
+            f"{shlex.quote(args.python_executable)} src/viewpoint_training/pair_view_sweep/aggregate_pair_results.py --experiment-root {shlex.quote(Path(args.experiment_root).as_posix())}",
+>>>>>>> update-thesis-repo
             "",
         ]
     )
@@ -206,7 +228,11 @@ def write_slurm_launcher(args: argparse.Namespace, pair_ids: list[str], output_p
             build_worker_command(args, '${PAIR_ID}', device_value='${M4_DEVICE}'),
             "",
             "# Run aggregation once after the array completes:",
+<<<<<<< HEAD
             f"# {shlex.quote(args.python_executable)} m4_pair_subset_experiment/aggregate_pair_results.py --experiment-root {shlex.quote(Path(args.experiment_root).as_posix())}",
+=======
+            f"# {shlex.quote(args.python_executable)} src/viewpoint_training/pair_view_sweep/aggregate_pair_results.py --experiment-root {shlex.quote(Path(args.experiment_root).as_posix())}",
+>>>>>>> update-thesis-repo
             "",
         ]
     )

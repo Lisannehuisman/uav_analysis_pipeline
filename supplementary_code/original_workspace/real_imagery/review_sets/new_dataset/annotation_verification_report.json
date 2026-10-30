@@ -1,0 +1,139 @@
+{
+  "xml_image_count": 54,
+  "image_dir_count": 54,
+  "missing_images": [],
+  "dimension_mismatches": [],
+  "label_counts_before_fix": {
+    "barrel": 39,
+    "male": 41,
+    "rock": 6,
+    "suv": 29,
+    "tank": 6,
+    "tent": 27,
+    "tower": 4,
+    "tree": 21,
+    "whitevan": 16
+  },
+  "suspicious_images": [
+    {
+      "image": "0006_containter__1.jpeg",
+      "suggested_class": "container",
+      "labels_present": [
+        "barrel"
+      ],
+      "box_count": 2
+    },
+    {
+      "image": "0007_containter__1.jpg",
+      "suggested_class": "container",
+      "labels_present": [
+        "barrel"
+      ],
+      "box_count": 3
+    },
+    {
+      "image": "0008_containter__2.jpg",
+      "suggested_class": "container",
+      "labels_present": [
+        "barrel"
+      ],
+      "box_count": 4
+    },
+    {
+      "image": "0009_containter__3.jpg",
+      "suggested_class": "container",
+      "labels_present": [
+        "barrel"
+      ],
+      "box_count": 1
+    },
+    {
+      "image": "0022_suv__12.jpg",
+      "suggested_class": "suv",
+      "labels_present": [
+        "suv",
+        "tree",
+        "whitevan"
+      ],
+      "box_count": 22
+    },
+    {
+      "image": "0023_suv__2.jpg",
+      "suggested_class": "suv",
+      "labels_present": [
+        "suv",
+        "tree"
+      ],
+      "box_count": 3
+    },
+    {
+      "image": "0025_suv__4.jpg",
+      "suggested_class": "suv",
+      "labels_present": [
+        "suv",
+        "tree"
+      ],
+      "box_count": 4
+    },
+    {
+      "image": "0026_suv__5.jpg",
+      "suggested_class": "suv",
+      "labels_present": [
+        "suv",
+        "tree"
+      ],
+      "box_count": 4
+    },
+    {
+      "image": "0029_suv__8.jpg",
+      "suggested_class": "suv",
+      "labels_present": [
+        "suv",
+        "tree"
+      ],
+      "box_count": 6
+    },
+    {
+      "image": "0031_tank__1.jpg",
+      "suggested_class": "tank",
+      "labels_present": [
+        "male",
+        "tank"
+      ],
+      "box_count": 2
+    },
+    {
+      "image": "0035_tent__1.jpg",
+      "suggested_class": "tent",
+      "labels_present": [
+        "male",
+        "tent"
+      ],
+      "box_count": 4
+    },
+    {
+      "image": "0041_tent__15.jpg",
+      "suggested_class": "tent",
+      "labels_present": [
+        "male",
+        "tent"
+      ],
+      "box_count": 18
+    },
+    {
+      "image": "0044_tower__1.jpg",
+      "suggested_class": "tower",
+      "labels_present": [
+        "tower",
+        "whitevan"
+      ],
+      "box_count": 3
+    }
+  ],
+  "fixed_images": [
+    "0006_containter__1.jpeg",
+    "0007_containter__1.jpg",
+    "0008_containter__2.jpg",
+    "0009_containter__3.jpg"
+  ]
+}

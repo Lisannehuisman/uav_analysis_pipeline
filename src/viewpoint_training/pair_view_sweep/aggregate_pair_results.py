@@ -31,7 +31,11 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--experiment-root",
+<<<<<<< HEAD
         default="outputs/m4_pair_subset_experiment",
+=======
+        default="results/recomputed/viewpoint_training/m4_pair_subset_experiment",
+>>>>>>> update-thesis-repo
         help="Root directory for pair-subset outputs.",
     )
     parser.add_argument(

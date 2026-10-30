@@ -1,0 +1,5 @@
+matplotlib>=3.8
+numpy>=1.26
+pycocotools>=2.0.8
+PyYAML>=6.0
+ultralytics>=8.3
