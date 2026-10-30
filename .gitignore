@@ -1,37 +1,55 @@
-# Python
+# Python cache and tooling
 __pycache__/
 *.py[cod]
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
-# Python environments
+# Virtual environments
 .venv/
 venv/
 env/
 
-# Visual Studio / VS Code
+# IDE and local settings
 .vs/
 .vscode/
+.idea/
 *.user
-
-# Machine-specific paths
+*.code-workspace~
+.agents/
 configs/paths.local.yaml
 
-# Full datasets - stored outside Git
-data_collection/raw_data/
+# Local credentials and configuration
+.env
+.env.*
+*.pem
+*.key
+*credential*
+*credentials*
+*secret*
+*token*
 
-# Large models
+# Raw datasets and external data
+data_collection/raw_data/
+data/external/
+
+# Model checkpoints and weights
 *.pt
 *.pth
+*.onnx
+*.engine
+*.weights
+models/*
+!models/README.md
 
-# Temporary files
-tmp_*
-*.tmp
-analysis_project_tree.txt
-path_dependencies.txt
-__pycache__/
-*.pyc
+# Training and inference outputs
+runs/
+wandb/
+outputs/
+Ultralytics/
+UltralyticsConfig/
 
-# Large generated/intermediate analysis artifacts
+# Large intermediate analysis artifacts
 results/**/predictions/
 results/**/ground_truth/
 results/**/per_coalition_scores.csv
@@ -41,5 +59,38 @@ results/**/triple_combo_rows.csv
 results/**/pair_triple_performance.csv
 results/**/subset_scores.csv
 
-# Dataset-scale annotation files kept outside the repository
+# Regenerated analysis outputs
+results/intermediate/*
+!results/intermediate/README.md
+results/recomputed/*
+!results/recomputed/README.md
+
+# Large annotation files
 src/real_world_transfer/real_imagery_analysis/testset_realimages/annotations.json
+
+# Temporary files
+tmp/
+temp/
+tmp_*
+*.tmp
+analysis_project_tree.txt
+path_dependencies.txt
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# LaTeX build files
+.miktex-*/
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
